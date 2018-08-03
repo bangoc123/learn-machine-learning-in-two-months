@@ -28,7 +28,7 @@ Tôi đã từng học Machine Learning trong vòng 2 tháng và tôi tin bạn 
             -  Phương pháp tính tích Element-Wise: [Element-Wise Multiplication and Division of Matrices
 ](https://youtu.be/2GPZlRVhQWY)
     - **Ma trận đơn vị**
-        - Miêu trả ma trận đơn vị: [Identity matrix | Matrices | Precalculus | Khan Academy
+        - Miêu tả ma trận đơn vị: [Identity matrix | Matrices | Precalculus | Khan Academy
 ](https://youtu.be/3cnIa0fYJkY)
     - **Ma trận nghịch đảo**
         -  Phương pháp tính ma trận nghịch đảo: [Lec 3 | MIT 18.06 Linear Algebra, Spring 2005](https://youtu.be/FX4C-JpTFgY?t=21m14s)
