@@ -54,3 +54,14 @@ Tôi đã từng học Machine Learning trong vòng 2 tháng và tôi tin bạn 
             - Xác suất độc lập: [Compound probability of independent events | Probability and Statistics | Khan Academy
 ](https://youtu.be/xSc4oLA9e8o)
         - Biến ngẫu nhiên và phân phối xác suất: [Biến ngẫu nhiên và phân phối xác suất](https://dominhhai.github.io/vi/2017/10/prob-rand-var/#2-1-h%C3%A0m-kh%E1%BB%91i-x%C3%A1c-su%E1%BA%A5t-c%E1%BB%A7a-bi%E1%BA%BFn-r%E1%BB%9Di-r%E1%BA%A1c)
+        - 
+### 2. Kỹ năng lập trình Python
+----
+Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning vì tính đơn giản gọn nhẹ của nó. Nhưng để đưa vào Production thì tôi nghĩ Javascript cũng là một lựa chọn không tồi. Tôi sẽ chia sẻ về Machine Learning với Javascript trong các phần tiếp theo. 
+
+- **a. Cài đặt Python**
+- **b. Tính chất đặc điểm**
+- **c. Các kiểu dữ liệu và phép toán trên Python**
+- **d. Vòng lặp**
+- **e. Hàm**
+- **f. Class**
