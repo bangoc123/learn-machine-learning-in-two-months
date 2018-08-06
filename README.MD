@@ -2,6 +2,8 @@
 
 Tôi đã từng học Machine Learning trong vòng 2 tháng và tôi tin bạn cũng có thể làm được.
 
+**P/S:** Hãy để lại **1 star** để team có động lực sản xuất các phần tiếp theo và cũng đừng quên chia sẻ tới bạn bè của bạn.
+
 ### 1. Kiến thức toán học cần thiết 
 ----
 - **a. Đại số tuyến tính**
