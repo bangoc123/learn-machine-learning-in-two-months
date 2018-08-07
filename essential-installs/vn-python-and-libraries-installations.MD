@@ -4,6 +4,11 @@
 ### I. Windows
 ----
 
+0. Mục lục
+
+    - <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/#1-python-và-pip">1. Cài đặt Python và Pip</a>
+    - <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/#2-jupyter-notebook">2. Cài đặt Jupyter Notebook</a>
+    
 1. Python và Pip
 
     - **a. Đi tới trang download python cho Windows**
