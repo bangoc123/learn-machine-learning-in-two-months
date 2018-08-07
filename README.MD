@@ -6,11 +6,13 @@ Tôi đã từng học Machine Learning trong vòng 2 tháng và tôi tin bạn 
 
 
 ### 0. Mục lục
+----
 - <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/#1-kiến-thức-toán-học-cần-thiết">1. Kiến thức toán học cần thiết</a>
 - <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/#2-kỹ-năng-lập-trình-python">2. Kỹ năng lập trình Python</a>
-- <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/#3-bài-toán-hồi-quy-regression">3. Bài toán hồi quy (Regression)</a>
-- <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/#4-bài-toán-phân-loại-classification">4. Bài toán phân loại (Classification)</a>
-- <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/#5-xây-dựng-mạng-neural-network">5. Xây dựng mạng Neural Network</a>
+- <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/#3-thư-viện-numpy-và-tensorflow">3. Thư viện Numpy và TensorFlow</a>
+- <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/#4-bài-toán-hồi-quy-regression">4. Bài toán hồi quy (Regression)</a>
+- <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/#5-bài-toán-phân-loại-classification">5. Bài toán phân loại (Classification)</a>
+- <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/#6-xây-dựng-mạng-neural-network">6. Xây dựng mạng Neural Network</a>
     
 ### 1. Kiến thức toán học cần thiết 
 ----
@@ -74,11 +76,14 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
 - **e. Hàm**
 - **f. Class**
 
-### 3. Bài toán hồi quy (Regression)
+### 3. Thư viện Numpy và TensorFlow
 ----
 
-### 4. Bài toán phân loại (Classification)
+### 4. Bài toán hồi quy (Regression)
 ----
 
-### 5. Xây dựng mạng Neural Network
+### 5. Bài toán phân loại (Classification)
+----
+
+### 6. Xây dựng mạng Neural Network
 ----
