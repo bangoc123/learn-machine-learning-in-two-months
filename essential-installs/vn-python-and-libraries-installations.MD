@@ -73,7 +73,7 @@
 
 - **b. Khởi động notebook**
 
-    Bạn đi đến một thư mục bất kỳ làm nơi lưu trữ notebook của mình và chạy dòng lệnh `jupyter notebook`:
+    Bạn đi đến một thư mục bất kỳ làm nơi lưu trữ notebook của mình và chạy dòng lệnh `jupyter notebook` với CMD và `ipython notebook` với PowerShell:
 
     <img src="https://lh3.googleusercontent.com/TRIhgdawqk34j5ge9Y419mf46-7hUeuu0uzCQ733ISExJSeH4k-2_XH94TSEzaILWxGq951UYHQWrn5xNyrv8ZGAFG-PCgIrVTZurH_VvDsHvm7_zVxEuvYmI5TJ4neD2mrC4Dv0XionaIdbl8RhcmSw5z-jGCEE-00-oWIDsu48wVWRfjHRS-Q5-z81zZO8aNJa2n0601EI-DVMYJOrkKp-_Ba_1qhOQU0lWSuNYjvheVUgvte-otlAv9GGdk0gDXDksWDRFd3koXPXQ4Ik8DusyTVEsPmKQp-JXX_95eZ2b31g25qm88RHbjOT_RWeIyzHue3S0_au2gGnUytBwXzTjhSbnAw5UVzNtmQW5TtNnsI9tiwQhrdJ3YX5VacFow8hp0HMEOtIdYD8aEWfcxYu6O5yO4PgW_AtgoEW1O91nKgK5c3DCFxsyr1iKFVLdcpNBQ1rWWnGDoXlBrLVQASZ4Uvih6Ztr4dRY88M15rNL-iscnEyd2ui5JhnZTmwUavxr_t73tyywdfs7aokDebYmVyU4eQGa2fS6ZsfSLz35IzNREbK_WEb2DFU4nJsGMtHZ6mihzdUhb5lawrjQ8zwPzeLM3l2DhjDAeDNk2qhReQikqZAAi120GkqtmH_pKTVnWlJT055DFOw4MD_0QLMa4LPiYouqQ=w977-h512-no" width=700>
 
