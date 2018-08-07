@@ -74,7 +74,9 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
     - Pip
     - Jupyter Notebook
 - **b. Tính chất đặc điểm**
-- **c. Các kiểu dữ liệu và phép toán trên Python**
+- **c. Các hàm dựng sẵn và kiểu dữ liệu trên Python**
+    - [Các hàm dựng sẵn trong Python](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/python-tutorials/built-in-function.ipynb)
+    - [Các kiểu dữ liệu trong Python]()
 - **d. Vòng lặp**
 - **e. Hàm**
 - **f. Class**
