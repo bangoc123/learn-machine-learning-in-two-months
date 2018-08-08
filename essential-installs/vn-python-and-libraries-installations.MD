@@ -91,3 +91,6 @@ Sau đó bạn có thể viết code và chạy trực tiếp code của mình t
 
 **Chú ý:** Cài thêm [ở đây](https://github.com/vors/jupyter-powershell) trong trường hợp bạn dùng PowerShell
 
+- **d. Chạy code trong Notebook**
+
+![img](https://lh3.googleusercontent.com/vKTb1DmZBA4zHLcDHAdohUAPdw269kTRbhe58Dcw7_ZdK1LfSqzrZnhl1ur3sp96RP_Euaz2uXHcj553M-wtIBVoYxm1i4hbTovjgCbg8fsqWxkfG0l1SrJX8NITonz4h4hqe8JWVbGMN3b1OffjOVCF9z13kz-jqYhUVuNJPEQaU6cwiLbzNkjszG3box0f9lPIaiYD9y963WeBsepBODVHQkDjuAqZRRKgnTHyZ5wCjyihKR9sMfdvG4aNTx6WlX-dsgKUPONm9-C1Tmf5-CjIVqtxVpqbkg8DD6CvXl9dF4wfCQjDphrbn2weKJ8uTlUnUDmtjHRvfRgIjLJHIUyYXuJHfibw9lAjYuXr96_4I4ESnagPDrufhy1YRGF18NZd8v_EL7ihp3eqpH-d3DtH6JLSCKiOZJHREmpoVl167XSO51ybfjMChHMiWS6usaDs3KsOPS4nyx7U6jxTjHtKI2Qpx7Mj4H8pDBJthavOJT5-AoDzeX-Aptz3MpfPo8gUAbwJq3DIy0pCOEIx3jh9ONXNjXThi9_NJUBUg7_3l5cWrASPFCFZe6NISGTG3ntCl5ihj-1FfyMx3zkdPLTEbTSzxSVGuABckF0O4M2G1yH9C8ARmbPIYHB2Et6-ZnKW1MhQn63_MD6KsqmKmIJiVCACDIQo=w800-h716-no)
