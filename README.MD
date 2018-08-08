@@ -1,8 +1,10 @@
 ## Lộ trình học Machine Learning, Deep Learning cho người mới bắt đầu
 
-Tôi đã từng học Machine Learning trong vòng 2 tháng và tôi tin bạn cũng có thể làm được.
+Tôi đã từng học Machine Learning trong vòng 2 tháng và tôi tin bạn cũng có thể làm được. 
 
-**P/S:** Hãy để lại **1 star** để team có động lực sản xuất các phần tiếp theo và cũng đừng quên chia sẻ tới bạn bè của bạn.
+Lộ trình sẽ giúp bạn nắm chắc công nghệ này từ cơ bản đến nâng cao, xây dựng Machine Learning model từ python thuần cho đến các thư viện cao cấp như TensorFlow hay Keras. Đi sâu phân tích bản chất vấn đề là giá trị cốt lõi của khóa học này.
+
+**P/S:** Hãy để lại **1 star** để team có động lực xuất bản các phần tiếp theo và cũng đừng quên chia sẻ tới bạn bè của bạn.
 
 
 ### 0. Mục lục
