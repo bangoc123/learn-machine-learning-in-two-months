@@ -18,7 +18,7 @@ Lộ trình sẽ giúp bạn nắm chắc công nghệ này từ cơ bản đế
 - <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/#7-xây-dựng-mạng-neural-network">7. Xây dựng mạng Neural Network</a>
 - <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/#8-xây-dựng-mạng-convolutional-neural-network-cnn">8. Xây dựng mạng Convolutional Neural Network (CNN)</a>
 - <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/#9-xây-dựng-mạng-recurrent-neural-network-rnn">9. Xây dựng mạng Recurrent Neural Network (RNN)</a>
-- <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/#10-xây-dựng-mạng-recurrent-neural-network">10. Triển khai (Deploy) Machine Learning Model trên Production</a>
+- <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/#10-triển-khai-deploy-machine-learning-model-trên-production">10. Triển khai (Deploy) Machine Learning Model trên Production</a>
     
 ### 1. Kiến thức toán học cần thiết 
 ----
