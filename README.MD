@@ -14,7 +14,11 @@ Lộ trình sẽ giúp bạn nắm chắc công nghệ này từ cơ bản đế
 - <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/#3-thư-viện-numpy-và-tensorflow">3. Thư viện Numpy và TensorFlow</a>
 - <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/#4-bài-toán-hồi-quy-regression">4. Bài toán hồi quy (Regression)</a>
 - <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/#5-bài-toán-phân-loại-classification">5. Bài toán phân loại (Classification)</a>
-- <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/#6-xây-dựng-mạng-neural-network">6. Xây dựng mạng Neural Network</a>
+- <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/#6-xây-dựng-mô-hình-decision-trees-và-random-forests">6. Xây dựng mô hình Decision Trees và Random Forests </a>
+- <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/#7-xây-dựng-mạng-neural-network">7. Xây dựng mạng Neural Network</a>
+- <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/#8-xây-dựng-mạng-convolutional-neural-network-cnn">8. Xây dựng mạng Convolutional Neural Network (CNN)</a>
+- <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/#9-xây-dựng-mạng-recurrent-neural-network-rnn">9. Xây dựng mạng Recurrent Neural Network (RNN)</a>
+- <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/#10-xây-dựng-mạng-recurrent-neural-network">10. Triển khai (Deploy) Machine Learning Model trên Production</a>
     
 ### 1. Kiến thức toán học cần thiết 
 ----
@@ -81,16 +85,38 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
     - Điểm mạnh: 
         - Dễ viết/ Dễ đọc
         - Quy trình phát triển phần mềm nhanh vì dòng lệnh được thông dịch thành mã máy và thực thi ngay lập tức
-        - Có nhiều thư viện mạnh để tính toán cũng như làm Machine Learning như Numpy, Sympy, TensorFlow, Keras, vv.
+        - Có nhiều thư viện mạnh để tính toán cũng như làm Machine Learning như Numpy, Sympy, Scipy, Matplotlib, Pandas, TensorFlow, Keras, vv.
     - Điểm yếu:
         - Mang đầy đủ điểm yếu của các ngôn ngữ thông dịch như tốc độ chậm, tiềm tàng lỗi trong quá trình thông dịch, source code dễ dàng bị dịch ngược.
         - Ngôn ngữ có tính linh hoạt cao nên thiếu tính chặt chẽ.
 - **c. Các hàm dựng sẵn và kiểu dữ liệu trên Python**
     - [Các hàm dựng sẵn trong Python](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/python-tutorials/built-in-function.ipynb)
     - [Các kiểu dữ liệu trong Python]()
+    
+        Phần này được thiết kế dựa trên khóa [Data Structures & Algorithms in Python - Udacity](https://classroom.udacity.com/courses/ud513) nhưng tôi sẽ đi sâu hơn vào các ví dụ thực tế hơn là chỉ dừng lại ở lý thuyết. Bên cạnh đó tôi sẽ giúp các bạn nắm rõ một số Data Structure quan trọng trong Machine Learning như **Graph** và **Tree**.
+        - Integer và Float
+        - Boolean
+        - String
+        - List-Based Collection
+            - List
+            - Linked List
+            - Stack
+            - Queue
+            - Tuple
+        - Dictionary
+        - Set
+        - Tree
+            - Tree
+            - Binary Tree
+            - Heap
+            - Self-Balancing Tree
+                - Red-Black Tree
+        - Graph
 - **d. Vòng lặp**
 - **e. Hàm**
 - **f. Class**
+- **g. Thuật toán**
+
 
 ### 3. Thư viện Numpy và TensorFlow
 ----
@@ -101,5 +127,17 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
 ### 5. Bài toán phân loại (Classification)
 ----
 
-### 6. Xây dựng mạng Neural Network
+### 6. Xây dựng mô hình Decision Trees và Random Forests
+----
+
+### 7. Xây dựng mạng Neural Network
+----
+
+### 8. Xây dựng mạng Convolutional Neural Network (CNN)
+----
+
+### 9. Xây dựng mạng Recurrent Neural Network (RNN)
+----
+
+### 10. Triển khai (Deploy) Machine Learning Model trên Production
 ----
