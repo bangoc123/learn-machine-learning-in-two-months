@@ -66,7 +66,7 @@ Lộ trình sẽ giúp bạn nắm chắc công nghệ này từ cơ bản đế
             - Xác suất độc lập: [Compound probability of independent events | Probability and Statistics | Khan Academy
 ](https://youtu.be/xSc4oLA9e8o)
         - Biến ngẫu nhiên và phân phối xác suất: [Biến ngẫu nhiên và phân phối xác suất](https://dominhhai.github.io/vi/2017/10/prob-rand-var/#2-1-h%C3%A0m-kh%E1%BB%91i-x%C3%A1c-su%E1%BA%A5t-c%E1%BB%A7a-bi%E1%BA%BFn-r%E1%BB%9Di-r%E1%BA%A1c)
-        - 
+        
 ### 2. Kỹ năng lập trình Python
 ----
 Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning vì tính đơn giản gọn nhẹ của nó. Nhưng để đưa vào Production thì tôi nghĩ Javascript cũng là một lựa chọn không tồi. Tôi sẽ chia sẻ về Machine Learning với Javascript trong các phần tiếp theo. 
@@ -76,6 +76,15 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
     - Pip
     - Jupyter Notebook
 - **b. Tính chất đặc điểm**
+
+    Python là ngôn ngữ thông dịch có:
+    - Điểm mạnh: 
+        - Dễ viết/ Dễ đọc
+        - Quy trình phát triển phần mềm nhanh vì dòng lệnh được thông dịch thành mã máy và thực thi ngay lập tức
+        - Có nhiều thư viện mạnh để tính toán cũng như làm Machine Learning như Numpy, Sympy, TensorFlow, Keras, vv.
+    - Điểm yếu:
+        - Mang đầy đủ điểm yếu của các ngôn ngữ thông dịch như tốc độ chậm, tiềm tàng lỗi trong quá trình thông dịch, source code dễ dàng bị dịch ngược.
+        - Ngôn ngữ có tính linh hoạt cao nên thiếu tính chặt chẽ.
 - **c. Các hàm dựng sẵn và kiểu dữ liệu trên Python**
     - [Các hàm dựng sẵn trong Python](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/python-tutorials/built-in-function.ipynb)
     - [Các kiểu dữ liệu trong Python]()
