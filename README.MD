@@ -94,11 +94,10 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
         - Ngôn ngữ có tính linh hoạt cao nên thiếu tính chặt chẽ.
 - **c. Các hàm dựng sẵn và kiểu dữ liệu trên Python**
     - [Các hàm dựng sẵn trong Python](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/python-tutorials/built-in-function.ipynb)
-    - [Các kiểu dữ liệu trong Python]()
+    - Các kiểu dữ liệu trong Python
     
         Phần này được thiết kế dựa trên khóa [Data Structures & Algorithms in Python - Udacity](https://classroom.udacity.com/courses/ud513) nhưng tôi sẽ đi sâu hơn vào các ví dụ thực tế hơn là chỉ dừng lại ở lý thuyết. Bên cạnh đó tôi sẽ giúp các bạn nắm rõ một số Data Structure quan trọng trong Machine Learning như **Graph** và **Tree**.
-        - Integer và Float
-        - Boolean
+        - [Integer, Float và Boolean](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/python-tutorials/integer-float-boolean.ipynb)
         - String
         - List-Based Collection
             - List
