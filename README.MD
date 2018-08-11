@@ -100,7 +100,7 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
         - [Integer, Float và Boolean](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/python-tutorials/integer-float-boolean.ipynb)
         - [String](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/python-tutorials/string.ipynb)
         - List-Based Collection
-            - List
+            - [List](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/python-tutorials/list.ipynb)
             - Linked List
             - Stack
             - Queue
