@@ -101,19 +101,19 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
         - [String](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/python-tutorials/string.ipynb)
         - List-Based Collection
             - [List](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/python-tutorials/list.ipynb)
-            - Linked List
-            - Stack
-            - Queue
-            - Tuple
-        - Dictionary
-        - Set
+            - [Linked List](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/python-tutorials/linked-list.ipynb)
+            - [Stack](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/python-tutorials/stack.ipynb)
+            - [Queue](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/python-tutorials/queue.ipynb)
+            - [Tuple](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/python-tutorials/tuple.ipynb)
+        - [Dictionary](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/python-tutorials/dictionary.ipynb)
+        - [Set](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/python-tutorials/set.ipynb)
         - Tree
-            - Tree
-            - Binary Tree
-            - Heap
+            - [Tree](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/python-tutorials/tree.ipynb)
+            - [Binary Tree](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/python-tutorials/binary-tree.ipynb)
+            - [Heap](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/python-tutorials/heap.ipynb)
             - Self-Balancing Tree
                 - Red-Black Tree
-        - Graph
+        - [Graph](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/python-tutorials/graph.ipynb)
 - **d. Vòng lặp**
 - **e. Hàm**
 - **f. Class**
