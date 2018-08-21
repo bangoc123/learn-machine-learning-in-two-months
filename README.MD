@@ -117,6 +117,23 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
 ### 3. Thư viện Numpy và TensorFlow
 ----
 
+   - **a. Numpy**
+   
+        - Giới thiệu về NumPy
+            
+            - Trang chủ của [NumPy](http://www.numpy.org/)
+            - NumPy là viết tắt của **"Numerical Python"**, là một thư viện chuyên để xử lý, tính toán vector, ma trận.
+            - NumPy thường được sử dụng cùng [SciPy](https://www.scipy.org/) và [Matplotlib](https://matplotlib.org/) để thay thế cho [MatLab](https://www.mathworks.com/products/matlab.html) vô cùng đắt đỏ.
+            - Được viết bằng Python và C nên tốc độ thực thi tốt.
+        - Các APIs
+            - [Mảng NumPy - NumPy Array](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/numpy/array.ipynb)
+            - [Đánh chỉ mục và cắt Array - Array Indexing và Array Slicing](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/numpy/indexing%26slicing.ipynb)
+            - [Phép lan truyền - Broadcasting](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/numpy/broadcasting.ipynb)
+            - [Phép lặp - Iterating](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/numpy/iterating.ipynb)
+            - [Các thao tác trên Array - Array Manipulation](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/numpy/manipulation.ipynb)
+            
+   - **b. TensorFlow**
+
 ### 4. Bài toán hồi quy (Regression)
 ----
 
