@@ -138,6 +138,25 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
 ### 4. Bài toán hồi quy (Regression)
 ----
 
+   - **a. Mô hình Hồi quy tuyến tính (Linear Regression Model)**
+        - Định nghĩa
+        - Mô phỏng thực tế
+   - **b. Hàm mất mát (Loss Function)**
+        - Định nghĩa
+        - Mô phỏng thực tế
+   - **c. Thuật toán tối ưu Loss Function (Optimization Algorithms)**
+        - Normal Equation
+            - Công thức toán học
+            - Điểm mạnh
+            - Điểm yếu
+        - Gradient Descent
+            - Công thức toán học
+            - Điểm mạnh
+            - Điểm yếu       
+   - **d. Bài toán thực tế**
+        - Bài toán đo lường Hiệu quả sản xuất
+            - Vấn đề
+            - Giải quyết bằng mô hình Hồi quy tuyến tính
 ### 5. Bài toán phân loại (Classification)
 ----
 
