@@ -19,6 +19,7 @@ Lộ trình sẽ giúp bạn nắm chắc công nghệ này từ cơ bản đế
 - <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/#8-xây-dựng-mạng-convolutional-neural-network-cnn">8. Xây dựng mạng Convolutional Neural Network (CNN)</a>
 - <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/#9-xây-dựng-mạng-recurrent-neural-network-rnn">9. Xây dựng mạng Recurrent Neural Network (RNN)</a>
 - <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/#10-triển-khai-deploy-machine-learning-model-trên-production">10. Triển khai (Deploy) Machine Learning Model trên Production</a>
+- <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/#11-machine-learning-trên-trình-duyệt-và-tensorflowjs">11. Machine Learning trên trình duyệt và TensorFlowJS</a>
     
 ### 1. Kiến thức toán học cần thiết 
 ----
@@ -143,6 +144,8 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
         - Định nghĩa
         - Mô phỏng thực tế
         
+            ![](https://lh6.googleusercontent.com/xQMPlPjv845-gDphAAcyNLJufG_774prU974Zn00WP8Hsfandysppi3OiizibH_fdiYhODkhrmTKOc_HtoC74HHb6s6L0Bj4n1jv_P-xJWJTcSDgsO5ncISfO_SKLGq-8W3o2lVgf30 )
+        
    - **b. Hàm mất mát (Loss Function)**
    
         - Định nghĩa
@@ -229,3 +232,15 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
 
 ### 10. Triển khai (Deploy) Machine Learning Model trên Production
 ----
+
+### 11. Machine Learning trên trình duyệt và TensorFlowJS
+----
+
+   - **a. Lịch sử TensorFlowJS**
+   - **b. Các API chính của TensorFlowJS**
+   - **c. Xây dựng mô hình Hồi quy tuyến tính**
+   - **d. Xây dựng mạng Convolutional Neural Network(CNN)**
+   - **e. MobileNet**
+   - **f. Transfer Learning**
+
+   
