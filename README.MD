@@ -140,7 +140,7 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
 ----
 
    - **a. Mô hình Hồi quy tuyến tính (Linear Regression Model)**
-   
+        - [Bài toán đơn giản](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/models/linear-regression/README.MD/#1-b%C3%A0i-to%C3%A1n-%C4%91%C6%A1n-gi%E1%BA%A3n)
         - Định nghĩa
         - Mô phỏng thực tế
         
