@@ -224,6 +224,29 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
 ### 7. Xây dựng mạng Neural Network
 ----
 
+   - **a. Neural Network**
+   
+        - Định nghĩa
+        - Mô phỏng thực tế
+   
+   - **b. Hàm kích hoạt phi tuyến**
+        
+        - Sigmoid
+        - Tanh
+        - ReLU
+   
+   
+   - **c. Thuật toán lan truyền ngược (backpropagation)**
+    
+        - Ôn lại đạo hàm hàm hợp (Chain Rule)
+        - Công thức
+        - Mô phỏng thực tế
+        
+   - **d. Thuật toán tối ưu Loss Function (Optimization Algorithms)**
+        - Thuật toán Gradient Descent
+        
+   - **e. Một số vấn đề khi huấn luyện Neural Network**
+
 ### 8. Xây dựng mạng Convolutional Neural Network (CNN)
 ----
 
