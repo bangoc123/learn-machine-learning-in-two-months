@@ -19,6 +19,7 @@ Lộ trình sẽ giúp bạn nắm chắc công nghệ này từ cơ bản đế
 - <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/#8-xây-dựng-mạng-convolutional-neural-network-cnn">8. Xây dựng mạng Convolutional Neural Network (CNN)</a>
 - <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/#9-xây-dựng-mạng-recurrent-neural-network-rnn">9. Xây dựng mạng Recurrent Neural Network (RNN)</a>
 - <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/#10-triển-khai-deploy-machine-learning-model-trên-production">10. Triển khai (Deploy) Machine Learning Model trên Production</a>
+- <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/#11-machine-learning-trên-trình-duyệt-và-tensorflowjs">11. Machine Learning trên trình duyệt và TensorFlowJS</a>
     
 ### 1. Kiến thức toán học cần thiết 
 ----
@@ -138,14 +139,113 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
 ### 4. Bài toán hồi quy (Regression)
 ----
 
+   - **a. Mô hình Hồi quy tuyến tính (Linear Regression Model)**
+        - [Bài toán đơn giản](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/models/linear-regression/README.MD/#1-b%C3%A0i-to%C3%A1n-%C4%91%C6%A1n-gi%E1%BA%A3n)
+        - Định nghĩa
+        - Mô phỏng thực tế
+        
+            ![](https://lh6.googleusercontent.com/xQMPlPjv845-gDphAAcyNLJufG_774prU974Zn00WP8Hsfandysppi3OiizibH_fdiYhODkhrmTKOc_HtoC74HHb6s6L0Bj4n1jv_P-xJWJTcSDgsO5ncISfO_SKLGq-8W3o2lVgf30 )
+        
+   - **b. Hàm mất mát (Loss Function)**
+   
+        - Định nghĩa
+        - Mô phỏng thực tế
+        
+   - **c. Thuật toán tối ưu Loss Function (Optimization Algorithms)**
+   
+        - Normal Equation
+            - Công thức toán học
+            - Điểm mạnh
+            - Điểm yếu
+        - Gradient Descent
+            - Công thức toán học
+            - Điểm mạnh
+            - Điểm yếu
+            
+   - **d. Bài toán thực tế**
+   
+        - Bài toán đo lường Hiệu quả sản xuất
+            - Vấn đề
+            - Giải quyết bằng mô hình Hồi quy tuyến tính
+            
 ### 5. Bài toán phân loại (Classification)
 ----
+
+   - **a. Mô hình Hồi quy Logistic (Logistic Regression Model)**
+        
+        - Định nghĩa
+        - Mô phỏng thực tế
+        
+   - **b. Phân loại 2 lớp (Binary Classification)**
+        
+        - Định nghĩa
+        - Hàm phi tuyến sigmoid
+        - Hàm mất mát (Loss Function)
+        - Thuật toán Gradient Descent
+        
+   - **c. Phân loại nhiều lớp (Multiclass Classification)**
+        
+        - Định nghĩa
+        - Hàm mất mát (Loss Function)
+        - Thuật toán Gradient Descent
+        
+   - **d. Hiện tượng Overfitting và một số cách khắc phục**
+   
+   - **e. Đánh giá mô hình**
 
 ### 6. Xây dựng mô hình Decision Trees và Random Forests
 ----
 
+   - **a. Mô hình Cây quyết định (Decision Trees)**
+   
+        - Định nghĩa
+        - Mô phỏng thực tế
+   
+   - **b. Các thuật toán**
+        
+        - ID3
+        - C4.5
+        - C5.0
+        - CART
+        
+   - **c. Triển khai thuật toán CART**
+    
+        - Câu hỏi (Question)
+        
+   - **d. Bài toán phân loại ô tô**
+   
+        - Vấn đề
+        - Giải quyết bằng mô hình Cây quyết định
+        
+   - **e. Mô hình Random Forests**
+   
+        - Định nghĩa
+        
 ### 7. Xây dựng mạng Neural Network
 ----
+
+   - **a. Neural Network**
+   
+        - Định nghĩa
+        - Mô phỏng thực tế
+   
+   - **b. Hàm kích hoạt phi tuyến**
+        
+        - Sigmoid
+        - Tanh
+        - ReLU
+   
+   
+   - **c. Thuật toán lan truyền ngược (backpropagation)**
+    
+        - Ôn lại đạo hàm hàm hợp (Chain Rule)
+        - Công thức
+        - Mô phỏng thực tế
+        
+   - **d. Thuật toán tối ưu Loss Function (Optimization Algorithms)**
+        - Thuật toán Gradient Descent
+        
+   - **e. Một số vấn đề khi huấn luyện Neural Network**
 
 ### 8. Xây dựng mạng Convolutional Neural Network (CNN)
 ----
@@ -155,3 +255,17 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
 
 ### 10. Triển khai (Deploy) Machine Learning Model trên Production
 ----
+
+### 11. Machine Learning trên trình duyệt và TensorFlowJS
+----
+
+Phần này được mô phỏng chủ yếu trên bài nói của tôi tại Google I/O Extended Hanoi 2018. Slide và code của bài nói này nằm [tại đây](https://github.com/bangoc123/tensorflow-js). 
+
+   - **a. Lịch sử TensorFlowJS**
+   - **b. Các API chính của TensorFlowJS**
+   - **c. Xây dựng mô hình Hồi quy tuyến tính**
+   - **d. Xây dựng mạng Convolutional Neural Network(CNN)**
+   - **e. MobileNet**
+   - **f. Transfer Learning**
+
+   
