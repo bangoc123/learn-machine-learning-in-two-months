@@ -31,6 +31,7 @@ Lộ trình sẽ giúp bạn nắm chắc công nghệ này từ cơ bản đế
         - Giới thiệu vector/scalar và các thành phần của chúng: [Vector basics - Khan Academy](https://www.khanacademy.org/math/precalculus/vectors-precalc#vector-basic) 
     - **Ma trận (Matrix)**
         - Giới thiệu về ma trận: [Introduction to matrices - Khan Academy](https://www.khanacademy.org/math/precalculus/precalc-matrices#intro-to-matrices)
+        - [Thực hành với Numpy](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/numpy/array.ipynb)
     - **Chuyển vị ma trận**
         - Cách chuyển vị ma trận và những vấn đề liên quan: [Transpose of a matrix - Khan Academy](https://www.khanacademy.org/math/linear-algebra/matrix-transformations#matrix-transpose) 
     - **Norm Vector**
@@ -43,6 +44,7 @@ Lộ trình sẽ giúp bạn nắm chắc công nghệ này từ cơ bản đế
 ](https://youtu.be/WR9qCSXJlyY)
         - Phép nhân ma trận
             - Các phương pháp nhân ma trận: [Lec 3 | MIT 18.06 Linear Algebra, Spring 2005](https://youtu.be/FX4C-JpTFgY) 
+            - [Thực hành với Numpy](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/numpy/linear-algebra/products.ipynb)
         - Tích Hadamard/Element-Wise
             -  Phương pháp tính tích Element-Wise: [Element-Wise Multiplication and Division of Matrices
 ](https://youtu.be/2GPZlRVhQWY)
@@ -136,7 +138,7 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
             - [Phép lặp - Iterating](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/numpy/iterating.ipynb)
             - [Các thao tác trên Array - Array Manipulation](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/numpy/manipulation.ipynb)
             - [Đại số tuyến tính - Linear Algebra](https://github.com/bangoc123/learn-machine-learning-in-two-months/tree/master/numpy/linear-algebra)
-                - [Phép nhân ma trận](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/numpy/linear-algebra/products.ipynb)
+                - [Phép nhân vô hướng](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/numpy/linear-algebra/products.ipynb)
                 - [Norm ma trận](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/numpy/linear-algebra/norms.ipynb)
             
    - **b. TensorFlow**
