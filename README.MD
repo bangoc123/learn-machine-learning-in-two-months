@@ -45,6 +45,7 @@ Lộ trình sẽ giúp bạn nắm chắc công nghệ này từ cơ bản đế
         - Phép cộng ma trận
             -  Phương pháp cộng/trừ ma trận: [Matrix addition and subtraction | Matrices | Precalculus | Khan Academy
 ](https://youtu.be/WR9qCSXJlyY)
+            - [Thực hành với Numpy](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/numpy/linear-algebra/addition.ipynb)
         - Phép nhân ma trận
             - Các phương pháp nhân ma trận: [Lec 3 | MIT 18.06 Linear Algebra, Spring 2005](https://youtu.be/FX4C-JpTFgY) 
             - [Thực hành với Numpy](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/numpy/linear-algebra/products.ipynb)
