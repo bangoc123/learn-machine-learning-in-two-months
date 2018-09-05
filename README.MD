@@ -261,6 +261,23 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
 
 ### 8. Xây dựng mạng Convolutional Neural Network (CNN)
 ----
+   - **a. Convolutional Neural Network**
+   
+        - Định nghĩa
+        
+            Convolutional Neural Networks tương đồng với mạng Neural Networks thông thường, bao gồm nhiều neuron với mục đích học được các tham số (**weights** và **biases**). Mạng này có: 
+            - Đầu vào: Những bức ảnh dưới dạng Pixel
+            - Đầu ra: Các lớp cần phân loại
+            
+            Ví dụ tôi muốn làm bài toán phân loại chó mèo, thì đầu vào của tôi là rất nhiều ảnh chó mèo và lớp đầu ra có 2 neuron đại diện tương ứng cho chó và mèo.
+        - Mô phỏng thực tế
+        <img src="https://lh3.googleusercontent.com/cO8U8cDrxBjLVAEjdAsSk9LOc3JQ0rdOZQVQPFkMPFpnA5GhW-Z1gV6TRmyp1iUKygCS8Haa2d7-RLl1xT-WPtF7rou4xy38pB48cTZrSp3iytGdLVfsABSwANInzy3nno6bvCh1EQ4" width="500"/>
+        
+        **Quá trình mạng nhận diện một ảnh (Inference)**
+        
+        - Bước 1: Ảnh sẽ được chuyển về dưới dạng ma trận các pixel
+        - Bước 2: Ma trận của ảnh khi đi qua các lớp ẩn(hidden layer) sẽ được biến đối phi tuyến thành ma trận kích thước nhỏ hơn nhưng chứa đựng nhiều đặc trưng của bức ảnh hơn.
+        - Bước 3: Sau khi ma trận của ảnh được biến đổi, nó được đưa qua lớp cuối cùng là một layer 2 neuron, mỗi neuron này sẽ đại diện cho **xác suất** ảnh đưa vào là **chó** hoặc **mèo**.
 
 ### 9. Xây dựng mạng Recurrent Neural Network (RNN)
 ----
