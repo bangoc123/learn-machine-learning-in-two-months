@@ -273,12 +273,53 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
         - Mô phỏng thực tế
         <img src="https://lh3.googleusercontent.com/cO8U8cDrxBjLVAEjdAsSk9LOc3JQ0rdOZQVQPFkMPFpnA5GhW-Z1gV6TRmyp1iUKygCS8Haa2d7-RLl1xT-WPtF7rou4xy38pB48cTZrSp3iytGdLVfsABSwANInzy3nno6bvCh1EQ4" width="500"/>
         
-        **Quá trình mạng nhận diện một ảnh (Inference)**
+        - Ứng dụng thực tế
         
-        - Bước 1: Ảnh sẽ được chuyển về dưới dạng ma trận các pixel
-        - Bước 2: Ma trận của ảnh khi đi qua các lớp ẩn(hidden layer) sẽ được biến đối phi tuyến thành ma trận kích thước nhỏ hơn nhưng chứa đựng nhiều đặc trưng của bức ảnh hơn.
-        - Bước 3: Sau khi ma trận của ảnh được biến đổi, nó được đưa qua lớp cuối cùng là một layer 2 neuron, mỗi neuron này sẽ đại diện cho **xác suất** ảnh đưa vào là **chó** hoặc **mèo**.
-
+        
+            |Bài toán | Ảnh minh họa |
+            | ------ | ------ |
+            |    Phân loại đối tượng trong ảnh (Image Classification)  |   <img src="https://lh3.googleusercontent.com/PGxisLf4UnaOaIU9MRMtTRgemCg-IS4gGnM7ZbzmeuIYWlyIkfXAozbhkvP6dqIc5dZLWA_Czfr1f5Cg6LWCftIdlKJYkgDdhlbJ9ukqt7q60t8a9sQUdl_F9jRWB6VlwPp6AEhkFYePAQipd3Wq23C-sw89XJkQoDuswZGXpBepnUAS3vgfvPbnlR1XsLfXm8CGI7pechOlaHpjwsYxivpISFFb-0xqCMxPyOsOFtfmsQ-IxNIEql_1j-Sk9SUmJS5zqGwzJiwJLqVRpwGaenFCHWbvdOP3GBa7dIFUIemlkztpQkiQI_9-ROdCKo1OV9-jST_ka0SQj10C_7bDgWLsvhJa8lNBApQQIiab9kKv2Olj0VwXng29Ox59PN8YbwQ0Jb7KuFRQJ7yqXseHm_z3y1_HWn2bHLTAUWpM-7Gx6EFki_xLlhQFPiQKQ7G4kBf9U4JrqbfVRDktLqQoItaow7rTEcmm-amK0Yfpwl5ycpkoiLztC50i5T5Xx6Y4N7IeDP3KD1bpWqnQBdC6YWYLofD83HWN3gnYyAbAGLL4H3cILjIQlqdju_fNUeW7jl7_IYj_b3LTOU69tph5gwATcISQ_8giK22UxbBC4Gluyg_93F6vR8ndeYghNsjxto0o4yoRYuZXxj6XR1Knlfp4EvkX4FeSZGBZN17S5h4UxSrxsM5zEn_rRA=w540-h377-no" width="200">   |
+            |   Phát hiện đối tượng (Object Detection)   |   <img src="https://lh3.googleusercontent.com/n3RK8DtyfnwInW-E_waItuHB7TK2jXPhTQrTm6E063jJ5yRU5qDL7jxyAmO-moC4CQoRtmxVaSxhfwAUCbc2F9rHu31b3nG4fM_mESlGiZb_pi2d6gbLMPG959xTg-Za8qHOiiXmL4avsPRZKWTQRm8o6LwXkranfkrbXqT2L8YRIJFQw4e35nRO4lwyNKLjd4y64CpbXGcgqWxZRPjd2KUrvdolK86BFHNTWfNW3yFHEfw6uIEIPLmUNX8HB7-voOK2Ztc_po6gtXv9atWlXDIQU6ZIwYTrHmlybDrRSf18_jtm5wc4ulS22rWv12cYvCIUJwledmmYDp4Lmp0hok9Gjjxlj3co7MSgchkneMIideJ_0R-KqAvKpc-d_pWmnqy4p4bVKF70_GApRhPnVKF72iAhSZuthUso8YmVb_qddMyIc4mfAqCqdpp0lUyTQu7z28IvfaxKP4TPYM-3K3NiQgmvQsRt76dOXRDLVUbp57WoPOvhoI_INJjL6PFNboxvvGDu6VCh97GIpzhVNCDQ2BpsHRRdM-k-8NwKX6s29thDYJEXn0baA_9KDZm9VP7KVs8aH9qTih1etPGHK6nVJvEDkMNwkhvDZ6DlfiYzdrHO0v0tXtWXi2L9nFdckukQYZ4HRRHejDKqh46pjn-H0OtGfLKS_nud2ZJs6ty37bII56G-nA_OAw=w1185-h667-no" width="200">   |
+            |     Phụ đề cho ảnh (Image Captioning)   |   <img src="https://lh3.googleusercontent.com/0SJvkIuLb428Zqw25aoUUvOn2tpcNeLYXER73GRuXL6hIbkbhmPm7MGqduVMd-F8zntBIR5bZnOaiev78_JUUH4i9Kdu6wBR4P_auw0RPvqbw4voLdBBX3V8Nm52o3LQbmIjhwHrqNNu00AK4XMoXpVFw3M-gt4HWE5onKzmQ6iIl9hl85os29vgpRC4mkULB0gGWJErJM-DFvyRBbHCL9ew1EFYrzySv_vgk1cTX0z4SzeGSFVt5SZXtXwVYqqmsmJ2PWN5QBNH8AlL1wjHgf0tvGNCbyz6SsGi_k_cVa3TLMVr_axOLRutWWZwz79EErf9VayCgCCV3TYASaufJyELAPWXTqJzYrtUruagBeqJqNEAucYv99p6XOl2epWKqFX9El-_cWJKvIdFWMRZYTkrTnWQGjnWVns8ScWqBGhvtbc6Z82O22mZVWtx612iSXjpGaxa9KqiXHwPBfvWLBr4EM5N6X4KkZzxxMhIBSAkrrCNpxg_MQAbX90Ob6PA8tJZdY-J9wzhpgxed3Vc_1tMFTXRqq2cRz2n_HtmIHpBiNQoX3fPzpcf-ALQc-iw54PWWW960HD8eJ2aC1Eo_4eZGgP2JeCYo3PQskQ1t1J9oV4tnZ1h9d39a09izPIUun8kRrYxaHMl2QRGy5Pw055GqLdvjKRzxr9-xkH6rU9Ch9T8tALEGBWdkA=w429-h273-no" width="200">   |
+            |    Phân đoạn ảnh (Image Segementation)   |   <img src="https://lh3.googleusercontent.com/t9xeGuHQ0QuYL_s9jBpiyHgOAH7BiHPvOJjKaP6aix1hDlvL1Mso_ZE--qu-1wcDNMFuBryqdUvWCvF4XdFh8q0_30lK_VxYrUTj900udz_Pgs3SZWLLULSfyNh4e0NTZXuNGvRgCk7UOeFQjn99XNHLxDt73ciLt3eIFjmXhI7JeVzl39xpSdmQytYlDWxhqB_iy3BlPJ6j-wTx47XbnVNOpXtlJZITNRW4tMp6Nd2W7VubebUzvz8R51_wv-nGPs3EBZoL9R0n1-beBJ-95kUOcc8pYEadH5w7NzP3dT0hku3jyUxnTtS7hD83ChEQeqqYywUGEYPxbeC681kyDGhNoeWz7jBaYgkBiqHnPsSkVh5VP2jD3KQtPqH9ZxSCKruOg-TiduBGS8l0doUWnsZbgE632L-W8-w157zFiksU-cZEMv3I89jXXlDcim9wvkOfHBgdxHGPYyPJvA6GWk7wRSUzP8RPIxi84diTIFlVFBOes3S_FUeUweBvY0-ILfhDKaqoDJxO_DMvZEEAtib-CFQNW1-3RCwaUUqwZXx0Vmj0YTvf79NuCrB6dgf4_Lqi6YCiB1FoouoGXD-IwqKDwC7RPiBax95-f-0ZtcTz3dewyl6PeqTADBijcps4F_UhjmMt6tU0jInS5eHnCDt_fGBIzLDtmmQZtBMUouoloulqV96LsORQbQ=w571-h357-no" width="200">   |
+            |    Xử lý ảnh (Image Processing)  |   <img src="https://lh3.googleusercontent.com/0xRnycdVy4QnhRpQejtzjG8Ap9r2dpB5v-jCaBkZ0CDVMY6eZV7yktVtUMQl5HoZ54UqxIcu6cKc7276BgSgD1csIv-y1oFmFHZnAceVVYGh0eiq0XEIqbmCPd_d29pCDd3pnogf6bNUEXp_deQxkSogO7wFL9nYw70Oyrera1tgTFZ_mqAu4NUwuY1v6xyCQShuUE7p6g8bAaDlGbjnB3jPcfpq89UUEknLc7jBrv1HLq8lCEyZr45vfDY6J_CagUTxOciwuNisaPgeYyBFJ5BGUxKo5SVSplEvclRB9RcHUTM_55dinQsDOQlDItijkUrZaPAb4itLM8SBPJwreAJXezrxFEviPZnJSwxwMZLzPEXJi1ZcU4ccTVUtH5BugCjO2QfQM_NwrUkRNuzecz57AdZxXOF1esTYkgqJDlMFC3zoCIjZ0IXSEpczCOGhirNQ6ti87UNo88NeX8irAoiscfGH63xvQ_hOmiSdWnLbU2Nwd8LVmQWEknDu6wirG9JiOpzdZxqsBcsap-HOpCGpdwYF9Szqj5SClmKzmp8ll0WbV_kKHAwLYstFUPkp9QjE28ZettDhZh4PiB1LoEcs251EaNLvm8LFvAdw_bGrog4fy2I9uxSJcibbkNsBsDXnYEqklTTLlYSwuZNjvMeHBzj8JmzT896eJHrSlhNX3FAsdIfqBrnY-A=w365-h253-no" width="200">
+     
+        Ảnh từ [cs231](http://cs231n.github.io/classification/), [analyticsvidhya](https://www.analyticsvidhya.com/blog/2018/06/understanding-building-object-detection-model-python/), [iospress](https://content.iospress.com/articles/international-journal-of-hybrid-intelligent-systems/his246), [quora](https://www.quora.com/What-is-the-need-of-Image-segmentation), [slideshare](https://www.slideshare.net/sofianhw/digital-image-processing-70067047)
+        - Quá trình mạng nhận diện một ảnh (Inference)
+        
+            - Bước 1: Ảnh sẽ được chuyển về dưới dạng ma trận các pixel
+            - Bước 2: Ma trận của ảnh khi đi qua các lớp ẩn (hidden layer) sẽ được trích xuất đặc trưng cũng như biến đối phi tuyến thành ma trận kích thước nhỏ hơn nhưng chứa đựng nhiều đặc trưng của bức ảnh hơn.
+            - Bước 3: Sau khi ma trận của ảnh được biến đổi, nó được đưa qua lớp cuối cùng là một layer 2 neuron, mỗi neuron này sẽ đại diện cho **xác suất** ảnh đưa vào là **chó** hoặc **mèo**.
+      
+   - **b. Tại sao lại cần dùng Convolutional Neural Network?**
+        - Nhược điểm của mạng kết nối đầy đủ (Fully Connected Network)
+        
+            - Dễ bị Overfit do lượng tham số cần học quá lớn và data quá nhỏ
+            - Mạng không phân loại được cùng một đối tượng nhưng ở vị trí khác nhau trong ảnh
+            
+            
+            <img src="https://lh3.googleusercontent.com/cHir-OK_Gk435zNfvXGibIl-IWOSuZQgBseZRIJxsyxWwhzM776srBiE_ksI3nPPO-RCekJbpTTlYpUG3KVfIR681iEVUrBi1Am-7IqCiDWQ8e3nRWipw5Lzt9-piQnUn8l-OfnG0Ol_5AR_W94fe-ab_SuAhodkHzOG1k9Kc_VnRSwxT1Aj2kOs22PNmBsLHWpgbHLf-alzvbI-G1QKXWfFpSSNeymcEQnO0HcAp43CpDqnludLNLJrzEFsf01-kAb-Rmg6Rxk0GUl3lWEPJPHEf6Z9zz_v-7uhE_WBye0Si7zvLQRYZYpRilDToDJjnHm-cJwS3TckPpovrqESKd0XabuM1xDXqvjG5kVoVzujCujQfuPC4jkCHLlX9-hg5nDQu4GfopWS5zXfMspZKXRKDChbfDDHr_W06EULfFdWsXoaMrZczMukMEjnKX8bCuhIm53mAiADazfeIOjLYgmkn8lDEaOf5_PNqygWFIooxp1dhZxl4CoctRsWERI8r9PFhnj0AR8ZoUsj35PpEd2prk-nadf8ax5vkDh8o3soSiHIMKWiWZg34RJ-5z57tXFU_MyjTO7_YZ-mKjWbUoMPSGkO7qVuSF61wI48wvDJhjLgYuLK0G5125U7xPI9XXPyJ0cSDuAyz3ldNS5ehzDZyvzX-M_A5E1PS3t1AwmLMxI0pNRHopaYqQ=s800-no" width="200">
+            
+        - Ưu điểm của mạng CNN
+            - Lượng tham số ít hơn nhiều so với mạng kết nối đầy đủ. Các lớp tích chập (CONV), các lớp Pooling giúp trích xuất đặc trưng của ảnh khiến ma trận ảnh đi qua mỗi lớp nhỏ dần đi, vì thế lượng tham số cần học cũng giảm theo.
+            - Có tính kháng dịch chuyển. Vì loại đi những dữ liệu thừa có ảnh hưởng đến vị trí của đối tượng nên mạng nhận diện chính xác một đối tượng nằm ở các vị trí khác nhau trong một ảnh.
+        
+   - **c. Các mạng CNN thông dụng**
+        - VGG 16
+        - ResNet
+        - GoogleNet
+        
+   - **d. Phép tích chập**
+        - Tích chập 1D rời rạc
+        - Tích chập 2D rời rạc
+   - **e. Pooling**
+        - Max-Pooling
+        - Average-Pooling
+   - **f. Cấu trúc mạng**
+   
+        <img src="http://cs231n.github.io/assets/cnn/convnet.jpeg" width="500">
+        
+        Ảnh từ [cs231 - Stanford](http://cs231n.github.io/convolutional-networks/#overview)
 ### 9. Xây dựng mạng Recurrent Neural Network (RNN)
 ----
 
