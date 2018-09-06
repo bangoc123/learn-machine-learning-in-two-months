@@ -309,14 +309,29 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
         - ResNet
         - GoogleNet
         
-   - **d. Phép tích chập**
+   - **d. Phép tích chập (Convolution)**
+        - Công thức
+        
+            ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/271b9c48087f01b626627a423d8e9003aa765728)
+
+           Mô phỏng công thức:
+
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Convolution_of_box_signal_with_itself2.gif" width="300"/> 
+
+            Hàm f(x) đại diện là ô vuông màu xanh và Hàm g(t-x) đại diện cho ô vuông màu đỏ. Tích chập (f*g)[n] thể hiện mức độ giao hoán của hai hàm f(x) và g(t-x) tại ví trí n.
+            - Tại vị trí n mà 2 hàm giao hoán mạnh nhất, tức là 2 ô vuông trùng nhau thì giá trị tích chập là lớn nhất
+            - Tại vị trí n mà 2 hàm không giao hoán, tức là 2 ô vuông không trùng nhau thì giá trị tích chập là bằng 0
+            - Giá trị tích chập tăng dần tỉ lệ thuận với mức độ giao hoán của 2 hàm
+            
+            Sử dụng tích chập, ta có thể trích xuất tính chất từ ma trận của ảnh dựa trên những ma trận nhỏ(filter) cho sẵn. 
+        
         - Tích chập 1D rời rạc
         - Tích chập 2D rời rạc
    - **e. Pooling**
         - Max-Pooling
         - Average-Pooling
    - **f. Cấu trúc mạng**
-   
+        
         <img src="http://cs231n.github.io/assets/cnn/convnet.jpeg" width="500">
         
         Ảnh từ [cs231 - Stanford](http://cs231n.github.io/convolutional-networks/#overview)
