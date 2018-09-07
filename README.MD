@@ -326,6 +326,7 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
             Sử dụng tích chập, ta có thể trích xuất tính chất từ ma trận của ảnh dựa trên những ma trận nhỏ (filter) cho sẵn. 
         
         - Tích chập 1D rời rạc
+        <img src="https://lh3.googleusercontent.com/0gjsMXWHkPKNIgKT_5Nj4j3K56b7KimH9htGFoU9QIELEFEDuDD5Wx3U7aCWuiV_ol8O1NjxqLciL_9earZ9u17z-o-eNIoSN-bRXm5owTwmVJAZEueN_NYYDaSqoqh6tKEAsiQlRTenX4kcNpRJIV97IB7CRsIsjTA8ISeYub3wpwtFRdIpcPr24d0fxOwU4f7KDixTuPJPTqTEGMy4fxrOq5XYBldfPLCTjzV2Vvdl-1ss7MR0m7sB5c4ICf5ceR1aKago6E3PX_dkP5fSpjPzenDNGB3Uj0O00a-foO3IFYwg-cv836azuAkXWfWsRABP6S-V8iUySeqF_oOyMx4yTmISXhPIXOpSRGDe0ru4P2leDbDZRM7sQwwhdm2XxHXfUU798acFKYEx8xZvgy8n8mncvhbcemiRfocDFMvBhnVfxRrMdyvtmp1c3HNgXRi4U-tI36sR_ByvHMK1Ak7WYEuW9wXweMgVtAZrXdADXcdf9nB2CwOWSNoPh83_VCz1bHD-5VyeKNmto50MJ6igmYxRvw84Ghl2UgbSqksMCMgVfp0UfhvWEOJpwmo57J54NYIAZTNn0NOPdAL6Y9a0_BM1NT1oGjf69q8V6u8r5SLmxbInBD7mJA-ZSelwxWE4AQiJ8IQPTA_OKmRJXcAxc1G5B7IFM9gvvXfR6UW-I8Bt5QB9Wdq0tg=w800-h447-no" >
         - Tích chập 2D rời rạc
    - **e. Pooling**
         - Max-Pooling
