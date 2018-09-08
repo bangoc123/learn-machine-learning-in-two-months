@@ -332,6 +332,7 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
         
         <img src="https://lh3.googleusercontent.com/6-CEfDinkmL90ow5FJMmn2OyoKJ-6GgybY2zglGW120mlPouza63SZPGkM-IyUGWcBRQ1gjKkRFm3KKdRxVyD-YOwpCYxvXqQZQqGxkFDzP09hPEyT2xfkoST-h5JpMrSw-tKZR-wtKoT8m9APgyqYr-9kYomGXD5Bjaw8vltsx2bszIeJtfmFnBDNQmUYTtmhOriI2nWmsRB8WR9wirPQ99to84-OfMyqZrFiZjOlPJo3ETBNOHTarLq9spYosfqCNlH4UhfGeN9A0zeo_YeoBus7hICEWe4_8kFnno9sDpori9CyXnJCL7SpS4bh4P4CDcKoKuNTnK0bMp4B5pMyrlLaRZdut6E8XtIHpUenJ6yhl-Kx6U3Mj6C0RU0ASEByyeWk5bdUtgwTBlqDQSRBmKNZB8CY-cNVW4IvG6EoQeVOyb8z22A2A66Cfx5rXV47pI5nJ7ZWlVj9Hmj572m-VPJE-6HKW0h5FxcKx-kdMS6F0cPK3BBUL33TjfgSEwz0Z_LBILhumBQE0aQC6W30YG8XAxiDPwIMWH7W6UuUnAOyIMx92MRcaXMTDX4YjPj1TeJZm_SixN5JXguOCs0piTZ2Uhp7ym6naY_YGdNyDb2AjIn2BUSvCiLzxLnRMza8To7lTl5xA-dIErVk33VrjM8PnpjeujTX0IN3k81cEZhvVYRqj7JnWRhA=w1280-h720-no">
         
+        Ảnh từ [machinelearninguru](http://machinelearninguru.com/computer_vision/basics/convolution/convolution_layer.html)
    - **e. Pooling**
         - Max-Pooling
         - Average-Pooling
