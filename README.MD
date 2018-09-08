@@ -329,6 +329,9 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
         <img src="https://lh3.googleusercontent.com/0gjsMXWHkPKNIgKT_5Nj4j3K56b7KimH9htGFoU9QIELEFEDuDD5Wx3U7aCWuiV_ol8O1NjxqLciL_9earZ9u17z-o-eNIoSN-bRXm5owTwmVJAZEueN_NYYDaSqoqh6tKEAsiQlRTenX4kcNpRJIV97IB7CRsIsjTA8ISeYub3wpwtFRdIpcPr24d0fxOwU4f7KDixTuPJPTqTEGMy4fxrOq5XYBldfPLCTjzV2Vvdl-1ss7MR0m7sB5c4ICf5ceR1aKago6E3PX_dkP5fSpjPzenDNGB3Uj0O00a-foO3IFYwg-cv836azuAkXWfWsRABP6S-V8iUySeqF_oOyMx4yTmISXhPIXOpSRGDe0ru4P2leDbDZRM7sQwwhdm2XxHXfUU798acFKYEx8xZvgy8n8mncvhbcemiRfocDFMvBhnVfxRrMdyvtmp1c3HNgXRi4U-tI36sR_ByvHMK1Ak7WYEuW9wXweMgVtAZrXdADXcdf9nB2CwOWSNoPh83_VCz1bHD-5VyeKNmto50MJ6igmYxRvw84Ghl2UgbSqksMCMgVfp0UfhvWEOJpwmo57J54NYIAZTNn0NOPdAL6Y9a0_BM1NT1oGjf69q8V6u8r5SLmxbInBD7mJA-ZSelwxWE4AQiJ8IQPTA_OKmRJXcAxc1G5B7IFM9gvvXfR6UW-I8Bt5QB9Wdq0tg=w800-h447-no" >
         
         - Tích chập 2D rời rạc
+        
+        <img src="https://lh3.googleusercontent.com/6-CEfDinkmL90ow5FJMmn2OyoKJ-6GgybY2zglGW120mlPouza63SZPGkM-IyUGWcBRQ1gjKkRFm3KKdRxVyD-YOwpCYxvXqQZQqGxkFDzP09hPEyT2xfkoST-h5JpMrSw-tKZR-wtKoT8m9APgyqYr-9kYomGXD5Bjaw8vltsx2bszIeJtfmFnBDNQmUYTtmhOriI2nWmsRB8WR9wirPQ99to84-OfMyqZrFiZjOlPJo3ETBNOHTarLq9spYosfqCNlH4UhfGeN9A0zeo_YeoBus7hICEWe4_8kFnno9sDpori9CyXnJCL7SpS4bh4P4CDcKoKuNTnK0bMp4B5pMyrlLaRZdut6E8XtIHpUenJ6yhl-Kx6U3Mj6C0RU0ASEByyeWk5bdUtgwTBlqDQSRBmKNZB8CY-cNVW4IvG6EoQeVOyb8z22A2A66Cfx5rXV47pI5nJ7ZWlVj9Hmj572m-VPJE-6HKW0h5FxcKx-kdMS6F0cPK3BBUL33TjfgSEwz0Z_LBILhumBQE0aQC6W30YG8XAxiDPwIMWH7W6UuUnAOyIMx92MRcaXMTDX4YjPj1TeJZm_SixN5JXguOCs0piTZ2Uhp7ym6naY_YGdNyDb2AjIn2BUSvCiLzxLnRMza8To7lTl5xA-dIErVk33VrjM8PnpjeujTX0IN3k81cEZhvVYRqj7JnWRhA=w1280-h720-no">
+        
    - **e. Pooling**
         - Max-Pooling
         - Average-Pooling
