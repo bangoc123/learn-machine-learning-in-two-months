@@ -335,10 +335,14 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
         Ảnh từ [machinelearninguru](http://machinelearninguru.com/computer_vision/basics/convolution/convolution_layer.html)
    - **e. Pooling**
         - Max-Pooling
+        
+            Là một dạng filter trả về giá trị lớn nhất của phần tử trong ma trận mà filter đang trượt qua.
             
             <img src="https://lh3.googleusercontent.com/gfOoJDvIeiuJEmkGP3zeAl1qhSIR2CTIxwJscXvGUzE-JBg-ignRwrDpGXHG6bQ6HbA8Yy2hvE9HmAl1yj_3Kg31kL0l1FHXzCAl1Ws1OQ9Ted_Mxn93a4f12eqS-KniWFV27iigEw0OWjTS7JO4Ci_AuH0GfBVd-8Zht7MhEsZxmoEXI6W62m8JO7i1793CPbUyMN6SEf7OaJhZBif5APBA-Ro0zTN40dg2Y9vGlpZGtO-Ttu-LhVVcryxR_B6R98LNZcqBoRUFZ-2oSPr-4OH3F522X9HOFC7XlndhNOi3DxpUQtyLgtBgwQ1XjRTmdathKEgMhmPJ0GL7B_pBIIrODgseh5-NKz1ftuJE6bTj6Qg1urV5kW6TCxcHTLPVtJG_EYqbi8O-SxEmXwsuq5H7SIyHx1vlC2SrTkNLLN_bk0A1w1GECkaV9yd3-Y13t-cNRxkyf5nuEvQfy5QAeTq5z_2UNqkEeHGkKbagRQJEtAV95tYu4rUNbVbO-i4LG0mamKXj3qm7jIrUrPlAhYBi4-LNfGYUZvH69_z9t5lZMszETUuO-XPjbj0dtolteGSJsPGrGwO1cAUabY51EgxuaIW7X3H0im-uAagfC67RDzIRcYPIMzQXWsgaVZa0fkQMgVqpb-uRo5B2FxatUie8toWS6LD78r__cfABqhF4n3x5KAOaWh6TVA=w728-h324-no" width="400">
         
         - Average-Pooling
+        
+            Là một dạng filter trả về giá trị trung bình của các phần tử trong ma trận mà filter đang trượt qua.
         
             <img src="https://lh3.googleusercontent.com/_p3jKDuyhvhwvdu29SucUNRv3MWBD-8XXDFwE47LootNPAb0Mi7ZZjVbh20y2oDWjgJRckmMQxhe-DHuwY7rxMPxnJocsz7RyBldGXRsPDrIlAl6rt1YFWXn1L-laO9u8S0j0S2PIFFp2D9pQZ6AvMuk9vrFfq8njrI2ZqNQNHB_U90uRbHinDDPmbDlU4fesrlkNpoWtyBMkg1k-Cx0lHXtdFn9ApHjBm1WKjD4ONX1ZLOnOFBney4BLSjrZEP5PUIsD7yPOinraZ-gDnIfNlaN70se8pXitXXYqygL7X2FZwywOzV9jvE1DjqHYM_UYZhC2q4ESMtlyvtA_MhWgYMgxZKay0aYJSXafXKxnFkw6dbPngPDpmc0nCnTjjiMLkVp09Jx_fFdte7ntaW3OM4d4KNLBWaOc7bUt8YVlrXSVl0M3ZVxdWgxNqSFl-in8MWODuN0nDVyUiooG_369xzMTrAvZg79S1BRCZTiQc9c_nhg-F9vdeqjLqAESjhbO5DmxFUu3fO2AVls5LwmsuEDS66H-ty9URYYe7vz8K9wHiXll_JVvdGz7RUWnjoWST_zn2yBgk3NSWziSX_CKIQUuyHZFsOQswOWOTrf19L_75QAZwY23v9NZUu9hGA4Bx75VF3psSYTrllBT8ogvoXyryJ_-pVF0WTsJS2HyMPoXqIksBqD5AHykQ=w318-h149-no" width="400">
    - **f. Cấu trúc mạng**
