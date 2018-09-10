@@ -349,7 +349,19 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
         
         <img src="http://cs231n.github.io/assets/cnn/convnet.jpeg" width="440">
         
+        
         Ảnh từ [cs231 - Stanford](http://cs231n.github.io/convolutional-networks/#overview)
+        
+        <img src="https://lh3.googleusercontent.com/LXq-jmPcdHnxHZy54FsOZzgp0iEkTWylLpxR5YAc3kxlwbNOx-7A6Z2CxwZW02g8WPp2rN8XBPIZIArUjVlzpba6M9skHzMq_H1rQoxgCSg7BuGYQHEZTmxfFyLgPhKPJzT8QE1dZWWTQeduCRY5QAbwGwQy189mfr_aU4XE3Y2NiTJpVslqEwt-X4T5CvSjI8lu8y5BiBjZm-eHFWvLAX7l0m8McT6S3ll-dOPSQO09Dl4POExvunoWJy0zJpFMUaKsTSiHmsTdtKaq5Htcn-3IV5600hluLP6BB61kQspe7acoDrKMmytqcc7UiAJvPzN2KoH1sA5i9D35XCjbX1mtDkbpfydHbnyVLSO71JCI2mQJc-BRv_2vQYEtlXtrK73Y-uG2PQ0L_kODEWt2EDN2cuqfxYflbDkT-cGKm7zJhjCtfdQV4ivdxG7XbjUvJhWuzvGQfn-9GVLjLI8CsOjOiKdsRhtIjq3pLgt0cnnKnurna_BhihPxGzzzzwc-Qw35-obDXreac0wHZtlqMNuHLuBT7bqEI2q2USUd7KlgyaxS2XfrQpvcJti1TMeV64G3ExTKd-XTds8nP0UAK-0LNq0p9bdhhoIJCBEOLsfiCpUJsd153gaPnbnFWUHo0chKYYNd3FtU0pXzQghrojhPdBq-LnQ-umxv9W7xzCCW58YuOFvEeEqf=w748-h178-no" width="440">
+        
+        Các thành phần của một CNN
+        
+        - Các lớp Convolution (Convolution Layer)
+        - Các hàm kích hoạt (Activation Function)
+        - Các lớp pooling
+        - Các lớp fully-connected
+        
+   - **g. Công thức tính toán đầu ra ở các lớp**
 ### 9. Xây dựng mạng Recurrent Neural Network (RNN)
 ----
 
