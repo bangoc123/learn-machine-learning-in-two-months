@@ -345,7 +345,12 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
             Là một dạng filter trả về giá trị trung bình của các phần tử trong ma trận mà filter đang trượt qua.
         
             <img src="https://lh3.googleusercontent.com/_p3jKDuyhvhwvdu29SucUNRv3MWBD-8XXDFwE47LootNPAb0Mi7ZZjVbh20y2oDWjgJRckmMQxhe-DHuwY7rxMPxnJocsz7RyBldGXRsPDrIlAl6rt1YFWXn1L-laO9u8S0j0S2PIFFp2D9pQZ6AvMuk9vrFfq8njrI2ZqNQNHB_U90uRbHinDDPmbDlU4fesrlkNpoWtyBMkg1k-Cx0lHXtdFn9ApHjBm1WKjD4ONX1ZLOnOFBney4BLSjrZEP5PUIsD7yPOinraZ-gDnIfNlaN70se8pXitXXYqygL7X2FZwywOzV9jvE1DjqHYM_UYZhC2q4ESMtlyvtA_MhWgYMgxZKay0aYJSXafXKxnFkw6dbPngPDpmc0nCnTjjiMLkVp09Jx_fFdte7ntaW3OM4d4KNLBWaOc7bUt8YVlrXSVl0M3ZVxdWgxNqSFl-in8MWODuN0nDVyUiooG_369xzMTrAvZg79S1BRCZTiQc9c_nhg-F9vdeqjLqAESjhbO5DmxFUu3fO2AVls5LwmsuEDS66H-ty9URYYe7vz8K9wHiXll_JVvdGz7RUWnjoWST_zn2yBgk3NSWziSX_CKIQUuyHZFsOQswOWOTrf19L_75QAZwY23v9NZUu9hGA4Bx75VF3psSYTrllBT8ogvoXyryJ_-pVF0WTsJS2HyMPoXqIksBqD5AHykQ=w318-h149-no" width="400">
-   - **f. Cấu trúc mạng**
+   - **f. Các hàm kích hoạt**
+        - Sigmoid
+        - Tanh
+        - ReLU
+        
+   - **g. Cấu trúc mạng**
         
         <img src="http://cs231n.github.io/assets/cnn/convnet.jpeg" width="440">
         
@@ -361,7 +366,7 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
         - Các lớp pooling
         - Các lớp fully-connected
         
-   - **g. Công thức tính toán đầu ra ở các lớp**
+   - **h. Công thức tính toán đầu ra ở các lớp**
 ### 9. Xây dựng mạng Recurrent Neural Network (RNN)
 ----
 
