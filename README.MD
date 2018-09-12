@@ -370,8 +370,34 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
 ### 9. Xây dựng mạng Recurrent Neural Network (RNN)
 ----
 
+   **a. Language Models**
+    
+   **b. Recurrent Neural Network (RNN)**
+   
+   - Giới thiệu RNN
+   - Cấu trúc mạng RNN
+   - Gate Recurrent Unit (GRU)
+   - Long Short-Term Memory (LSTM)
+   
+   **b. Vấn đề thường gặp và cách giải quyết**
+   - Vanishing
+   - Expoding Gradient Descent
+        
 ### 10. Triển khai (Deploy) Machine Learning Model trên Production
 ----
+
+   **a. Triển khai Tensorflow phân tán (Distributed TensorFlow)**
+   
+   **b. TensorFlow với AWS S3**
+   
+   **c. TensorFlow Serving**
+   - Giới thiệu
+   - Kiến trúc
+   - Cài đặt
+   - Restful API
+   - Xây dựng TensorFlow ModelServer
+   - Triển khai Inception Model với TensorFlow và Kubernetes
+        
 
 ### 11. Machine Learning trên trình duyệt và TensorFlowJS
 ----
