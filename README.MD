@@ -161,6 +161,9 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
    - **b. Hàm mất mát (Loss Function)**
    
         - Định nghĩa
+        
+        Hàm mất mát trả về một số không âm thể hiện mức độ chênh lệch giữa giá trị mà model của chúng ta **dự đoán** và giá trị **thực tế**.
+        
         - Mô phỏng thực tế
         
    - **c. Thuật toán tối ưu Loss Function (Optimization Algorithms)**
