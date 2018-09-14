@@ -324,10 +324,7 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
         - Filter Mask
         
         <img src="https://lh6.googleusercontent.com/RxpCKHeISWu7QVzW5GaDqm3ai49IGGubnYt-FiSbMlopyELrYStVp_EZhu_xvSajF7Yz1GnJxHVTFmjClYJIIUhKSa_K6sHFk8cR4Z5t" >
-        
-        
-        
-        - 
+       
         
    - **e. Phép tích chập (Convolution)**
         - Công thức
@@ -363,6 +360,14 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
         
         <img src="https://lh4.googleusercontent.com/ihhIssUn07sDSOC8EEJshZQBtyL2szp5Rp4Bm6IeoM_4gFykdUYbW7pBdW_MC8LOL76jimR0VUm3NmVO7lLP0eoaqCssqkHe0XIVMb2V" width="450">
         
+        - Loại tích chập
+        
+        Giá trị ma trận của bộ lọc quyết định đầu ra của phép tích chập.
+        
+        - Bộ lọc Sobel X lọc ra tính chất đặc trưng theo chiều dọc
+        - Bộ loc Sobel Y lọc ra tính chất đặc trưng theo chiều ngang.
+        
+        <img src="https://lh3.googleusercontent.com/NDrrNpzg6eJS5J436KId9XzytYiD0ImIuoBi4axjBK-SCoJ8KYbd9xu7aZsbBuU8DT9qDIH5sy2Tx31Tn2O6ZKtaaNYEZjG2bjjxmj-fcVr8AQVIiuaYaNU9F6Tyo_s1JSmwqEa55cNTvQMnaNfPyMAzIXh160LN5PMzUHy9rVqqlLnO3r4i5Z5neid75rk6Qxrz6bQz5A1TbDgCAZZgRasymhkiRsCqz6-j8ZldsSNO0RGIB3uEzo8ghXYUpeddQaDxoUHZpHYFhF7EDvbprt09kvUw4VGchB-LswMbpxoOElJ7Mjo8eEVmcJtUKd__wimSkDaP1LyZFdo0YocbTfKNM8hn2blWwfW26NazgMIfe16UF3JmfJRwg0Z4dlUamarYQOgTIdH0GXTlAdG6TVM-rM2yG4XzgDzDSfUTm1nooQwZ5a0FTOL5gAIR1yCbTvW_Lm6YtfRqXkPEdnXx6WMd9bj9Y4VNdLAZ8Xxmt36q9dFSwO7GuCq8PCbWhF7qbobMUtFBbb0AVjhakDn615DhXni66tfH58PRdfe_9j2aEbpzffy-ZhEPZ2PcHVFE8EKSgABtLKOTQz4CQKX9YJG2WjjQuu92Q6vynCEmzgKC6DurqQcZopZEPxqWmhI6I6XAq9PhqRBxK1ZubRYbjQ6FSPA5oClxNuhQNXDR0MRs9UtShMDC5lf0NQ=w1932-h1106-no">
         
    - **f. Pooling**
         - Max-Pooling
