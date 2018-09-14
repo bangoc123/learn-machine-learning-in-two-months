@@ -342,7 +342,7 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
         
         Ảnh từ [machinelearninguru](http://machinelearninguru.com/computer_vision/basics/convolution/convolution_layer.html)
         
-        3 filter trượt đồng thời trên một bức ảnh 3 channels.
+        Hai cặp filter mỗi cặp 3 filter trượt lần lượt trên một bức ảnh 3 channels.
         
         <img src="https://lh4.googleusercontent.com/ihhIssUn07sDSOC8EEJshZQBtyL2szp5Rp4Bm6IeoM_4gFykdUYbW7pBdW_MC8LOL76jimR0VUm3NmVO7lLP0eoaqCssqkHe0XIVMb2V" width="450">
         
