@@ -312,6 +312,7 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
         - ResNet
         - GoogleNet
    - **d. Bộ lọc**
+   
         Vector/ Ma trận trượt trên ma trận khác để trích xuất các dữ liệu đặc trưng, loại bỏ những dữ liệu không cần thiết.
         
         Bộ lọc có rất nhiều tên khác nhau:
