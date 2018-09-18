@@ -264,7 +264,8 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
 
 ### 8. Xây dựng mạng Convolutional Neural Network (CNN)
 ----
-    
+   Nếu bạn chưa có kiến thức về thị giác máy tính (Computer Vision) thì bạn nên đọc thêm về [loạt bài viết](https://github.com/bangoc123/learn-machine-learning-in-two-months/tree/master/computer-vision) tại đây.
+   
    Một [slide](http://bit.ly/NextDN2018) mình đã từng chia sẻ tại sự kiện Google Cloud Next MienTrung 2018.
 
    - **a. Convolutional Neural Network**
