@@ -23,7 +23,7 @@ Ví dụ về Image Captioning
 
 ### 2. Pixel và bộ lọc
 
-#### 2.1 Bức ảnh giống như một hàm
+#### 2.1. Bức ảnh giống như một hàm
 
 Một bức ảnh bao gồm rất nhiều pixel. Một pixel có thể thể hiện cường độ của 3 màu: đỏ, xanh lục và xanh dương (R - Red, G - Green, B - Blue).
 
@@ -34,3 +34,14 @@ Một bức ảnh là một hàm <a href="https://www.codecogs.com/eqnedit.php?l
 - Được giới hạn trong một hình chữ nhật hữu hạn các cạnh a, b, c, d. Mỗi một pixel trong miền giới hạn đó có giá trị dao động từ 0 đến 255. <a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{60}&space;\LARGE&space;f:[a,b][c,d]&space;\rightarrow&space;[0,&space;255]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{60}&space;\LARGE&space;f:[a,b][c,d]&space;\rightarrow&space;[0,&space;255]" title="\LARGE f:[a,b][c,d] \rightarrow [0, 255]" /></a>
 
 <img src="https://lh3.googleusercontent.com/GK6o4mo7Tth1NXPYQwhA6mS_d4p9geoKLku6Gy0lHLBVWjqYVh3xFXQ8TvZzdgwup5NekkWWvHaNsDhz165zr9fMdfXuQdxwQTwHS5dd8-rYjUqCWJO-rI1giiZMWB3e3uEnPbOTq42Hbfci7EC2Im-bm1qenT53f6a6bcu_Wv_an1oJkjgyrszgxNn4Oyx5oEn-XeDi_jvcW0lTsMmG4GEQfI2ULPPCUwI20NJOW2iEVyjvs9NVJ0GRYEn7Yvky51rKcMxi-p-5Vt3M6NEKe1hFXYHSW0PuXjxEh8VM1VeFAR5dzX6quFpJzTnemkE4vXWLDpURgTFXJSO1cD68ImqSW-nRtEW5PCyXu2GLa2EidGgLf2J7t0SZukbusEbH3s07XNbzV3upwvxf8_sHwNnHHnlZ4lbG41E3Q3M0mzAWpYp2pzNCgnEeUAQE1tzxGS9X01OqJ2kLHCQL6J6F-SqCYz8PeTXiCx6_Qj2iTmSMbyqc8-yzZyMuIhhFP1KJSAIXho5CLI-vOSjm35_U_0iPKQwyQq_p-ERZ_azEFg21ifAi4EnCDxSV6euPjtUgj0ImaNNVqpvdrvA71AbNa_iEFzsq1WSVhp2eiu7ORk2vC1256Rq_6oM9M27MgfszOmjDlLYxhT8ltfDywahtV2RH1HoLAfMV_0ONoUsxfPAbcYW21ovo7saHMg=w946-h326-no">
+
+#### 2.1. Biểu diễn ảnh bằng Ma trận
+
+<img src="https://lh3.googleusercontent.com/cN5rIdJWOqTbFDbr3OJxxFLnt-X5wTJofR3OQwDolsHI1irFJBnOuBl-qDHGX7E3RGO-AHrqVO0BpxATslVYkn2MOQGM3yC3nzWexheRbbtLPjQdgXO9cqcYvd-TzXHkE0GFE_jHIGpEJxQwhgp2uFYuVmNB1FYO5TKcIqMBxnIsm7myl_yHqx6J9N8M8djICEnPX0tDrscTJmNiTjRPIpg_EdNw8iJJR6brfxkwK411AhKWVzNTC3rgy5V-FkDQoKRVhSM-RHraZxLTzGKOPCAv5yH1R4X2xtBjguf-odhioa0JAvWXhstZa5VDzemkBHmi5pPbyHDCfzC9EkoZr3bvVTTyfx18eLGzfGJqpXELyHBrweh6OnKBDhlZda_MNSjkgPAv9zSe22V6xjPNtknZFWCmb80t9Rg9SsRPqMqJp2juYa09nX9VUqmJUve4hCfUO_UvJZpR-ypUsjDuO1b1QB36QFX9JWrldA923q6L1sC5iXLINvsWktTwofeFJqxg-bm5ai2xpYh_fHAw46dmth_rHGMIkiCoq4PEvTG-z85Y6YkHMxSVJeUBOu4l8_n2Qxb6skocWexj5n9a8FTnWJR7LDBvs2TTH81I5HbdsTrfPDUlxJRY40lhABg=w960-h396-no">
+
+<img src="https://lh3.googleusercontent.com/LNrlwYar7E0UT01oGAD60pf-iUgSAyYmFDYZfDVpwV36zuJ1yWHcmda3e2KPq0Wc5hcMw9wtQjJP-iukd8BXq73imIakjVTtecDT0A-too3unMaMAHP4T894J-2Ny64EADttnIDflwiW4gTf0EDpq4i9VpEP8_i7fRkNKZBe4cKWxWCyO_ZxyECjTRU0FtNO56LnX5yfNBUbLICAyfngE032_6tUz1O3wku1GFiaaT7cJzft6kHhlt0E4LAa9NVcDB9WuDu5xz2zvu1eTluN4O5WWUevv95W8sDutu2Up0uMqcnq1UTD-oVFOC6CWOnBxQR9cYMa2ab6nJ7v3yJ5p1zjr5LGKT-rNTLgC9WWdnHt0u0YNklX0hFRUfdw0KyHIlDc3pMjwOvb8WJ46PtVh1TLmJTfj0rsiqmYe3qimeQI2DpLaljSMCIPOM4D123nq173yGNx-1pTdMT8MXP8Y5JjIWa5m5Yz_6IymW2Gzobq56g2at3DOkgdAmrWhJX83cao7eMFmCrUAvbhVMjEiiO2AS4ZZrKq4CN7KN3qXDX-WRsUE7b9vR9F8pQfq78C7l4kuqtVINGEcB9u2mELL-GBvFKeLeQARrSNmZhZLAFRvv2GVjA2B3X04VJPM5Y=w992-h515-no">
+
+Hình ảnh từ [Lecture 4 - CS131 - Stanford](http://vision.stanford.edu/teaching/cs131_fall1617/lectures/lecture4_pixels%20and%20filters_cs131_2016.pdf)
+
+Các bạn có thể thấy mỗi pixel có thể là một hàm độc lập, và tập hợp các hàm độc lập này tạo nên một bức ảnh.
+
