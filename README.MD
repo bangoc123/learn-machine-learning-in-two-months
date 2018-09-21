@@ -264,7 +264,8 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
 
 ### 8. Xây dựng mạng Convolutional Neural Network (CNN)
 ----
-    
+   Nếu bạn chưa có kiến thức về thị giác máy tính (Computer Vision) thì bạn nên đọc thêm về [loạt bài viết](https://github.com/bangoc123/learn-machine-learning-in-two-months/tree/master/computer-vision) tại đây.
+   
    Một [slide](http://bit.ly/NextDN2018) mình đã từng chia sẻ tại sự kiện Google Cloud Next MienTrung 2018.
 
    - **a. Convolutional Neural Network**
@@ -326,7 +327,7 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
         - Mask
         - Filter Mask
         
-        <img src="https://lh6.googleusercontent.com/RxpCKHeISWu7QVzW5GaDqm3ai49IGGubnYt-FiSbMlopyELrYStVp_EZhu_xvSajF7Yz1GnJxHVTFmjClYJIIUhKSa_K6sHFk8cR4Z5t" >
+        <img src="https://lh3.googleusercontent.com/tNNA3uwGXN_ZIdsX597nWgrQYUk0E3A4FAxeVThdHXArmzzej2RbVD6aCSfj1nQZoXQuP2PRa3y8uMYDnlS95t577zb3g1GL0mpjAonyYci0CbEOib4K_uVdDwlK_Nzy7BCY1JodZwpzTihb-sCTweRCe1U4vv3u51wfQk7k-giQ28RxpI-a8KEK07S_l5TGxdz0-obHTj-Scybd-55nbwevbgMtDP5O_QzITvGbIbxAC2U5kcMH6xHd4mCKQAQFuSC3G-FyhsJijUz3n4E-AavavQDqS6bKqkpPORa8Sx_uOINP9UTp_TlotRJXSstNEm8jslBaQWJHbKdqJ2toSP5t2PKQsJRONJ_M-Kfw-JpxWiawyl_yfHYOY0pR8hPYyaZKXnDviEU4SkPtlFCVUshhDMLvxaBW5GsDGDHe_OsIemQWOq-TXcUieeR-6LIpSfZVc55wUHKZ2jQPO550K9v4kREAsSklwrQDet5q5ljNhgwWrsu0hUxYdftFGACMfxPWMuq4E1k4mWyLPq538TDP63M2mVagG7zgwQ_vxKlgz5iB9-3MkYTbrfkbtQAXAnhXm-Sb1WLHNy7Kh7GB5ni9a18MKZvAMKgR56yG8jWq9O9TjQOt_1JufTXkfdc056ijvCpEfRiUgxPWR5Xa5MMPRE1zom1RLOh7-Iw9a0oqh8jfpK0FPACnUg=w495-h542-no" >
        
         
    - **e. Phép tích chập (Convolution)**
@@ -361,7 +362,7 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
         
         Hai cặp filter mỗi cặp 3 filter trượt lần lượt trên một bức ảnh 3 channels.
         
-        <img src="https://lh4.googleusercontent.com/ihhIssUn07sDSOC8EEJshZQBtyL2szp5Rp4Bm6IeoM_4gFykdUYbW7pBdW_MC8LOL76jimR0VUm3NmVO7lLP0eoaqCssqkHe0XIVMb2V" width="450">
+        <img src="https://lh3.googleusercontent.com/eH6gUF2CmDlfubKj68ulkbV1nv1JSW9VF_HRukiMULCePzMeBG9cOHYHtPvy5GToWNvYBVdIvONAJNZrrOAjt7Kzd6qIfUH7doVnQcN4pqsdnczGCGkz-tiXfJzTDgOAJ1ZhAaxywMX9PON-2JHLRyWrYBR1fx4lvNYdF5MQLOLbFF5wcj1Uhco7xAnmQWbWi_tEji67XvTW5qJpN_sfWji5Uze8qJ2WLtNq88_yxxrMEQvf1lq2K7UHprYpT9g0I1GbcWPXpzbV93b8ywZ7oNDP9FqwEMKE2ohhfL5zmE-VGkNnlLl2AFLl4HyCVtOJjnoxESVyxdkC_aCqQENX8c8r6l3RNj4I8vrwNn3JKgiE7Mq0clL2f9nxrD46mDwaYcEjkQgXVBcJNRZG5CVLmBp4pktjKh5bzhWSMnt0UYXMOVwoJ-XBfQrAxfFRns037oNVG0JzwiT1VdKv_cgTpUeXqpHD-39Y2_bX1b9X39bIJTiRwC_bfSz7wBVEZEeef7s8zOVJ7TDM2OAsmnw6OBdecuxjf_UYyVZLADqplcyOMrXvGhJHnkuxSuNye6wi6dZKIuPvwFHNE21FLTTzThxVBBaeDLAcc3ozrBu6h3DhTWOz3Rcx7nT7ooTaxveMhZ5FLuekRJK1JeLK-Ga65zr-0u3KS9HU74JrlpGyoH-F8N-HqnwNSsHeSA=w512-h424-no" width="450">
         
         - Loại tích chập
         
