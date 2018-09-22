@@ -90,6 +90,8 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
         - Python
         - Pip
         - Jupyter Notebook
+        - TensorFlow
+        - Annaconda
     - [Mac](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/essential-installs/vn-mac-python-and-libraries-installations.MD)
         - Python
         - Pip
