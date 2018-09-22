@@ -8,6 +8,11 @@
 
 - <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/essential-installs/vn-python-and-libraries-installations.MD#1-python-và-pip">1. Cài đặt Python và Pip</a>
 - <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/essential-installs/vn-python-and-libraries-installations.MD#2-jupyter-notebook">2. Cài đặt Jupyter Notebook</a>
+
+- <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/essential-installs/vn-python-and-libraries-installations.MD#3-tensorflow">3. Cài đặt TensorFlow</a>
+
+- <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/essential-installs/vn-python-and-libraries-installations.MD#4-anaconda">4. Cài đặt Anaconda</a>
+
     
 ### 1. Python và Pip
 
@@ -94,3 +99,34 @@ Sau đó bạn có thể viết code và chạy trực tiếp code của mình t
 - **d. Chạy code trong Notebook**
 
 ![img](https://lh3.googleusercontent.com/vKTb1DmZBA4zHLcDHAdohUAPdw269kTRbhe58Dcw7_ZdK1LfSqzrZnhl1ur3sp96RP_Euaz2uXHcj553M-wtIBVoYxm1i4hbTovjgCbg8fsqWxkfG0l1SrJX8NITonz4h4hqe8JWVbGMN3b1OffjOVCF9z13kz-jqYhUVuNJPEQaU6cwiLbzNkjszG3box0f9lPIaiYD9y963WeBsepBODVHQkDjuAqZRRKgnTHyZ5wCjyihKR9sMfdvG4aNTx6WlX-dsgKUPONm9-C1Tmf5-CjIVqtxVpqbkg8DD6CvXl9dF4wfCQjDphrbn2weKJ8uTlUnUDmtjHRvfRgIjLJHIUyYXuJHfibw9lAjYuXr96_4I4ESnagPDrufhy1YRGF18NZd8v_EL7ihp3eqpH-d3DtH6JLSCKiOZJHREmpoVl167XSO51ybfjMChHMiWS6usaDs3KsOPS4nyx7U6jxTjHtKI2Qpx7Mj4H8pDBJthavOJT5-AoDzeX-Aptz3MpfPo8gUAbwJq3DIy0pCOEIx3jh9ONXNjXThi9_NJUBUg7_3l5cWrASPFCFZe6NISGTG3ntCl5ihj-1FfyMx3zkdPLTEbTSzxSVGuABckF0O4M2G1yH9C8ARmbPIYHB2Et6-ZnKW1MhQn63_MD6KsqmKmIJiVCACDIQo=w800-h716-no)
+
+### 3. TensorFlow
+
+- **a. Sử dụng CPU**
+    
+    `pip install tensorflow`
+
+- **b. Sử dụng GPU**
+    
+    `pip install tensorflow-gpu`
+    
+### 4. Anaconda
+   Anaconda là một Platform rất nổi tiếng trong ngành Data Science, chúng ta sẽ sử dụng Platform này để quản lý thư viện trong quá trình làm Machine Learning.
+   
+   Bạn tải Anaconda về [tại đây](https://www.anaconda.com/download/)
+   
+   ![](https://lh3.googleusercontent.com/clJsPQHT5wlBX_3ncrvmbIiuBjW20SNGZMsyOhqTqSxik9KrS8WZSyq0OP-BAcIeeuXLl8bNOMvOOnVqoE7gbv6R5Fi2inKOKwS9Qa6VDNaWD1XMQLITF0G7Vv_emO_8yZ94lqPjwgVB2Es-B7qvlZd61cYeqp-jvaXJ0ynPoeHNUsaVfmArvZjEQfXiPzsp_4NH8QlR_9bwtsoGSM7ApPL2PIfJhfEjUJ9r8urQIKk3e3KJsl6JR69CBzgepV8UFH_X4-pGAzH0cNjnlCFS08bVhyOMcmjkjOoegSVaF95BwDXZGKsCAMm08pvnHD3tqtiOx5t0YHCVbIX_3S9TSCbQLl2f7djc5f6ID085YRYZbllsPtQKh6qOBgT77S43EuuLFOYKqLPVnR_ughElGt2j-wmIWjEelDlPPVR-BINqZUSZcWdeF2X-il2E1qQ2dsUrcj_2ui2KspCSoyDXqlDcPoqd6MadWwgr3UhPxirtcZtZLLMVueTSuqFgHXkOdDS9B4FMiJe172HmUnBd3LGpp-FtE4mIXJ8OjPlf6hMMa2TuuEGB7ZR21ffjsCuHRH5N9bI24AmLlNaxGf_LkMuAdvT7iI56NPqLw-nW0VMszrm6bPvr6DUMGfyNdyHwRsNMGNhtZTF_FdsqwBXb-iTm6iCcFBvIsv0N3emtyuIeYrky0HF3sh48Pg=w909-h467-no)
+  
+  Ở đây tôi tải bản **2.7**
+  
+  ![](https://lh3.googleusercontent.com/a9vBtwwfHDrDtV8k9Drk6Tk2MuoCW3iSIMD5Y3l4xSh0tqrR-rQ-U2EITEhC38aHu7hSlS63kwoE_G-8IIPjnX4k4Kciuh3t53RU1-gSbBILVeoIl5jjeZ9m1p04bpDDXe94xfBO9SE80PprIL4KA6YwkJVJ4NGGllcsa1jqWVhbG2sILUYRY5xPrZB1Nv2ZLmcfIWIQm69nTn435nR7W8St8IbMhAUKBoQwQaeNuUZzSsUhzHEVHNZEHbWJnna0zi13VNiyneos6Sb7yl0gSPkqYNQ8mf2Mxhbr3vZsWIMof9QIR4604bHLm7BLiw8PsKNxxu0kkueqAiIi8dJDkDfw9J_HiiS-iU_pv_CXHhlufy4bi0YbRr0TUdlHT6lYNDe0OdimqKe6AR56dSPOb6KxmUaQohEMzJMig_1tqWpEnCXVjvUdkg44rXoGUihwWtGW-RUvJIFsqh4WlBiwzXRnVXojvb1SCUXdIF1mfpcaweyNAeliuukRg5NqKWNLkQi3dOyBWl5or3nLtzHsJ80S0hIbMw9n0Kz2hy_K4i4Y5lht08zrilsoi4b7XpU-wouzhIX4X1Hhc1UYJMIgpbOGxc8QcKp-zaqjEyK2l3UIefhg6V11ryLJrqTBIz2dz-6811rnLIn2X0iQJG6_GXGEf4vk-tt5dDeHBRkI93bAesoyYCkMb1i8Mw=w503-h389-no)
+  
+  ![](https://lh3.googleusercontent.com/4AzjjrMNeETP9YGaGFgFKsPdRT7OBmXaM4yYwIDiIbYPjqSv39PFt6ZI3tBDYLWTb8T0H3S66kCniNuUZh9tVn1EBlqFh7Q_WCbqWJrfSZeAgRTQla-7D29mKSKK4DdcPqcb7A7KOcKMsVj-VXmnwVXKVL92gbnBvDlKA3kHYXHa0Ru9FpOjNroju_OSBYMNazKT4KFjKv7p3ovUw6u-KcT8uIEiBpskjAxSYxwCeA09qaCsh3gGY9FB3D7t1AA-eNbV0lopi8iX6GQ6_1ljiWE36phgXP4kFRHYnFziSYns2yDPdHG95thXD-Jb3V442EsiFOlfuY94Pp12DPB2rAtx4WAetVcAnD6aMBqB96aARgpfu42JFVqlUcABe6Xj_7edRL4xdQ-pSUMDwdT60hvAMwiNgXRcj1JW2K0-lL0mMce8HQoLkHgwAb92f0QC8fnwk2MwopH66Uscdq5KZwFANF5o1YsNwEXJO8OAJVljIzyQSsYWSfszdkzJCD8fH3DLRPwSzGiuZGP1EEPXlO-YPRLwM-TIzvEprTOpJiH80Ci0HJMRbg75fKwah9cAaWyACfn4gS3kCcFFhBT93v5jr5rxH5PUfMHBqxuxeh2YX9a0SHK7PpbDC-Sy_mtDLzbs_sQ19IOh9j-UjIufCy5wmaGQw2tiHAN44BCLG23bx9mX6U4RQdoXqA=w503-h391-no)
+  
+  Và đây là giao diện chính của Anaconda:
+  
+  ![](https://lh3.googleusercontent.com/SG6b0Yg94Ocmu7G9qRGtqSg76S93KDLiNtrCB1dlwizYmGwTNLCQIo61KVYxTtBvj20Yx5iE0jbVGSzYGT5nZEuP7lcmKBOZAB9v20Y0N6ErceTMTHd06YZeG6vXiQvGjhBmLHb-ujmJ-3RRbWD0zScwInIlgDSFOumjPxAXZeiqCbDT_qYdS5QNlfs7eNxWkk6lVfscsjvalF8NEzdQFI1JPxI6V0mkN8FhQDXw66CTBn1yZ-vBxBY3yGFSte05wJ6kSYwbqTPuAfT_5AmMxZbmO03duIH41Dc0eoukg5mj4eS3HqzBV-HH6G0JDWUBjj0NUYQROrBorKaucXA_iR0b-7DHe8vwCnZ2OxU4u8ZqecQlcoMXsJrY5nFyo9J8f-p15j6KjP-sRZnbXDdha2rj-Gw_BcBU21fGPSsag6E1FTgNElIimH5keNuTID49HmsLuEMYLOclDpQ6Cb8rJ3IZgTWS0WrP3HVU7c_9HJI3E8iB9SGYlIu8QywNjrs_Wc_OD858oS-A2gq0kXeEIfnfSHKmxwEu_lnOgDllhV4THXXQa6jK2RqhZdj_7J0QC_0zCGCH0if1j_7mzZA2k5pIeyuxsvrieey8hM1aVIDvgBuwXXtRoo1TeZFCFgEkmmhiu6nwxxtEwJ7AHmLKSmDYMTUBL_gXcm_ps_2HlqAQHe1V-3bilaprmQ=w1272-h688-no)
+  
+   
+
+
