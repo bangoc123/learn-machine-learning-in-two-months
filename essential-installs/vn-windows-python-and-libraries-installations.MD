@@ -8,9 +8,7 @@
 
 - <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/essential-installs/vn-python-and-libraries-installations.MD#1-python-và-pip">1. Cài đặt Python và Pip</a>
 - <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/essential-installs/vn-python-and-libraries-installations.MD#2-jupyter-notebook">2. Cài đặt Jupyter Notebook</a>
-
 - <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/essential-installs/vn-python-and-libraries-installations.MD#3-tensorflow">3. Cài đặt TensorFlow</a>
-
 - <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/essential-installs/vn-python-and-libraries-installations.MD#4-anaconda">4. Cài đặt Anaconda</a>
 
     
@@ -102,6 +100,8 @@ Sau đó bạn có thể viết code và chạy trực tiếp code của mình t
 
 ### 3. TensorFlow
 
+**Chú ý**: Hiện tại tôi chỉ cài đặt được TensorFlow với **Python 3.5**.
+
 - **a. Sử dụng CPU**
     
     `pip install tensorflow`
@@ -127,6 +127,25 @@ Sau đó bạn có thể viết code và chạy trực tiếp code của mình t
   
   ![](https://lh3.googleusercontent.com/SG6b0Yg94Ocmu7G9qRGtqSg76S93KDLiNtrCB1dlwizYmGwTNLCQIo61KVYxTtBvj20Yx5iE0jbVGSzYGT5nZEuP7lcmKBOZAB9v20Y0N6ErceTMTHd06YZeG6vXiQvGjhBmLHb-ujmJ-3RRbWD0zScwInIlgDSFOumjPxAXZeiqCbDT_qYdS5QNlfs7eNxWkk6lVfscsjvalF8NEzdQFI1JPxI6V0mkN8FhQDXw66CTBn1yZ-vBxBY3yGFSte05wJ6kSYwbqTPuAfT_5AmMxZbmO03duIH41Dc0eoukg5mj4eS3HqzBV-HH6G0JDWUBjj0NUYQROrBorKaucXA_iR0b-7DHe8vwCnZ2OxU4u8ZqecQlcoMXsJrY5nFyo9J8f-p15j6KjP-sRZnbXDdha2rj-Gw_BcBU21fGPSsag6E1FTgNElIimH5keNuTID49HmsLuEMYLOclDpQ6Cb8rJ3IZgTWS0WrP3HVU7c_9HJI3E8iB9SGYlIu8QywNjrs_Wc_OD858oS-A2gq0kXeEIfnfSHKmxwEu_lnOgDllhV4THXXQa6jK2RqhZdj_7J0QC_0zCGCH0if1j_7mzZA2k5pIeyuxsvrieey8hM1aVIDvgBuwXXtRoo1TeZFCFgEkmmhiu6nwxxtEwJ7AHmLKSmDYMTUBL_gXcm_ps_2HlqAQHe1V-3bilaprmQ=w1272-h688-no)
   
-   
-
-
+  Thiết lập biến môi trường:
+  
+  ![](https://lh3.googleusercontent.com/b2eC50AnYpb4IlwLYGqHzj60GhCkxJI8Fd8NHJPgnByFty1HpSFyQ3ArjKKbfdfmO921JW5S4qMsaTyPLyZtrEYZUxpqBIV7Ys6WkbO3wVKqKELSPv1Wfx7AcS06sBD0F5VtqD2nn2ejOgcu1PFmAcFvdbbZ21vGEyq-02AUZn4qMawhKREBfAzqTQk141nFSd0PTmvqx8zuxrsYq59GOL3WV10ac21wPy1ueHRYfocFMUDEVS8CQAEUnX9JCQk9CqvZePCpRJ-NwnnROjjQh_ZQTbrMJasuGXMKpLA3qwkAOMihPZxYOJ3LNBgEK27qVhzKiWyb8u286sWDsRdln9q7MuXEv2AfgGV3hzeWSyS0xtvSAz4IBna8RqUVW7wBjjRvYjOD8tdnFdWJLT-YJu8tf6qlaDKU5UmqqEGNkuD-mfIs8iWTM1nvhVXz-DszCqBa7yG3TajyooYUtOr4qb2r1dWpu79Du2FJSx5Y7Xc1dLT0Mry-cJrlDSdLHQsd36fIzT5jdoouEJ7TTm43USEfAQBu0NrsrHB58OhYUxA6zNeJXWGo7vUCLwO7pro-FYrGmWeL7rUYG7-L23-XUYddLTmBE5j7s0KIVQ3nIlC4_--xLjqPGklHJr9F0xtIystQxWdLS0PICZYQOwxVIVkOWWA8tRQO6dceQIlC6lCljFKGd3Aa1KI-=w528-h505-no)
+  
+  Tạo một môi trường mới với lệnh `conda create -n py3.5 python=3.5`, trong trường hợp này tôi tạo một môi trường mới sử dụng Python 3.5, hiện tại tôi không thể cài đặt Tensorflow với môi trường khác.
+  
+   <img src="https://lh3.googleusercontent.com/6lHe8xtly7_1xfjUladmVAmoRCmMaVz7L4Pyaewh2fCr7TTaH4IgtWTzlgOuFvDdeS9j4l9MF4v2QZkr_0kSr5EAf83MXHsEk8YOyR9FUv9gDrJbKQhKghEg8VWWEjFoCbEZj3fOhBzPoILi0_Us_p5NrpT0FX8DuFIux1jnmwCtGja1sXTbv0QPbDla33XgnnGpL1rv3F-xSTdY7vRy14sJMU0mlsXj_nPhXASxZkAVLuSL5gBTy7ajTpq0TeSVEhrq4eEAvuzWdnobGg1A5MYyqd9k1lyb4b079KsUUd-ISUK7T-eHLiXXlk6fXzDoz9Un2W6J0MvQerWr2F4drG6R3QXS1L0dVbN_bwUei1EOr-srcAW3JiEsm6yESOFXPF1S6DsELEdY6bDn-UsYbFQ44w866MC_aE3EYcWM2tjYC2WUk6JxGVE1VrfSC32lQ7bJQX26xTmaARVKCfe8kbPJYWBoehHULCrxqBlscgGvbiHoPs_POPBu5iABX-7cT2_Tr070VSqcALqQfGA7FbANKGzeVlMArcHBbz1XLDmwFRjWbnuy1HkPqGHqQLJ_YJs5mj0KMfheo4viA3uPDn4TNX0rXkK7W4jHAOKgtpaQrDEAtwA2YGu7qVqYeCCUUkjCM9FeYBd-zG_GSe4by8YdTrfAzQi0lfNviQmFOhLymOcyn5VJhwK2=w793-h775-no" width="600">
+  
+  Nếu bạn đã dùng quen `virtualenv` thì thao tác này rất dễ hiểu. Với Anaconda chúng ta có thể tạo ra nhiều môi trường sử dụng nhiều verison Python cũng như thư viện khác nhau. Bạn có thể kiểm soát các môi trường hiện tại trên máy bằng **Anaconda Navigator**
+  
+  ![](https://lh3.googleusercontent.com/jA4vwP4qyS0TfzHIfvkYCKMHZt9pk0vRUdFX34k3AptlTphJOm3FYdCU5thm1sQYhA5rbD1GDzG4xm9xvjW2WVLB90rhn3hmw1PH_hC1TK_U7jKFsjrAof529QB0jktLiaV5gQjUGYhLesBjr_KV4p-XYNc6cDQADW63YHIrxeZUVHo6Y4lg3H1zFImFMH602AOn3-fCMvsRxES2k8PsdVsuU7hHHlBpTpGcZy8gelZkRufsdZ_SFaldQJko2Jf2PRieqZRO2gg5XGCqsA3ldfF8yZkCEqO32SJuxPIoa2WJmTskixLY559C0ULM-NsbvKuPfu4qUj5evjG86YuEHttdv502M6bU-hNp1k-vuMxQbUakXQaAqAJfzSAJgZyGN_wf-ObsKiKGNzj2qQUyzLda1qeenuj2JWsiVP7loD1I6HZpKHZZ2_NbYwnotPWWfJ4wXIEqSni_00eVQUM_6mGH6fUJjRwzAQuTjmQd2hxOd-Msn5YJxN5jTR446M8U5x3FMEEFAGGA6dI7pkP6kPcWwcw7o4P0tTWtosCToCCMXEu7fLwLME5ccDch0klJH2ZAIiE4o0EGWV1bDjKaH4JtUxmD0VfuAB0EaGp7CH9foAdJffKD1Oeu2s59LSweBtfB1vFfcvSj-_qT9bH7qnJwjlrrHIz6gZSNDF7Mb4EM9PAfA75eobD3=w1067-h775-no)
+  
+  Tôi sẽ `activate` môi trường này bằng lệnh `activate py3.5`
+  
+  <img src="https://lh3.googleusercontent.com/2sly1K_PVRAalmlSgd5b-B1fklv7NzB7_nwu6Ly_1p5VgGpYqUF9mDqrxJSwjyrE2x-LOW1bxpgYynxvU_HZD1NkXFNIgk0rz0PRHUpbtprlAfYiZWSBwg7oWbohnut0DH8VYkXPds__jvQD3rB3s_EkGmQ398_gnpDnj1KlwRl7ZM-C4I44_xghFnbCblc60IVwrf663nbGvUmSy_VuN3BpDwQP3Kqgil40r7Cm5SlpOYw6RwVnpAeBLmJ7ziWEP0cwzuPqoeAWuvlI1wuM2_jAfiKGeWrHapu5smXBw2ux8w1rUvTs25omlZc42JrMMnJkU0PgP_vENuNsPA5cY4XqsMYU2OGCXOcwaGL279TQ3zqwsp0feWV5XHw-KsViNCioXeF_OaOMam2wkMDyB4APzU1s1bp1mvm4lLUjeX318Jw37wVWu2vLyyiCP98slquLRt5wqVoBTxXm9ephui9qSxtN4r0P-YgUEMw8dSlHVl0Py7KIKhgz8DxYUfxgQCiihCmwSuwIoDsh9fhoLVwEfDXj7QQJUqtpnLMY-EyEnbxNa8wm2NyZK2Gq-i8KypBvZsaxIF0QVIFNnEYepwIe8iZsJIUpymvYpTb7fo5FMPolpI9eorGZH1k5XXsn7Rn4FjrR7LUm95Yj5J_kFgzahvh2h_ioUXpafvkzD5uTrdLsgwzT1Zz9=w242-h67-no" width="300">
+ 
+ Tôi sẽ cài đặt **TensorFLow** vào môi trường này:
+    
+   <img src="https://lh3.googleusercontent.com/6-8Ar2HYX1laMVsbtmQOZSs-JA-iuN7aB5fA0vpYh_kzwR7hQxR2bUlfb1nwuRlDvto9nk4h_Wohi9L3UcHBhnzLvbgGbNqLWadfZK4oOOIge6JchZb8Y1QeISIHk-2vzOU-I7NYidFTJjL9ypXh0PRHN49FIXRrezvdjh_QRo38ToIUNYdgs_QzWOYhs1JYbQppnIyi0wISXY6beNFDZ753yWPiJFjTpM67nyDpJsGXMW-gwFMyQ9BsJPBiVe6Ue2X42VXu_6TJBU4XsPfrapsXt3ObN-wwqxCahvBmfokHxWTTZPOtBGQbMvnx4DOoh6ImZ2223mNWHLLj3iNZSxjVDBp8MfEfdThKC0MfTCSaRfI98FXZka_4HVVTYu32FngUdYV8A6YtNoGJFXV3qciO2cvNdjE4AJvDDwl1ZswBrWfIU0QJxI-cS3C5UhK93VD_RTr_ACmHQAVWgcgnfGUtkcxqAIxDJvuoxOqbviHX120nmTAeDcAQdY6VHgicZk6hpJ3ewOHXnKfeftLbpcIu4V0G3ALY61sYFos6bxws2cmpmgzAarC7oT1b6VQiUOcns2jN608v_4tzFbxFZFz6LrBI4K4kETKGubzJV9bLEE9-BrVCGgYK6ton6WxOXD5tARt33DhfJDVpxN9zmrijues2b58ysX4Ndw2L3XIWT_pQRR50h5Qs=w795-h775-no" width="600">
+    
+ 
+ 
