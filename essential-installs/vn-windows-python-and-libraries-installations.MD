@@ -6,10 +6,10 @@
 
 ### 0. Mục lục
 
-- <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/essential-installs/vn-python-and-libraries-installations.MD#1-python-và-pip">1. Cài đặt Python và Pip</a>
-- <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/essential-installs/vn-python-and-libraries-installations.MD#2-jupyter-notebook">2. Cài đặt Jupyter Notebook</a>
-- <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/essential-installs/vn-python-and-libraries-installations.MD#3-tensorflow">3. Cài đặt TensorFlow</a>
-- <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/essential-installs/vn-python-and-libraries-installations.MD#4-anaconda">4. Cài đặt Anaconda</a>
+- <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/essential-installs/vn-windows-python-and-libraries-installations.MD#1-python-và-pip">1. Cài đặt Python và Pip</a>
+- <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/essential-installs/vn-windows-python-and-libraries-installations.MD#2-jupyter-notebook">2. Cài đặt Jupyter Notebook</a>
+- <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/essential-installs/vn-windows-python-and-libraries-installations.MD#3-tensorflow">3. Cài đặt TensorFlow</a>
+- <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/essential-installs/vn-windows-python-and-libraries-installations.MD#4-anaconda">4. Cài đặt Anaconda</a>
 
     
 ### 1. Python và Pip
