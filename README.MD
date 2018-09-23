@@ -149,6 +149,8 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
                 - [Phép cộng ma trận](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/numpy/linear-algebra/addition.ipynb)
             
    - **b. TensorFlow**
+   
+        TensorFlow là một thư viện mã nguồn mở dùng để training/inference machine learning model có thể sử dụng cho cả nghiên cứu và sản phẩm.
 
 ### 4. Bài toán hồi quy (Regression)
 ----
