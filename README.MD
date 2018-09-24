@@ -153,11 +153,13 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
         TensorFlow là một thư viện mã nguồn mở dùng để training/inference machine learning model có thể sử dụng cho cả nghiên cứu và sản phẩm.
         - Computational Graphs
         
-        Computational Graph tương tự một Graph thông thường gồm nhiều đỉnh và các cạnh. Nó dùng để biểu diễn các phép tính toán dựa trên ngôn ngữ của Graph.
-        - Đỉnh (Node) đại diện cho biến đầu vào, phép tính toán
-        - Các cạnh (Edge) đại điện cho dữ liệu truyền bên trong Graph
+          Computational Graph tương tự một Graph thông thường gồm nhiều đỉnh và các cạnh. Nó dùng để biểu diễn các phép tính toán dựa trên ngôn ngữ của Graph.
         
-        ![](https://lh3.googleusercontent.com/3E6Uzj1965hMt0xVnWOsdgiZo3jwmQL4GG0pvQapBHjkVusakD-wYs5gNJTMUvPNR1W4kuTLGPSMFVjo_52x2oiDZGuYJ0IVbnq3_a0AJa_P8gNhk7_fP1nLn3oiZhR-D4JxoPbHlWngJ_ZPBTFrv_jxSYxGBVL5wYLE6ulnvkM-N_C0OxRJH4tXEKxgU2DwclhZuGFbvcvgDrwLylACYZI-B62YJLqaS-i3MXNpDohJeeos5xCNA8XBn6da511RcSdE1nT6TnUOdh5iJgRY3q7n3Cjf6tuKWz-pOCXk3y2VHP2soxrSFj0UUCyhlvay6ENIo9vB1wa8JYE9lRlGSclAKKx8a6jApSYOcRj7h5AQ2gcRTeP9OEqQhL7TN0QqaEutffSgcSsErBsf-bQEh9MLx9opJhWimPeYbm9YbXB0ojnbdjXQv7i0QbtwTwKIS0zmnThMb_8ogYm7Td8gJq3Z-sBQhlExZucjcFXquhxFP6t6wAxSGMLnkwk5KpgEfTP6fYCsh_tzzofIb1uBZgXh_kK24-3DvuI0ZmRaJFtYptw28q5Ep36Si9I0jvAeJrwlhEkDNgLn3WZFWiwF4Nb4IVV28z9vFNDZmA9GvhxD2PWpL7n6hMNnfg-cH2W6c1IbErYwjZVJ62hPvjpH0WysJHRMe5QLbWaVSOyd6nMoQ-zIHf6UbX6RkA=w800-h400-no)
+            - Đỉnh (Node) đại diện cho biến đầu vào, phép tính toán
+
+            - Các cạnh (Edge) đại điện cho dữ liệu truyền bên trong Graph
+            
+            ![](https://lh3.googleusercontent.com/3E6Uzj1965hMt0xVnWOsdgiZo3jwmQL4GG0pvQapBHjkVusakD-wYs5gNJTMUvPNR1W4kuTLGPSMFVjo_52x2oiDZGuYJ0IVbnq3_a0AJa_P8gNhk7_fP1nLn3oiZhR-D4JxoPbHlWngJ_ZPBTFrv_jxSYxGBVL5wYLE6ulnvkM-N_C0OxRJH4tXEKxgU2DwclhZuGFbvcvgDrwLylACYZI-B62YJLqaS-i3MXNpDohJeeos5xCNA8XBn6da511RcSdE1nT6TnUOdh5iJgRY3q7n3Cjf6tuKWz-pOCXk3y2VHP2soxrSFj0UUCyhlvay6ENIo9vB1wa8JYE9lRlGSclAKKx8a6jApSYOcRj7h5AQ2gcRTeP9OEqQhL7TN0QqaEutffSgcSsErBsf-bQEh9MLx9opJhWimPeYbm9YbXB0ojnbdjXQv7i0QbtwTwKIS0zmnThMb_8ogYm7Td8gJq3Z-sBQhlExZucjcFXquhxFP6t6wAxSGMLnkwk5KpgEfTP6fYCsh_tzzofIb1uBZgXh_kK24-3DvuI0ZmRaJFtYptw28q5Ep36Si9I0jvAeJrwlhEkDNgLn3WZFWiwF4Nb4IVV28z9vFNDZmA9GvhxD2PWpL7n6hMNnfg-cH2W6c1IbErYwjZVJ62hPvjpH0WysJHRMe5QLbWaVSOyd6nMoQ-zIHf6UbX6RkA=w800-h400-no)
         
         Graph đại diện cho phép tính <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\bg_white&space;\small&space;(x&space;&plus;&space;y)&space;*&space;z" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\bg_white&space;\small&space;(x&space;&plus;&space;y)&space;*&space;z" title="\small (x + y) * z" /></a>
 ### 4. Bài toán hồi quy (Regression)
