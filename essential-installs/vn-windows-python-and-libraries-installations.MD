@@ -6,8 +6,11 @@
 
 ### 0. Mục lục
 
-- <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/essential-installs/vn-python-and-libraries-installations.MD#1-python-và-pip">1. Cài đặt Python và Pip</a>
-- <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/essential-installs/vn-python-and-libraries-installations.MD#2-jupyter-notebook">2. Cài đặt Jupyter Notebook</a>
+- <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/essential-installs/vn-windows-python-and-libraries-installations.MD#1-python-và-pip">1. Cài đặt Python và Pip</a>
+- <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/essential-installs/vn-windows-python-and-libraries-installations.MD#2-jupyter-notebook">2. Cài đặt Jupyter Notebook</a>
+- <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/essential-installs/vn-windows-python-and-libraries-installations.MD#3-tensorflow">3. Cài đặt TensorFlow</a>
+- <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/essential-installs/vn-windows-python-and-libraries-installations.MD#4-anaconda">4. Cài đặt Anaconda</a>
+
     
 ### 1. Python và Pip
 
@@ -94,3 +97,55 @@ Sau đó bạn có thể viết code và chạy trực tiếp code của mình t
 - **d. Chạy code trong Notebook**
 
 ![img](https://lh3.googleusercontent.com/vKTb1DmZBA4zHLcDHAdohUAPdw269kTRbhe58Dcw7_ZdK1LfSqzrZnhl1ur3sp96RP_Euaz2uXHcj553M-wtIBVoYxm1i4hbTovjgCbg8fsqWxkfG0l1SrJX8NITonz4h4hqe8JWVbGMN3b1OffjOVCF9z13kz-jqYhUVuNJPEQaU6cwiLbzNkjszG3box0f9lPIaiYD9y963WeBsepBODVHQkDjuAqZRRKgnTHyZ5wCjyihKR9sMfdvG4aNTx6WlX-dsgKUPONm9-C1Tmf5-CjIVqtxVpqbkg8DD6CvXl9dF4wfCQjDphrbn2weKJ8uTlUnUDmtjHRvfRgIjLJHIUyYXuJHfibw9lAjYuXr96_4I4ESnagPDrufhy1YRGF18NZd8v_EL7ihp3eqpH-d3DtH6JLSCKiOZJHREmpoVl167XSO51ybfjMChHMiWS6usaDs3KsOPS4nyx7U6jxTjHtKI2Qpx7Mj4H8pDBJthavOJT5-AoDzeX-Aptz3MpfPo8gUAbwJq3DIy0pCOEIx3jh9ONXNjXThi9_NJUBUg7_3l5cWrASPFCFZe6NISGTG3ntCl5ihj-1FfyMx3zkdPLTEbTSzxSVGuABckF0O4M2G1yH9C8ARmbPIYHB2Et6-ZnKW1MhQn63_MD6KsqmKmIJiVCACDIQo=w800-h716-no)
+
+### 3. TensorFlow
+
+**Chú ý**: Hiện tại tôi chỉ cài đặt được TensorFlow với **Python 3.5**.
+
+- **a. Sử dụng CPU**
+    
+    `pip install tensorflow`
+
+- **b. Sử dụng GPU**
+    
+    `pip install tensorflow-gpu`
+    
+### 4. Anaconda
+   Anaconda là một Platform rất nổi tiếng trong ngành Data Science, chúng ta sẽ sử dụng Platform này để quản lý thư viện trong quá trình làm Machine Learning.
+   
+   Bạn tải Anaconda về [tại đây](https://www.anaconda.com/download/)
+   
+   ![](https://lh3.googleusercontent.com/clJsPQHT5wlBX_3ncrvmbIiuBjW20SNGZMsyOhqTqSxik9KrS8WZSyq0OP-BAcIeeuXLl8bNOMvOOnVqoE7gbv6R5Fi2inKOKwS9Qa6VDNaWD1XMQLITF0G7Vv_emO_8yZ94lqPjwgVB2Es-B7qvlZd61cYeqp-jvaXJ0ynPoeHNUsaVfmArvZjEQfXiPzsp_4NH8QlR_9bwtsoGSM7ApPL2PIfJhfEjUJ9r8urQIKk3e3KJsl6JR69CBzgepV8UFH_X4-pGAzH0cNjnlCFS08bVhyOMcmjkjOoegSVaF95BwDXZGKsCAMm08pvnHD3tqtiOx5t0YHCVbIX_3S9TSCbQLl2f7djc5f6ID085YRYZbllsPtQKh6qOBgT77S43EuuLFOYKqLPVnR_ughElGt2j-wmIWjEelDlPPVR-BINqZUSZcWdeF2X-il2E1qQ2dsUrcj_2ui2KspCSoyDXqlDcPoqd6MadWwgr3UhPxirtcZtZLLMVueTSuqFgHXkOdDS9B4FMiJe172HmUnBd3LGpp-FtE4mIXJ8OjPlf6hMMa2TuuEGB7ZR21ffjsCuHRH5N9bI24AmLlNaxGf_LkMuAdvT7iI56NPqLw-nW0VMszrm6bPvr6DUMGfyNdyHwRsNMGNhtZTF_FdsqwBXb-iTm6iCcFBvIsv0N3emtyuIeYrky0HF3sh48Pg=w909-h467-no)
+  
+  Ở đây tôi tải bản **2.7**
+  
+  ![](https://lh3.googleusercontent.com/a9vBtwwfHDrDtV8k9Drk6Tk2MuoCW3iSIMD5Y3l4xSh0tqrR-rQ-U2EITEhC38aHu7hSlS63kwoE_G-8IIPjnX4k4Kciuh3t53RU1-gSbBILVeoIl5jjeZ9m1p04bpDDXe94xfBO9SE80PprIL4KA6YwkJVJ4NGGllcsa1jqWVhbG2sILUYRY5xPrZB1Nv2ZLmcfIWIQm69nTn435nR7W8St8IbMhAUKBoQwQaeNuUZzSsUhzHEVHNZEHbWJnna0zi13VNiyneos6Sb7yl0gSPkqYNQ8mf2Mxhbr3vZsWIMof9QIR4604bHLm7BLiw8PsKNxxu0kkueqAiIi8dJDkDfw9J_HiiS-iU_pv_CXHhlufy4bi0YbRr0TUdlHT6lYNDe0OdimqKe6AR56dSPOb6KxmUaQohEMzJMig_1tqWpEnCXVjvUdkg44rXoGUihwWtGW-RUvJIFsqh4WlBiwzXRnVXojvb1SCUXdIF1mfpcaweyNAeliuukRg5NqKWNLkQi3dOyBWl5or3nLtzHsJ80S0hIbMw9n0Kz2hy_K4i4Y5lht08zrilsoi4b7XpU-wouzhIX4X1Hhc1UYJMIgpbOGxc8QcKp-zaqjEyK2l3UIefhg6V11ryLJrqTBIz2dz-6811rnLIn2X0iQJG6_GXGEf4vk-tt5dDeHBRkI93bAesoyYCkMb1i8Mw=w503-h389-no)
+  
+  ![](https://lh3.googleusercontent.com/4AzjjrMNeETP9YGaGFgFKsPdRT7OBmXaM4yYwIDiIbYPjqSv39PFt6ZI3tBDYLWTb8T0H3S66kCniNuUZh9tVn1EBlqFh7Q_WCbqWJrfSZeAgRTQla-7D29mKSKK4DdcPqcb7A7KOcKMsVj-VXmnwVXKVL92gbnBvDlKA3kHYXHa0Ru9FpOjNroju_OSBYMNazKT4KFjKv7p3ovUw6u-KcT8uIEiBpskjAxSYxwCeA09qaCsh3gGY9FB3D7t1AA-eNbV0lopi8iX6GQ6_1ljiWE36phgXP4kFRHYnFziSYns2yDPdHG95thXD-Jb3V442EsiFOlfuY94Pp12DPB2rAtx4WAetVcAnD6aMBqB96aARgpfu42JFVqlUcABe6Xj_7edRL4xdQ-pSUMDwdT60hvAMwiNgXRcj1JW2K0-lL0mMce8HQoLkHgwAb92f0QC8fnwk2MwopH66Uscdq5KZwFANF5o1YsNwEXJO8OAJVljIzyQSsYWSfszdkzJCD8fH3DLRPwSzGiuZGP1EEPXlO-YPRLwM-TIzvEprTOpJiH80Ci0HJMRbg75fKwah9cAaWyACfn4gS3kCcFFhBT93v5jr5rxH5PUfMHBqxuxeh2YX9a0SHK7PpbDC-Sy_mtDLzbs_sQ19IOh9j-UjIufCy5wmaGQw2tiHAN44BCLG23bx9mX6U4RQdoXqA=w503-h391-no)
+  
+  Và đây là giao diện chính của Anaconda:
+  
+  ![](https://lh3.googleusercontent.com/SG6b0Yg94Ocmu7G9qRGtqSg76S93KDLiNtrCB1dlwizYmGwTNLCQIo61KVYxTtBvj20Yx5iE0jbVGSzYGT5nZEuP7lcmKBOZAB9v20Y0N6ErceTMTHd06YZeG6vXiQvGjhBmLHb-ujmJ-3RRbWD0zScwInIlgDSFOumjPxAXZeiqCbDT_qYdS5QNlfs7eNxWkk6lVfscsjvalF8NEzdQFI1JPxI6V0mkN8FhQDXw66CTBn1yZ-vBxBY3yGFSte05wJ6kSYwbqTPuAfT_5AmMxZbmO03duIH41Dc0eoukg5mj4eS3HqzBV-HH6G0JDWUBjj0NUYQROrBorKaucXA_iR0b-7DHe8vwCnZ2OxU4u8ZqecQlcoMXsJrY5nFyo9J8f-p15j6KjP-sRZnbXDdha2rj-Gw_BcBU21fGPSsag6E1FTgNElIimH5keNuTID49HmsLuEMYLOclDpQ6Cb8rJ3IZgTWS0WrP3HVU7c_9HJI3E8iB9SGYlIu8QywNjrs_Wc_OD858oS-A2gq0kXeEIfnfSHKmxwEu_lnOgDllhV4THXXQa6jK2RqhZdj_7J0QC_0zCGCH0if1j_7mzZA2k5pIeyuxsvrieey8hM1aVIDvgBuwXXtRoo1TeZFCFgEkmmhiu6nwxxtEwJ7AHmLKSmDYMTUBL_gXcm_ps_2HlqAQHe1V-3bilaprmQ=w1272-h688-no)
+  
+  Thiết lập biến môi trường:
+  
+  ![](https://lh3.googleusercontent.com/b2eC50AnYpb4IlwLYGqHzj60GhCkxJI8Fd8NHJPgnByFty1HpSFyQ3ArjKKbfdfmO921JW5S4qMsaTyPLyZtrEYZUxpqBIV7Ys6WkbO3wVKqKELSPv1Wfx7AcS06sBD0F5VtqD2nn2ejOgcu1PFmAcFvdbbZ21vGEyq-02AUZn4qMawhKREBfAzqTQk141nFSd0PTmvqx8zuxrsYq59GOL3WV10ac21wPy1ueHRYfocFMUDEVS8CQAEUnX9JCQk9CqvZePCpRJ-NwnnROjjQh_ZQTbrMJasuGXMKpLA3qwkAOMihPZxYOJ3LNBgEK27qVhzKiWyb8u286sWDsRdln9q7MuXEv2AfgGV3hzeWSyS0xtvSAz4IBna8RqUVW7wBjjRvYjOD8tdnFdWJLT-YJu8tf6qlaDKU5UmqqEGNkuD-mfIs8iWTM1nvhVXz-DszCqBa7yG3TajyooYUtOr4qb2r1dWpu79Du2FJSx5Y7Xc1dLT0Mry-cJrlDSdLHQsd36fIzT5jdoouEJ7TTm43USEfAQBu0NrsrHB58OhYUxA6zNeJXWGo7vUCLwO7pro-FYrGmWeL7rUYG7-L23-XUYddLTmBE5j7s0KIVQ3nIlC4_--xLjqPGklHJr9F0xtIystQxWdLS0PICZYQOwxVIVkOWWA8tRQO6dceQIlC6lCljFKGd3Aa1KI-=w528-h505-no)
+  
+  Tạo một môi trường mới với lệnh `conda create -n py3.5 python=3.5`, trong trường hợp này tôi tạo một môi trường mới sử dụng Python 3.5, hiện tại tôi không thể cài đặt Tensorflow với môi trường khác.
+  
+   <img src="https://lh3.googleusercontent.com/6lHe8xtly7_1xfjUladmVAmoRCmMaVz7L4Pyaewh2fCr7TTaH4IgtWTzlgOuFvDdeS9j4l9MF4v2QZkr_0kSr5EAf83MXHsEk8YOyR9FUv9gDrJbKQhKghEg8VWWEjFoCbEZj3fOhBzPoILi0_Us_p5NrpT0FX8DuFIux1jnmwCtGja1sXTbv0QPbDla33XgnnGpL1rv3F-xSTdY7vRy14sJMU0mlsXj_nPhXASxZkAVLuSL5gBTy7ajTpq0TeSVEhrq4eEAvuzWdnobGg1A5MYyqd9k1lyb4b079KsUUd-ISUK7T-eHLiXXlk6fXzDoz9Un2W6J0MvQerWr2F4drG6R3QXS1L0dVbN_bwUei1EOr-srcAW3JiEsm6yESOFXPF1S6DsELEdY6bDn-UsYbFQ44w866MC_aE3EYcWM2tjYC2WUk6JxGVE1VrfSC32lQ7bJQX26xTmaARVKCfe8kbPJYWBoehHULCrxqBlscgGvbiHoPs_POPBu5iABX-7cT2_Tr070VSqcALqQfGA7FbANKGzeVlMArcHBbz1XLDmwFRjWbnuy1HkPqGHqQLJ_YJs5mj0KMfheo4viA3uPDn4TNX0rXkK7W4jHAOKgtpaQrDEAtwA2YGu7qVqYeCCUUkjCM9FeYBd-zG_GSe4by8YdTrfAzQi0lfNviQmFOhLymOcyn5VJhwK2=w793-h775-no" width="600">
+  
+  Nếu bạn đã dùng quen `virtualenv` thì thao tác này rất dễ hiểu. Với Anaconda chúng ta có thể tạo ra nhiều môi trường sử dụng nhiều verison Python cũng như thư viện khác nhau. Bạn có thể kiểm soát các môi trường hiện tại trên máy bằng **Anaconda Navigator**
+  
+  ![](https://lh3.googleusercontent.com/jA4vwP4qyS0TfzHIfvkYCKMHZt9pk0vRUdFX34k3AptlTphJOm3FYdCU5thm1sQYhA5rbD1GDzG4xm9xvjW2WVLB90rhn3hmw1PH_hC1TK_U7jKFsjrAof529QB0jktLiaV5gQjUGYhLesBjr_KV4p-XYNc6cDQADW63YHIrxeZUVHo6Y4lg3H1zFImFMH602AOn3-fCMvsRxES2k8PsdVsuU7hHHlBpTpGcZy8gelZkRufsdZ_SFaldQJko2Jf2PRieqZRO2gg5XGCqsA3ldfF8yZkCEqO32SJuxPIoa2WJmTskixLY559C0ULM-NsbvKuPfu4qUj5evjG86YuEHttdv502M6bU-hNp1k-vuMxQbUakXQaAqAJfzSAJgZyGN_wf-ObsKiKGNzj2qQUyzLda1qeenuj2JWsiVP7loD1I6HZpKHZZ2_NbYwnotPWWfJ4wXIEqSni_00eVQUM_6mGH6fUJjRwzAQuTjmQd2hxOd-Msn5YJxN5jTR446M8U5x3FMEEFAGGA6dI7pkP6kPcWwcw7o4P0tTWtosCToCCMXEu7fLwLME5ccDch0klJH2ZAIiE4o0EGWV1bDjKaH4JtUxmD0VfuAB0EaGp7CH9foAdJffKD1Oeu2s59LSweBtfB1vFfcvSj-_qT9bH7qnJwjlrrHIz6gZSNDF7Mb4EM9PAfA75eobD3=w1067-h775-no)
+  
+  Tôi sẽ `activate` môi trường này bằng lệnh `activate py3.5`
+  
+  <img src="https://lh3.googleusercontent.com/2sly1K_PVRAalmlSgd5b-B1fklv7NzB7_nwu6Ly_1p5VgGpYqUF9mDqrxJSwjyrE2x-LOW1bxpgYynxvU_HZD1NkXFNIgk0rz0PRHUpbtprlAfYiZWSBwg7oWbohnut0DH8VYkXPds__jvQD3rB3s_EkGmQ398_gnpDnj1KlwRl7ZM-C4I44_xghFnbCblc60IVwrf663nbGvUmSy_VuN3BpDwQP3Kqgil40r7Cm5SlpOYw6RwVnpAeBLmJ7ziWEP0cwzuPqoeAWuvlI1wuM2_jAfiKGeWrHapu5smXBw2ux8w1rUvTs25omlZc42JrMMnJkU0PgP_vENuNsPA5cY4XqsMYU2OGCXOcwaGL279TQ3zqwsp0feWV5XHw-KsViNCioXeF_OaOMam2wkMDyB4APzU1s1bp1mvm4lLUjeX318Jw37wVWu2vLyyiCP98slquLRt5wqVoBTxXm9ephui9qSxtN4r0P-YgUEMw8dSlHVl0Py7KIKhgz8DxYUfxgQCiihCmwSuwIoDsh9fhoLVwEfDXj7QQJUqtpnLMY-EyEnbxNa8wm2NyZK2Gq-i8KypBvZsaxIF0QVIFNnEYepwIe8iZsJIUpymvYpTb7fo5FMPolpI9eorGZH1k5XXsn7Rn4FjrR7LUm95Yj5J_kFgzahvh2h_ioUXpafvkzD5uTrdLsgwzT1Zz9=w242-h67-no" width="300">
+ 
+ Tôi sẽ cài đặt **TensorFLow** vào môi trường này:
+    
+   <img src="https://lh3.googleusercontent.com/6-8Ar2HYX1laMVsbtmQOZSs-JA-iuN7aB5fA0vpYh_kzwR7hQxR2bUlfb1nwuRlDvto9nk4h_Wohi9L3UcHBhnzLvbgGbNqLWadfZK4oOOIge6JchZb8Y1QeISIHk-2vzOU-I7NYidFTJjL9ypXh0PRHN49FIXRrezvdjh_QRo38ToIUNYdgs_QzWOYhs1JYbQppnIyi0wISXY6beNFDZ753yWPiJFjTpM67nyDpJsGXMW-gwFMyQ9BsJPBiVe6Ue2X42VXu_6TJBU4XsPfrapsXt3ObN-wwqxCahvBmfokHxWTTZPOtBGQbMvnx4DOoh6ImZ2223mNWHLLj3iNZSxjVDBp8MfEfdThKC0MfTCSaRfI98FXZka_4HVVTYu32FngUdYV8A6YtNoGJFXV3qciO2cvNdjE4AJvDDwl1ZswBrWfIU0QJxI-cS3C5UhK93VD_RTr_ACmHQAVWgcgnfGUtkcxqAIxDJvuoxOqbviHX120nmTAeDcAQdY6VHgicZk6hpJ3ewOHXnKfeftLbpcIu4V0G3ALY61sYFos6bxws2cmpmgzAarC7oT1b6VQiUOcns2jN608v_4tzFbxFZFz6LrBI4K4kETKGubzJV9bLEE9-BrVCGgYK6ton6WxOXD5tARt33DhfJDVpxN9zmrijues2b58ysX4Ndw2L3XIWT_pQRR50h5Qs=w795-h775-no" width="600">
+    
+ 
+ 

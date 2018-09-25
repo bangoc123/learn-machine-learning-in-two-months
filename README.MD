@@ -90,6 +90,8 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
         - Python
         - Pip
         - Jupyter Notebook
+        - TensorFlow
+        - Annaconda
     - [Mac](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/essential-installs/vn-mac-python-and-libraries-installations.MD)
         - Python
         - Pip
@@ -147,7 +149,34 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
                 - [Phép cộng ma trận](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/numpy/linear-algebra/addition.ipynb)
             
    - **b. TensorFlow**
+   
+        TensorFlow là một thư viện mã nguồn mở dùng để training/inference machine learning model có thể sử dụng cho cả nghiên cứu và sản phẩm.
+        TensorFlow được ghép bởi 2 từ **Tensor** và **Flow**. Tensor đại diện cho giá trị các biến, Flow là dòng chảy. TensorFlow mang hàm ý là dòng chảy các giá trị trong Graph. Và trái tim của TensorFlow chính là **Computational Graph**.
+        
+        - Computational Graphs
+        
+          Computational Graph tương tự một Graph thông thường gồm nhiều đỉnh và các cạnh. Nó dùng để biểu diễn các phép tính toán dựa trên ngôn ngữ của Graph.
+        
+            - Đỉnh (Node) đại diện cho biến đầu vào, phép tính toán
 
+            - Các cạnh (Edge) đại điện cho dữ liệu truyền bên trong Graph
+            
+            ![](https://lh3.googleusercontent.com/3E6Uzj1965hMt0xVnWOsdgiZo3jwmQL4GG0pvQapBHjkVusakD-wYs5gNJTMUvPNR1W4kuTLGPSMFVjo_52x2oiDZGuYJ0IVbnq3_a0AJa_P8gNhk7_fP1nLn3oiZhR-D4JxoPbHlWngJ_ZPBTFrv_jxSYxGBVL5wYLE6ulnvkM-N_C0OxRJH4tXEKxgU2DwclhZuGFbvcvgDrwLylACYZI-B62YJLqaS-i3MXNpDohJeeos5xCNA8XBn6da511RcSdE1nT6TnUOdh5iJgRY3q7n3Cjf6tuKWz-pOCXk3y2VHP2soxrSFj0UUCyhlvay6ENIo9vB1wa8JYE9lRlGSclAKKx8a6jApSYOcRj7h5AQ2gcRTeP9OEqQhL7TN0QqaEutffSgcSsErBsf-bQEh9MLx9opJhWimPeYbm9YbXB0ojnbdjXQv7i0QbtwTwKIS0zmnThMb_8ogYm7Td8gJq3Z-sBQhlExZucjcFXquhxFP6t6wAxSGMLnkwk5KpgEfTP6fYCsh_tzzofIb1uBZgXh_kK24-3DvuI0ZmRaJFtYptw28q5Ep36Si9I0jvAeJrwlhEkDNgLn3WZFWiwF4Nb4IVV28z9vFNDZmA9GvhxD2PWpL7n6hMNnfg-cH2W6c1IbErYwjZVJ62hPvjpH0WysJHRMe5QLbWaVSOyd6nMoQ-zIHf6UbX6RkA=w800-h400-no)
+        
+        Graph đại diện cho phép tính <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\bg_white&space;\small&space;(x&space;&plus;&space;y)&space;*&space;z" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\bg_white&space;\small&space;(x&space;&plus;&space;y)&space;*&space;z" title="\small (x + y) * z" /></a>
+        - Khởi tạo Graph trên TensorFlow
+        
+            Một chú ý **quan trọng** khi sử dụng TensorFlow: Chúng ta phải **khởi tạo đầy đủ Graph** trước khi đổ giá trị của các node(Tensor) vào trong Graph. Điều này sẽ làm bạn đôi khi không quen lúc mới bắt đầu.
+        
+            - Phép cộng
+            
+                ![TensorFlow Addition](https://lh3.googleusercontent.com/2ILyxtn9E-UF3vtj_SqMaCOlQlvShHwGk0HxrzTDJE81GsjPPAG-9CW3nHxXO6Zl3QQ9PoVT0iRZGY4mQ5lkIEGIQjYCceGsQoIVIxN1p-w4AL7dtXcAW4m4QYirlivPe5yjL-RN7xOBrMmAa00TPLMMQv21XYWRv7yzNYpKq11DV9JWRJmbm9f8XtXQAl5d21gkxkQ63oJUsls4jS4zXQxidyQqcetrhSAW3QremRolGn8Ow1YCmHC9O7btf-Ze7UqznQhAhrn3wnlETATQLmQ84T7G6kgrD0iQkt77WLTsUXzPFi0WpoSKZlp5DRhKpUaHVKcMwz0mrBpuA_ivoNIdzLM76MnuUEfL3ELMk_Vag7gCKfCgvBpTD7MmnwWVuVmyIgLWH3TGtDWfuscxTSIgTPW8V0g15LjDwI5kj1LwJKypUj1UtiphXnx1Iuo6x8kg72F5c6dS-hQ67IUGtzQag3cATw8iffF9bwtJwX3awehgfJSO0wcbOuMah_WUEHiySQk9oKcFnXe_buLxJe2AegewdHl30tcm7MPSRtHCNx_SjePtoAR-ubKDVU6cWHhKy1yAHp7KCFK87jucpKD-TZszPMBKHPVzfWK41jHJxdfql2q2xgA5A6KU1Isl7fWSbBpX66ACFj5rKqazKzghA8cAZTSEHtryZCx0NFntv95wsswAg-b3Eg=w400-h300-no)
+                
+                Graph đại diện cho phép cộng: <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\bg_white&space;\small&space;(x&space;&plus;&space;y)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\bg_white&space;\small&space;(x&space;&plus;&space;y)" title="\bg_white \small (x + y)" /></a>
+            
+                - [Phép cộng số nguyên là hằng số](https://github.com/bangoc123/learn-machine-learning-in-two-months/tree/master/tensorflow/constant_addition.ipynb)
+                - [Phép cộng số nguyên là biến số](https://github.com/bangoc123/learn-machine-learning-in-two-months/tree/master/tensorflow/variable_addition.ipynb)
+        
 ### 4. Bài toán hồi quy (Regression)
 ----
 
