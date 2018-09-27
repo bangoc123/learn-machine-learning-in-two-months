@@ -180,6 +180,24 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
                 <img src="https://lh3.googleusercontent.com/EY44x8MIOT8lfDH0uJKXDfA9gmSqN9ICVEjlYhnX5X3DlBJdDMEzqtyI7Hh_mtyjhhMW_4pIX3ys8RjLVzPn2WbLUFn9s-gZqncinJqU_Wh8kvJE_3PMqGOlwdvSOrhAjFyRDbIQzft28jLu4sxqjfhS8UEc_vcaKgYSRosGLc4Si6cPlrUdrti9JoGpCPj_2oWp2UAd0qKI6p-uYD_UeWVmobGNmTEIO77-aFmiUmijcJ-1daDiIqWEhU-Qg3URRAScdrUK9erl5RlNn9JKQhk9zXvJg1wyzt_JaiQC_JiAa7t9hYj447kaxrSSH6h0H68lMopWbz0jMFw5gmgXFJ-NlXVakyCCCu8DNEqot-Id4qShXsk3cGBqtcSsoRz9kC2Asn5PnKSPM5bfIIH3vV2VzonrxlLu4dDXkQSaTdkNhuOi-BglmeruQadB59HzSmxksAcmMchnaJ2uGdf2QQ4v7yk_kpkDqeleqxsAfKmKPTOeKk59vu_GglBEs3u4ceD5_h09208gCJ8aQLVGY7W7ZMi7_8QqV9gKF4Klq8ZJDgkTywp5IATvkiZIQ1mayCECeFU2Rg0BZtqh6JploxAq9KHYtN79FkpuB8lBpBR8_6o0ujDga0-Vfgp3GLRkCsDYzimaoOdmlej4iDY3JRBMb408aZBMs6OwT_utXHeZkeE6Mn0Oug7M=w800-h556-no" width="600">
                 
                 - [Phép cộng ma trận là hằng số](https://github.com/bangoc123/learn-machine-learning-in-two-months/tree/master/tensorflow/matrix_summation.ipynb)
+
+        - **[Quan trọng]** Tại sao cần phải sử dụng Computational Graph?
+        
+            Như đã đề cập ở bên trên, **Computational Graph** hay **Dataflow Graph** dùng để biểu diễn các phép tính toán. Bạn sẽ phải tạo Graph trước rồi sử dụng TensorFlow Session để chạy các phần của Graph này.
+         
+            ![](https://lh3.googleusercontent.com/NIS0mI7clNb6y7twlSgpak8d9CnVsz0SAMJaQX_xqXZNFnw3kFtXvstzEkWEtmSCj7W3I2APu4bXXyqzAFoGnvvP4dQfmiTWQbqOQIZKvLZtSJG0sRnT0Sb17G3_OD8McibcHRhtWKKCXFzXQGv08HLzQCf5f4S0mPyLjQFw8REHlI_YDGQUTz1VRqxCOpV7cVUKA45kSvSII6LCB0o5JmpuzxiIl7TiQewF4mUGODHeRLEtb2AESSwnc7KOZYjySZx0HeFRI4B3jc_VxzuARBN6Phc2TgIUbeoPpWN7VLX1FeBnGXPQimwaDyJ9Rbx8wOm3-USKtUzwUy1h7ZYuVCmd3zORQg7M3dJvEEbOd1CjyEqqkdzipwJ_Z2_d9wJmW29dAiWUf10dcjoG4mCJKPanNBH9nA4Dc4Kxd7JrksDpRR59S7DdB01IYjXjXiCt5Ol3KG_Fja_1EkvrTjBzlvkcU3djSAOPZCHaf4hfa52jXvcniB4HudneJjC_j6r_Q39iRghaiVt4Na1A-flelpjCtdIR71Jo_Qh7ZKn5gbe-V6x-l9Frot7nIIbBkacNWx1hB9ty1Dt8f-phxkui_aaOHwbp2SPVsrPFm0vgGrO4xxbXONfGfDhZ2Qy3gtiloyKiS-38TwAZf80iLZDeQNdk45y9qneexDAPkPEp498uW3FidOgXneWpPw=w252-h448-no)
+            
+            Dataflow là mô hình lập trình (programming model) chuyên dùng cho tính toán song song. Xem thêm tại [đây](https://en.wikipedia.org/wiki/Dataflow_programming). Ở trong Graph, các đỉnh (nodes) đại diện cho các phép tính, và các cạnh (edges) đại diện cho dữ liệu đầu vào và đầu ra của các phép tính trên.
+            
+            Một số ưu điểm của Dataflow mà TensorFlow (TF) có thể tận dụng được:
+            
+            - **Tính toán song song (Parallelism)**: Bằng việc chia tách các phép tính toán độc lập, TF có khả năng lựa chọn thực hiện song song các phép tính cụ thể.
+            
+            - **Thực thi phân tán (Distributed Execution)**: TF có khả năng chia nhỏ ứng dụng của bạn cho nhiều CPU, TPU, GPU khác nhau trên nhiều máy khác nhau.
+            
+            - **Biên dịch (Compliation)**: [XLA](https://www.tensorflow.org/performance/xla/) của TF có thể dùng graph để generate ra code chạy nhanh hơn thông thường.
+            
+            - **Tính di động (Portability)**: Graph là ngôn ngữ biểu diễn độc lập (language-independent representation) với model của bạn. Bạn có thể build một Graph bằng **Python**, save model, store lại bằng C++.
               
 ### 4. Bài toán hồi quy (Regression)
 ----
