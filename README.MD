@@ -171,6 +171,13 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
             
                 Hầu hết các ứng dụng TensorFlow (TF) đều được khởi chạy bằng việc tạo ra Computation Graph như đã nhắc ở bên trên. Trong quá trình này, TF sẽ tạo ra đối tượng.
                 
+                Xem kỹ thêm về TensorFlow Graph [tại đây](https://www.tensorflow.org/guide/graphs)
+                
+                - Gọi hàm `tf.constant(42.0)` sẽ tạo ra một đối tượng `tf.Operation` và thêm nó vào Graph đồng thời trả về một đối tượng `tf.Tensor` mang giá trị `42.0`.
+                - Gọi hàm `tf.matmul(x, y)` sẽ tạo ra một đối tượng `tf.Operation` và thêm nó vào Graph đồng thời trả về một đối tượng `tf.Tensor` mang giá trị tích của phép nhân này.
+                - Gọi hàm `tf.train.Optimizer.minimize` sẽ thêm các phương thức và tensors vào Graph để phục vụ cho việc tính đạo hàm riêng và trả về một đối tượng `tf.Operation` mà khi chạy Graph sẽ thực hiện việc tính đạo hàm riêng trên các biến cho trước.
+                
+                
             - Phép cộng
             
                 ![TensorFlow Addition](https://lh3.googleusercontent.com/2ILyxtn9E-UF3vtj_SqMaCOlQlvShHwGk0HxrzTDJE81GsjPPAG-9CW3nHxXO6Zl3QQ9PoVT0iRZGY4mQ5lkIEGIQjYCceGsQoIVIxN1p-w4AL7dtXcAW4m4QYirlivPe5yjL-RN7xOBrMmAa00TPLMMQv21XYWRv7yzNYpKq11DV9JWRJmbm9f8XtXQAl5d21gkxkQ63oJUsls4jS4zXQxidyQqcetrhSAW3QremRolGn8Ow1YCmHC9O7btf-Ze7UqznQhAhrn3wnlETATQLmQ84T7G6kgrD0iQkt77WLTsUXzPFi0WpoSKZlp5DRhKpUaHVKcMwz0mrBpuA_ivoNIdzLM76MnuUEfL3ELMk_Vag7gCKfCgvBpTD7MmnwWVuVmyIgLWH3TGtDWfuscxTSIgTPW8V0g15LjDwI5kj1LwJKypUj1UtiphXnx1Iuo6x8kg72F5c6dS-hQ67IUGtzQag3cATw8iffF9bwtJwX3awehgfJSO0wcbOuMah_WUEHiySQk9oKcFnXe_buLxJe2AegewdHl30tcm7MPSRtHCNx_SjePtoAR-ubKDVU6cWHhKy1yAHp7KCFK87jucpKD-TZszPMBKHPVzfWK41jHJxdfql2q2xgA5A6KU1Isl7fWSbBpX66ACFj5rKqazKzghA8cAZTSEHtryZCx0NFntv95wsswAg-b3Eg=w400-h300-no)
