@@ -190,6 +190,13 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
                 <img src="https://lh3.googleusercontent.com/EY44x8MIOT8lfDH0uJKXDfA9gmSqN9ICVEjlYhnX5X3DlBJdDMEzqtyI7Hh_mtyjhhMW_4pIX3ys8RjLVzPn2WbLUFn9s-gZqncinJqU_Wh8kvJE_3PMqGOlwdvSOrhAjFyRDbIQzft28jLu4sxqjfhS8UEc_vcaKgYSRosGLc4Si6cPlrUdrti9JoGpCPj_2oWp2UAd0qKI6p-uYD_UeWVmobGNmTEIO77-aFmiUmijcJ-1daDiIqWEhU-Qg3URRAScdrUK9erl5RlNn9JKQhk9zXvJg1wyzt_JaiQC_JiAa7t9hYj447kaxrSSH6h0H68lMopWbz0jMFw5gmgXFJ-NlXVakyCCCu8DNEqot-Id4qShXsk3cGBqtcSsoRz9kC2Asn5PnKSPM5bfIIH3vV2VzonrxlLu4dDXkQSaTdkNhuOi-BglmeruQadB59HzSmxksAcmMchnaJ2uGdf2QQ4v7yk_kpkDqeleqxsAfKmKPTOeKk59vu_GglBEs3u4ceD5_h09208gCJ8aQLVGY7W7ZMi7_8QqV9gKF4Klq8ZJDgkTywp5IATvkiZIQ1mayCECeFU2Rg0BZtqh6JploxAq9KHYtN79FkpuB8lBpBR8_6o0ujDga0-Vfgp3GLRkCsDYzimaoOdmlej4iDY3JRBMb408aZBMs6OwT_utXHeZkeE6Mn0Oug7M=w800-h556-no" width="600">
                 
                 - [Phép cộng ma trận là hằng số](https://github.com/bangoc123/learn-machine-learning-in-two-months/tree/master/tensorflow/matrix_summation.ipynb)
+            - Hidden Layer của một Neural network
+            
+            ![](https://lh3.googleusercontent.com/DQRiptuvHRUOG4QhqluO4qeTvxTHSmLqifioijNjCKx9vVPYqueiGMF8S_Hr9NLQWImmDncT7sI_t5glNo8WM2McFavdjhTKcLmylMu2x0wsNjRwuD-1ly-qRyr3qsZM3HN0V1ugELymzQ1lntvEFzIeEcTCUDHQgJrff_26YSjDsJz8YL8aACH8_r9uz6Szk57wGAqHA9SK36YIsUomHo9TQl696MKt60PYzWIS13mmalIXURQVIDxhxv38rkxPc29viNezQytwSKyXVKpN44ijCFFUeVPHz3iytv8PvOswtOC38LS30PFmWS5F6BjBAk5C37r_xC_PU-NaYPq4wYwnFy3SBnJYZZmxli-BTP5tvhSZlbxTrpC3lgjAIjNb1Y5AwmOjNwd9VGKW2lXlB33iK5X927dX_FVYJ_ytShppg1BthE77BtY2R7Cw_h8W9jMTiL9sT_7pFxCRhcjArcbr6iucP_jPJzA1AfePsVuiq8X8LmFIZKb-NWpSV_pGha_0SwacnzN3QHstmzz9cc7Q__1VjU0TnVnjtXE_LLcxNXQ3MhFNLlaNv4MEbwfJGnJjmMuGUhlgXP3_0ALshAjinkUPIlAoZ9PyzZeX4p_zY7jkwLeFWFtWgK9FwZIf61Wgx8XGaqlLjIWNLjsaVj42dtGU_SkplJ6b4ci_P2_vupm7tkiK0FJ8=w800-h400-no)
+            
+            Công thức: <img src="https://latex.codecogs.com/svg.latex?\inline&space;h&space;=&space;ReLU(Wx&plus;b)" title="h = ReLU(Wx+b)" />
+            
+            
 
         - **[Quan trọng]** Tại sao cần phải sử dụng Computational Graph?
         
