@@ -204,7 +204,7 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
                 
                     ![](https://lh3.googleusercontent.com/kSJRprcz8A9lPXNPb3h8kuWG1EKue9ck4_6zirLRS_2RYYKn71NR4OF5kJctorcOsbw6Px0CQz9rncI-LNsOetQduSjIZh23R454Y1pe41FVxaFyB2prcbk2BP3pbgEnABIwpB-16ayK5QwOAbWmjA7khdPhl1T29dO46BfRiC0h8OS7nj1NrpVEFjQUiKN6xdS0O_7jkpLyx3EAF6AHiXRy2Ex_iFby86PSVJcMygHjpNua9VWeXkOlNzI4bKRc2_VJEDsHvCgvpeOLzJp_OdpioXhC6Orbe4fkILQRzNsZhbCM0cQoAYtn3lAqWz1qxNmA0K1egan2YsfEIFMP8pRCU5Z_aQK1hMJb4g6Y2PtQA3X4Cr3T0xYyyK2BWXw1-Dox_EtVXL2Mu136jAfoeCa8g26FTuMlBZ0VJqwfvwUpAsDKI3qMSe9sgjGqQohuwbsPd-Z1qjNWJMdybFaMGmhZf5E0TuXQEBzpoZ3T9wCjxXMOBfLb6D4J4wIhdhyrX-7vL-3XeeFCY0VOMY6ZbUndXW_kD0EVaXdyYVyyHNm8-OJD5vXOyNRI677IuzjWrsKjup0sgA2nQRdnyeq1Eg7M-x-IS8P_4RpaEyT9FRKEW0zJ0GawCBwbg4BlUDkXhrvuoR6TIfktZq_2h_XnYTJ-Ob9tAVNP-fUuuYSear3iKKzZRADY3-dY=w311-h210-no)
                 
-                - ![Thực hành với TensorFLow](https://github.com/bangoc123/learn-machine-learning-in-two-months/tree/master/tensorflow/hidden_layer.ipynb)
+                - [Thực hành với TensorFLow](https://github.com/bangoc123/learn-machine-learning-in-two-months/tree/master/tensorflow/hidden_layer.ipynb)
                 
 
         - **[Quan trọng]** Tại sao cần phải sử dụng Computational Graph?
