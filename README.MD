@@ -192,11 +192,20 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
                 - [Phép cộng ma trận là hằng số](https://github.com/bangoc123/learn-machine-learning-in-two-months/tree/master/tensorflow/matrix_summation.ipynb)
             - Hidden Layer của một Neural network
             
-            ![](https://lh3.googleusercontent.com/DQRiptuvHRUOG4QhqluO4qeTvxTHSmLqifioijNjCKx9vVPYqueiGMF8S_Hr9NLQWImmDncT7sI_t5glNo8WM2McFavdjhTKcLmylMu2x0wsNjRwuD-1ly-qRyr3qsZM3HN0V1ugELymzQ1lntvEFzIeEcTCUDHQgJrff_26YSjDsJz8YL8aACH8_r9uz6Szk57wGAqHA9SK36YIsUomHo9TQl696MKt60PYzWIS13mmalIXURQVIDxhxv38rkxPc29viNezQytwSKyXVKpN44ijCFFUeVPHz3iytv8PvOswtOC38LS30PFmWS5F6BjBAk5C37r_xC_PU-NaYPq4wYwnFy3SBnJYZZmxli-BTP5tvhSZlbxTrpC3lgjAIjNb1Y5AwmOjNwd9VGKW2lXlB33iK5X927dX_FVYJ_ytShppg1BthE77BtY2R7Cw_h8W9jMTiL9sT_7pFxCRhcjArcbr6iucP_jPJzA1AfePsVuiq8X8LmFIZKb-NWpSV_pGha_0SwacnzN3QHstmzz9cc7Q__1VjU0TnVnjtXE_LLcxNXQ3MhFNLlaNv4MEbwfJGnJjmMuGUhlgXP3_0ALshAjinkUPIlAoZ9PyzZeX4p_zY7jkwLeFWFtWgK9FwZIf61Wgx8XGaqlLjIWNLjsaVj42dtGU_SkplJ6b4ci_P2_vupm7tkiK0FJ8=w800-h400-no)
+                ![](https://lh3.googleusercontent.com/DQRiptuvHRUOG4QhqluO4qeTvxTHSmLqifioijNjCKx9vVPYqueiGMF8S_Hr9NLQWImmDncT7sI_t5glNo8WM2McFavdjhTKcLmylMu2x0wsNjRwuD-1ly-qRyr3qsZM3HN0V1ugELymzQ1lntvEFzIeEcTCUDHQgJrff_26YSjDsJz8YL8aACH8_r9uz6Szk57wGAqHA9SK36YIsUomHo9TQl696MKt60PYzWIS13mmalIXURQVIDxhxv38rkxPc29viNezQytwSKyXVKpN44ijCFFUeVPHz3iytv8PvOswtOC38LS30PFmWS5F6BjBAk5C37r_xC_PU-NaYPq4wYwnFy3SBnJYZZmxli-BTP5tvhSZlbxTrpC3lgjAIjNb1Y5AwmOjNwd9VGKW2lXlB33iK5X927dX_FVYJ_ytShppg1BthE77BtY2R7Cw_h8W9jMTiL9sT_7pFxCRhcjArcbr6iucP_jPJzA1AfePsVuiq8X8LmFIZKb-NWpSV_pGha_0SwacnzN3QHstmzz9cc7Q__1VjU0TnVnjtXE_LLcxNXQ3MhFNLlaNv4MEbwfJGnJjmMuGUhlgXP3_0ALshAjinkUPIlAoZ9PyzZeX4p_zY7jkwLeFWFtWgK9FwZIf61Wgx8XGaqlLjIWNLjsaVj42dtGU_SkplJ6b4ci_P2_vupm7tkiK0FJ8=w800-h400-no)
+
+                Công thức: <img src="https://latex.codecogs.com/svg.latex?\inline&space;h&space;=&space;ReLU(Wx&plus;b)" title="h = ReLU(Wx+b)" />
             
-            Công thức: <img src="https://latex.codecogs.com/svg.latex?\inline&space;h&space;=&space;ReLU(Wx&plus;b)" title="h = ReLU(Wx+b)" />
+                Giải thích các phép tính toán trên Graph này:
             
-            
+                - MatMul <-> Wx: Nhân vô hướng 2 ma trận
+                - Add <-> Wx + b: Cộng ma trận
+                - ReLU hàm phi tuyến. Bạn chỉ cần hiểu đơn giản về hàm này: Hàm này sẽ trả về giá trị của **chính đầu vào** nếu **đầu vào lớn hơn 0** và **trả về 0** nếu **đầu vào nhỏ hơn 0**. Bạn có thể hiểu rõ tính chất của hàm này thông qua đồ thị của nó:
+                
+                    ![](https://lh3.googleusercontent.com/kSJRprcz8A9lPXNPb3h8kuWG1EKue9ck4_6zirLRS_2RYYKn71NR4OF5kJctorcOsbw6Px0CQz9rncI-LNsOetQduSjIZh23R454Y1pe41FVxaFyB2prcbk2BP3pbgEnABIwpB-16ayK5QwOAbWmjA7khdPhl1T29dO46BfRiC0h8OS7nj1NrpVEFjQUiKN6xdS0O_7jkpLyx3EAF6AHiXRy2Ex_iFby86PSVJcMygHjpNua9VWeXkOlNzI4bKRc2_VJEDsHvCgvpeOLzJp_OdpioXhC6Orbe4fkILQRzNsZhbCM0cQoAYtn3lAqWz1qxNmA0K1egan2YsfEIFMP8pRCU5Z_aQK1hMJb4g6Y2PtQA3X4Cr3T0xYyyK2BWXw1-Dox_EtVXL2Mu136jAfoeCa8g26FTuMlBZ0VJqwfvwUpAsDKI3qMSe9sgjGqQohuwbsPd-Z1qjNWJMdybFaMGmhZf5E0TuXQEBzpoZ3T9wCjxXMOBfLb6D4J4wIhdhyrX-7vL-3XeeFCY0VOMY6ZbUndXW_kD0EVaXdyYVyyHNm8-OJD5vXOyNRI677IuzjWrsKjup0sgA2nQRdnyeq1Eg7M-x-IS8P_4RpaEyT9FRKEW0zJ0GawCBwbg4BlUDkXhrvuoR6TIfktZq_2h_XnYTJ-Ob9tAVNP-fUuuYSear3iKKzZRADY3-dY=w311-h210-no)
+                
+                - ![Thực hành với TensorFLow](https://github.com/bangoc123/learn-machine-learning-in-two-months/tree/master/tensorflow/hidden_layer.ipynb)
+                
 
         - **[Quan trọng]** Tại sao cần phải sử dụng Computational Graph?
         
