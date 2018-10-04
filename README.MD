@@ -233,6 +233,11 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
    - **a. Mô hình Hồi quy tuyến tính (Linear Regression Model)**
         - [Bài toán đơn giản](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/models/linear-regression/README.MD/#1-b%C3%A0i-to%C3%A1n-%C4%91%C6%A1n-gi%E1%BA%A3n)
         - Định nghĩa
+            
+            Trong thống kê, hồi quy tuyến tính là một phương pháp dùng để mô hình hóa mối quan hệ giữa một đại lượng vô hướng với một hoặc nhiều biến độc lập.
+            
+            ![](https://upload.wikimedia.org/wikipedia/commons/3/3a/Linear_regression.svg)
+        
         - Mô phỏng thực tế
         
             ![](https://lh6.googleusercontent.com/xQMPlPjv845-gDphAAcyNLJufG_774prU974Zn00WP8Hsfandysppi3OiizibH_fdiYhODkhrmTKOc_HtoC74HHb6s6L0Bj4n1jv_P-xJWJTcSDgsO5ncISfO_SKLGq-8W3o2lVgf30 )
