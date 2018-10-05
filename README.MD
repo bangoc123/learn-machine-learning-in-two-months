@@ -206,7 +206,7 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
                 
                 - [Tạo một lớp layer ẩn với TensorFlow](https://github.com/bangoc123/learn-machine-learning-in-two-months/tree/master/tensorflow/hidden_layer.ipynb)
                 
-                    ![](https://lh3.googleusercontent.com/ac4SWVX-UI7kn1CgdHk6dxGcGYmAIN2CwDpsligPWu7mfZyv1MuwVJQcTYVByLMEJHFxydnPS1OLtt69m_-6Hcd8x6IRQIsPq9dffep1FWpImugqxytMNnNiIdOnUeGqZsNfKluvJqVW4EAl_KRCSKUdz5avBl-bXEAaMpHU2asxyrS_4_g-5F8HydUxZLOGHkArO8Cmw6HKr4moMF9XaaUlbP6J_SFVpBgyviQpUsi86o42LnKfyJ2iB9PhCV9dtushL12fudKQ-XyTdylwZDUOMgMXWQz9RzAlqKxom5gQpbMHYSP6aEyIjziYeOhvuwlGpqhfzY2JJ4Tm8kNgr3d9ovtgkGVVW5Vd_Nt3iAEtX7k89606jKc2UIzWPcCcY1bzwTtENG4bs7-QhSc8rPrpUhnJ2hI3JAyarB-Ze-uPtaBqtWC1ZO8iP_CpKbMpzJ3k7-SOYd1k0vp7NXbK2dGq0GIgdgXmT7s51TrifcaPkhJTczY6H83bTh06n-ftCo5Of8K4ZYJSCt05gdd2fa_MpezznMZ47YNKh2hfr0-KWFrRRzEEgru2a_o8voajXKmVca06LWiYx0j3gQGrA1rc7pstePnyp1IgZOg3Fb3UGOLhqs1P8D_ij9DukwUlaTkPCZGS6Tot6wypJ0ZscSokdRRXTcXfEUMafeTgCCuLDUArWjHeA2wr=w800-h400-no)
+                    ![](https://lh3.googleusercontent.com/2c4meujxbGKri8GvAdlCQAOpJwzQz4OY9yoI6kXsHk7g6yDWNYyIh-YzrMCmJ7RCvzNtMuhrF28w2gndh020D6m3KURuPkOAEbVtNTmqlgzJA_eYzMMzYu8AATZQkcN6mG_ioYwYISVtlSXCJUaXbO93cncQ1lv4168WjchUi47XEqbk2-8WfcDitU9ZRpzWJI4ofbFMlGzlB4d_VfJYZeWnQec6xPWPDRxtkG4D65YGY8kLSBb5dTjU6azwUyItFdp2rhNRyNi36w6y6h8E5_91KXKkQSaAjbhk_IfrhIEVstccyt3Mjj_YdVX5vfbmbiqpL8me-o5ynpYEceEcR0vHLQKccktp5dmVdvXePln0pSVjm3RLyWaKydE8aifUKJd9OFxQilqbwx_SxrF6XX2E7IvcWt5Qi9ZTKh6XP9b8BtVkFfKsU8VCHsR6OtIxf7J4P0bQZVzRdd_qsVZMo2JrpLHKirbKs9hLl7XqQUvrHo0lFgJOq004p3N33-fe3VMrDb9Lz7A6CMh_OU4k05VBow3By6Cp3XNFxIifD6kDXcEBZQgZpDlJrdV0YOef0hEBcvcvrgM1iflrGaPZibJVQM2iCkKvsrUgfMpGpW8zWzI9zXKZv6S6MjQPRFL8P30Z9CMy9yQy1URKJmc065Bt7XHi8qhItAvOfGafRc5fcxe4CuuXWCNg=w800-h400-no)
                 
 
         - **[Quan trọng]** Tại sao cần phải sử dụng Computational Graph?
@@ -233,6 +233,11 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
    - **a. Mô hình Hồi quy tuyến tính (Linear Regression Model)**
         - [Bài toán đơn giản](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/models/linear-regression/README.MD/#1-b%C3%A0i-to%C3%A1n-%C4%91%C6%A1n-gi%E1%BA%A3n)
         - Định nghĩa
+            
+            Trong thống kê, hồi quy tuyến tính là một phương pháp dùng để mô hình hóa mối quan hệ giữa một đại lượng vô hướng với một hoặc nhiều biến độc lập.
+            
+            ![](https://upload.wikimedia.org/wikipedia/commons/3/3a/Linear_regression.svg)
+        
         - Mô phỏng thực tế
         
             ![](https://lh6.googleusercontent.com/xQMPlPjv845-gDphAAcyNLJufG_774prU974Zn00WP8Hsfandysppi3OiizibH_fdiYhODkhrmTKOc_HtoC74HHb6s6L0Bj4n1jv_P-xJWJTcSDgsO5ncISfO_SKLGq-8W3o2lVgf30 )

@@ -31,5 +31,8 @@ Tôi đặt:
   
 Hàm cần tìm sẽ có dạng **Y= aX + b**. Bài toán quy về: Với X và Y cho trước trên bảng trên, tìm 2 tham số **a** và **b**.
 
+**Biểu thị data bằng đồ thị**
+
+![](https://lh3.googleusercontent.com/hFRmPtUMXQCA-w2iS162eWwYWe_DGrY68HGN3VOeu0WpWegGycjVMsotWAv7hsIBOh0Uw0DOP0p9UF2CV754un3MlTA0EM3geMySyhTMHWP1JSoc6zekDOE-23QTiW4MADv8zDS_IsHEYPrQXcGuo1WsYKJGoqEj7i0iLTEFm_uFONyZNnZXr6hLu8zgcVgPMwEZABW6oSjW1lN6kH7P_4w46FdBenyZM6wyB1_ttrU0ZK1HJTkq8I0OUOw5Dmak7R_IDoNh_9S0xh35piemaAYAkz8xuqzRgX2QQ-K9dAxPyiueoIu1sIJ5VJHmtbVfJY6UkEfBhhAmnNNMVhfv-PtMNOmjCjk3EEDgIwv4AVGv3Xnm1LUQ_3XOcZ7ny20lccuJv2kRjtgVkPU2OxLcWBqbOzIcEKPX7R4OUs0OoK4ZXiDkScGQE89qn6OBRHCrFAnDq7eV9M8vig8Pq0J_3ednTwKvXdzEq29nbMwJFI64SdWLCov_vKfnoXmaI9dt0rtCCzK5nMzgXy38ujO6yWgGN8ojFPV85LFDJjJyW_S6sAcumNaKOY1YTyWlGatuY4s0o3LcZ24xS5-RHmNDvicNxYin8KJ2Rwqdxu95lOnQ0tTdTQXXQXBfFaGR_q9Ik6TBssL3f6Qj1LfxlbGb6VtkJ0Ola7stcGHJSl2OJgYgQrMieN2nyCkF=w510-h336-no)
 
 
