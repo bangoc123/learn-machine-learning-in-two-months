@@ -263,9 +263,11 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
 
             **Biểu thị data bằng đồ thị**
 
-            ![](https://lh3.googleusercontent.com/hFRmPtUMXQCA-w2iS162eWwYWe_DGrY68HGN3VOeu0WpWegGycjVMsotWAv7hsIBOh0Uw0DOP0p9UF2CV754un3MlTA0EM3geMySyhTMHWP1JSoc6zekDOE-23QTiW4MADv8zDS_IsHEYPrQXcGuo1WsYKJGoqEj7i0iLTEFm_uFONyZNnZXr6hLu8zgcVgPMwEZABW6oSjW1lN6kH7P_4w46FdBenyZM6wyB1_ttrU0ZK1HJTkq8I0OUOw5Dmak7R_IDoNh_9S0xh35piemaAYAkz8xuqzRgX2QQ-K9dAxPyiueoIu1sIJ5VJHmtbVfJY6UkEfBhhAmnNNMVhfv-PtMNOmjCjk3EEDgIwv4AVGv3Xnm1LUQ_3XOcZ7ny20lccuJv2kRjtgVkPU2OxLcWBqbOzIcEKPX7R4OUs0OoK4ZXiDkScGQE89qn6OBRHCrFAnDq7eV9M8vig8Pq0J_3ednTwKvXdzEq29nbMwJFI64SdWLCov_vKfnoXmaI9dt0rtCCzK5nMzgXy38ujO6yWgGN8ojFPV85LFDJjJyW_S6sAcumNaKOY1YTyWlGatuY4s0o3LcZ24xS5-RHmNDvicNxYin8KJ2Rwqdxu95lOnQ0tTdTQXXQXBfFaGR_q9Ik6TBssL3f6Qj1LfxlbGb6VtkJ0Ola7stcGHJSl2OJgYgQrMieN2nyCkF=w510-h336-no)
-
-
+            ![](https://lh3.googleusercontent.com/1c0ACalRtjQZIqgP7VVrHZ2bpyQ1s7tLBCCyr84GXFbRrO2vrRZTlxjxwOCFDWTk05ara2z_bEkux0-GnxWnodkumeSa-cSxnXgRzkkDQZKUVnETkAZ0VG4yx-XlyjQfoQFfJpo1bQRHc3IUwF3S5rhioztrzDt0IsNPJYF8iNKR76JLoeyvgjCmT9QptHisOs4WrwiJXhmz8-YLCWWhT8kRRLs-yS-BpqZo8Dkdf-162mQnhL4IN4cn1XyJL2Y6DryEl-eWzD2KvhVwJO8KB6ERLBq8kLDh6CtF4y3nUz9y0x2EpxAA6lrMmBHfCp0b9yW6mrpJwctf-qV9i-Tgv-ri0j8rsuEZWXAQJA83KqCiqf3dP5XhA4xUBD5Xl38SAd6lJoShFO4zqopVqd7dS_1W3gT0ZYCNW8GC5xAD6p1SlIVKdBqxcyCWLgZPNOIbXyDfNnp6TSfJPoic6ccaBY2P3QVMae59Rt2M2ejk9JwYP3u6M3M6KPFWwkyEeTgWaaMjYoPR3y8zV6HhuWSB-OQa4VMKtUdJaArBAOrGIJdheevgyqFZLTkt0nL_AE3VQ39SybvVnpTI8kefuC5do5Mewmhxq_NaJwfQtaZYsaRT_0kjEJoEQI0pEkNwrm7ssAufWiGfA3IrL8Q2Wkp1AD7CEjFCi-QIXSn_J4XCzYNpmXuzsgnWY3EL=w506-h324-no)
+            
+            Bài toán của chúng ta là phải đi tìm hàm **F** thể hiện được mối quan hệ giữa **Y** và **X** có dạng **Y= aX + b**. Chú ý **X** và **Y** đều là ma trận/vector. 
+            
+            ![](https://lh3.googleusercontent.com/-hgYhecmCuMDgkkr79qCq-D8QQWcK7Vgv5gL1eLAGdqtXAg_w-RIniTHgxfzb4i7qUhMJjdZdkkt6xVfLl6oQkR2dD_QUuDY0iz-LPZiebyXl_4TZ1pQ63fHsWgImjEIiAwKeR9R8_h63sUO1ky2OmaHJX7Ba8qdWF9R-WqPjoz4WCd2DFsb_EE3dxQl9fCzgSt4-u6cJudvAbu5dFzor77hgKyAiHWQyT6ynXLTG5yTZjstdxhDHDHE-tq6Ru7zR_ToEZHH1PzgomaPybfZ7yZjaXUX36pzxtbjh7X_RuLAlnDPxA3ZQZb1G9BDpBZrXDAKjPk9HbHt0zxgPXza3EcTTJNnk3h7DtRWP3vgREmIJJp83P7QLlKDaYOdbs3QO77aFRTtHPUShVJx9t-nuYPW2vpzNJRnOnioLWr1CFzc6KdStczbAWuY8iKRXZ7dN6_fvzdczqe4WdMMAtQyKPsT8oKHNnVnQwl0qDN00UPCdCpdoxj75vQXOylw77Aerh9q8l35sELIzK9mDFh4GbTjYunX5Fj37GBAMst8udjPncxUcQ8qhAvg8U9kZGcp-OGiNROySfXtF4eVMHZ4YFfvpyeSq5PksFyEkN97K62PYyZu4BcGrXZGqzGg9HHC4uWkqWPoyW8pzMw5b-D5Y81az68Az8NANFTY3h65crI-1FWBH162JOHw=w537-h336-no)
 
         - Định nghĩa
             
