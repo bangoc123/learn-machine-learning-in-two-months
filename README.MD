@@ -6,6 +6,8 @@ Lộ trình sẽ giúp bạn nắm chắc công nghệ này từ cơ bản đế
 
 **P/S:** Hãy để lại **1 star** để team có động lực xuất bản các phần tiếp theo và cũng đừng quên chia sẻ tới bạn bè của bạn.
 
+Mình sẽ là một trong các teacher của lớp VietAI offline tại Hanoi diễn ra giữa tháng 11. Nếu bạn quan tâm có thể đăng ký [qua đây](https://docs.google.com/forms/d/e/1FAIpQLSf6QOy6FhxGmot4mkgt7A0Qk_II7V9Y1Z0zxS8SMmtwYR1sgQ/viewform). 
+
 
 ### 0. Mục lục
 ----
