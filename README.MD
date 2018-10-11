@@ -232,11 +232,58 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
 
    - **a. Mô hình Hồi quy tuyến tính (Linear Regression Model)**
         - [Bài toán đơn giản](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/models/linear-regression/README.MD/#1-b%C3%A0i-to%C3%A1n-%C4%91%C6%A1n-gi%E1%BA%A3n)
+        
+            Trước khi nhắc đến những công thức toán học dài dòng tôi muốn mô phỏng một bài toán đơn giản cho bạn dễ hình dung trước. 
+
+            Một hôm đẹp trời, tôi sử dụng ứng dụng Grab để đặt 1 chuyến đi từ nhà tôi đến Bờ Hồ Hoàn Kiếm dài **5km** nhưng xui thay ứng dụng này **mất khả năng tính toán thành tiền** và bác xe ôm đen đủi không thể biết được số tiền chính xác mà tôi cần phải trả.
+
+            May mắn thay, tôi vẫn còn truy cập được vào lịch sử các chuyến đi của mình như bảng bên dưới, liệu rằng dựa trên những thông tin này tôi có thể tính được số tiền mà tôi cần trả cho **5km** ngày hôm nay?
+
+            | Số Km (Km) | Số tiền cần trả (1000 VND) |
+            | ------ | ------ |
+            |    2   |   13   |
+            |    7   |   35   |
+            |    9   |   41   |
+            |    3   |   19   |
+            |    10  |   45   |
+            |    6   |   28   |
+            |    1   |   10   |
+            |    8   |   55   |
+
+
+            Giả sử **Số KM tôi đi** và **số tiền cần trả Grab** phụ thuộc tuyến tính vào nhau, tức là **số KM tăng** thì **số tiền cần trả Grab tăng** hoặc **số KM giảm** thì **số tiền cần trả Grab giảm**, tôi có thể tìm ra được 1 hàm biểu thị được mối quan hệ giữa 2 đại lượng này không? Câu trả lời là **Có**.
+
+            Tại sao lại cần tìm ra hàm đó? Vì nếu tìm ra được nó, việc tôi cần làm chỉ thay số KM tôi đi ngày hôm nay vào hàm và tìm ra được số tiền tôi cần trả.
+
+            Tôi đặt:
+              - X là số Km tôi đi
+              - Y là số tiền cần trả Grab
+
+            Hàm cần tìm sẽ có dạng **Y= aX + b**. Bài toán quy về: Với X và Y cho trước trên bảng trên, tìm 2 tham số **a** và **b**.
+
+            **Biểu thị data bằng đồ thị**
+
+            ![](https://lh3.googleusercontent.com/oobRXwN--zTmadkkQyxRGc-q4D-4L0yqXuuODnztnfm7eiXaKD0Tu91Xawe93Z4UZOa99aklH1N3gJx0TnFGnex0VWrpwaDKd0iI8kPhHECJqK-pzccxZq_uWd9JX1W1S8FDjx-s9MK9CFHx-NWBZhx2AkNCz8hcjirbUu8Y1ucju4uHhpbsOdswW6E8iQLKa3P0jkQcBGrg5yvrC2AAm7tTpT82qaRx-ZX4cGS9Mg3fUwDBnXCADwiNg4pm3CbMAYxDRCES6UiO2ZSerzuSriUMO92ShE1T0TlWTDEYIcFLsyLB6Q7kgK0JtEQpGGauko_624BHZkoa28C7EnB9nTG8v9PcN0Y9RWBxsmvcBN2-lOkh2v7WIuEilp2uhvMvsZHF0yO3qUWQtvFrIoiR8MnlYLUaORpkxtOC3Adv4kFDdIR-yqAiHGoFMG_LoUSa_YQlisbX2xOym_FODieBiMMmfuTtMCeEBXq73-Nfi3skuRDnHYzATRnyOQv3aam0Bo-D8ufVOTrm64Rmw59EmZ9DMvnL3VWUOX1VHqRHDNZzc5aX8fKhXeOznYe4CW_P2mqyuRZUoL9F7SdHnWkc0KKHUNZwOHIAQGl3NQJkZq-c9YRV5gOfOesV5SW5Dj2LynHEd4ysqBP8CFd4lQsiut-ZqL2nnDM72sdF78GHrEEU-XpU4RKu5QnN=w516-h324-no)
+            
+            Bài toán của chúng ta là phải đi tìm hàm **F** thể hiện được mối quan hệ giữa **Y** và **X** có dạng **Y= aX + b**. Chú ý **X** và **Y** đều là ma trận/vector. 
+            
+            ![](https://lh3.googleusercontent.com/-hgYhecmCuMDgkkr79qCq-D8QQWcK7Vgv5gL1eLAGdqtXAg_w-RIniTHgxfzb4i7qUhMJjdZdkkt6xVfLl6oQkR2dD_QUuDY0iz-LPZiebyXl_4TZ1pQ63fHsWgImjEIiAwKeR9R8_h63sUO1ky2OmaHJX7Ba8qdWF9R-WqPjoz4WCd2DFsb_EE3dxQl9fCzgSt4-u6cJudvAbu5dFzor77hgKyAiHWQyT6ynXLTG5yTZjstdxhDHDHE-tq6Ru7zR_ToEZHH1PzgomaPybfZ7yZjaXUX36pzxtbjh7X_RuLAlnDPxA3ZQZb1G9BDpBZrXDAKjPk9HbHt0zxgPXza3EcTTJNnk3h7DtRWP3vgREmIJJp83P7QLlKDaYOdbs3QO77aFRTtHPUShVJx9t-nuYPW2vpzNJRnOnioLWr1CFzc6KdStczbAWuY8iKRXZ7dN6_fvzdczqe4WdMMAtQyKPsT8oKHNnVnQwl0qDN00UPCdCpdoxj75vQXOylw77Aerh9q8l35sELIzK9mDFh4GbTjYunX5Fj37GBAMst8udjPncxUcQ8qhAvg8U9kZGcp-OGiNROySfXtF4eVMHZ4YFfvpyeSq5PksFyEkN97K62PYyZu4BcGrXZGqzGg9HHC4uWkqWPoyW8pzMw5b-D5Y81az68Az8NANFTY3h65crI-1FWBH162JOHw=w537-h336-no)
+
         - Định nghĩa
             
             Trong thống kê, hồi quy tuyến tính là một phương pháp dùng để mô hình hóa mối quan hệ giữa một đại lượng vô hướng với một hoặc nhiều biến độc lập.
             
             ![](https://upload.wikimedia.org/wikipedia/commons/3/3a/Linear_regression.svg)
+            
+            Các dạng của mô hình hồi quy tuyến tính:
+            
+            <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;h_\theta&space;(x)&space;=&space;\theta_1x_1&space;&plus;&space;\theta_2x_2&space;&plus;&space;\theta_3&space;=&space;\begin{bmatrix}\theta_1&space;\&space;\theta_2&space;\&space;\theta_3&space;\end{bmatrix}&space;\begin{bmatrix}&space;x_1\\&space;x_2\\&space;1&space;\end{bmatrix}&space;=&space;\theta^TX" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;h_\theta&space;(x)&space;=&space;\theta_1x_1&space;&plus;&space;\theta_2x_2&space;&plus;&space;\theta_3&space;=&space;\begin{bmatrix}\theta_1&space;\&space;\theta_2&space;\&space;\theta_3&space;\end{bmatrix}&space;\begin{bmatrix}&space;x_1\\&space;x_2\\&space;1&space;\end{bmatrix}&space;=&space;\theta^TX" title="h_\theta (x) = \theta_1x_1 + \theta_2x_2 + \theta_3 = \begin{bmatrix}\theta_1 \ \theta_2 \ \theta_3 \end{bmatrix} \begin{bmatrix} x_1\\ x_2\\ 1 \end{bmatrix} = \theta^TX" /></a>
+            
+            <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;h_\theta&space;(x)&space;=&space;\theta_1x_1&space;&plus;&space;\theta_2x_2&space;&plus;&space;\theta_3x_1x_2&space;&plus;&space;\theta_4x_1^2&space;=&space;\begin{bmatrix}\theta_1&space;\&space;\theta_2&space;\&space;\theta_3&space;\&space;\theta_4&space;\end{bmatrix}&space;\begin{bmatrix}&space;x_1\\&space;x_2&space;\\x_1x_2&space;\\x_1^2&space;\end{bmatrix}&space;=&space;\theta^TX" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;h_\theta&space;(x)&space;=&space;\theta_1x_1&space;&plus;&space;\theta_2x_2&space;&plus;&space;\theta_3x_1x_2&space;&plus;&space;\theta_4x_1^2&space;=&space;\begin{bmatrix}\theta_1&space;\&space;\theta_2&space;\&space;\theta_3&space;\&space;\theta_4&space;\end{bmatrix}&space;\begin{bmatrix}&space;x_1\\&space;x_2&space;\\x_1x_2&space;\\x_1^2&space;\end{bmatrix}&space;=&space;\theta^TX" title="h_\theta (x) = \theta_1x_1 + \theta_2x_2 + \theta_3x_1x_2 + \theta_4x_1^2 = \begin{bmatrix}\theta_1 \ \theta_2 \ \theta_3 \ \theta_4 \end{bmatrix} \begin{bmatrix} x_1\\ x_2 \\x_1x_2 \\x_1^2 \end{bmatrix} = \theta^TX" /></a>
+            
+            Công thức tổng quát:
+            
+           <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;h_\theta(x)&space;=&space;\sum\limits_{i=0}^n&space;\theta_ix_i&space;=&space;\theta^Tx" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;h_\theta(x)&space;=&space;\sum\limits_{i=0}^n&space;\theta_ix_i&space;=&space;\theta^Tx" title="h_\theta(x) = \sum\limits_{i=0}^n \theta_ix_i = \theta^Tx" /></a>
         
         - Mô phỏng thực tế
         
