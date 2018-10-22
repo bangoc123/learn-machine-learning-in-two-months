@@ -292,7 +292,15 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
         
         Hàm mất mát trả về một số không âm thể hiện mức độ chênh lệch giữa giá trị mà model của chúng ta **dự đoán** và giá trị **thực tế**.
         
-        - Mô phỏng thực tế
+        - Ordinary Least Squares
+        
+        ![](https://lh3.googleusercontent.com/p8NiIQCAE_2gPu5zq-KS5NCDW6zDYaUV8a6kwsrEi32fh3cvKK5ED1DNguQddldnXtBQ7j8z9Ff-C91zTa6y8eSMheFhudoeysOFlGh8hsCaZjLZQsSSHcLPCawjSbVxcNQMZgTvSLve3qX0hAerpp33nX7udhXyxLWFf39sV6bbdgHc17Y6ii4hr9khLRq6y8G_CznbXv1SPSYAiTzq-fu8lSnkrOQIaQcf7Adx5bJSYUQsOflZG7UQvdGbo7PuWkveKty0V8d9_aAuMhm49HvOw5aDYC2Ev5UHe6sC_Y1JGFqe2kQB_nPDLWWURcPh3asEMnuJxyXomkNFgotZC2DIM7HR1ut_357rZmU29p7qIpYn4UckJ4OoGu8DDzuIId896d9sAjPd7_uuB8ChFR6Ke0TgrpG3DsyHCE4EdDtfmxeY3o5t-G9ilDXZ8r2KgqqWyxdS8LdtkNHGXk7xiMLr9YZSOP6QnHv4gSAJVHSHbu_2RYXhvTm9GvoaYs05lltFQ3wYf46ZQQ7FDDP8Fj1abHx-MdxsSz9_6yU6Hgy9xHDRJdPg8AP1pm51UcVJdGFS3dOku8hz7JbZf14QK7xcd8yehSWK5OMZVcc78loUy6LyS4iofJPv01geJ8VgdhnYAlvmdvoxgVrpZFFPIRtWzA8X8SqdQsnsyFOb4Jx-TfISdy5oIk7ESA=w551-h335-no)
+        
+        Công thức:
+        
+        <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;J(\theta)&space;=&space;\frac{1}{2m}&space;\sum\limits_{i=1}^m(h_{\theta}(x^{(i)})&space;-&space;y^{(i)})^2&space;=&space;\frac{1}{2m}&space;\sum\limits_{i=1}^m(\theta^Tx^{(i)}&space;-&space;y^{(i)})^2" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;J(\theta)&space;=&space;\frac{1}{2m}&space;\sum\limits_{i=1}^m(h_{\theta}(x^{(i)})&space;-&space;y^{(i)})^2&space;=&space;\frac{1}{2m}&space;\sum\limits_{i=1}^m(\theta^Tx^{(i)}&space;-&space;y^{(i)})^2" title="\large J(\theta) = \frac{1}{2m} \sum\limits_{i=1}^m(h_{\theta}(x^{(i)}) - y^{(i)})^2 = \frac{1}{2m} \sum\limits_{i=1}^m(\theta^Tx^{(i)} - y^{(i)})^2" /></a>
+        
+        Vậy để hàm **F** càng xấp xỉ data của chúng ta thì hàm <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;J(\theta)" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;J(\theta)" title="\large J(\theta)" /></a> chúng ta phải đạt giá trị nhỏ nhất theo **<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\theta" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\theta" title="\large \theta" /></a>**
         
    - **c. Thuật toán tối ưu Loss Function (Optimization Algorithms)**
    
