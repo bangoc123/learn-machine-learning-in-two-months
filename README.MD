@@ -274,9 +274,7 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
         - Định nghĩa
             
             Trong thống kê, hồi quy tuyến tính là một phương pháp dùng để mô hình hóa mối quan hệ giữa một đại lượng vô hướng với một hoặc nhiều biến độc lập.
-            
-            ![](https://upload.wikimedia.org/wikipedia/commons/3/3a/Linear_regression.svg)
-            
+               
             Các dạng của mô hình hồi quy tuyến tính:
             
             <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;h_\theta&space;(x)&space;=&space;\theta_1x_1&space;&plus;&space;\theta_2x_2&space;&plus;&space;\theta_3&space;=&space;\begin{bmatrix}\theta_1&space;\&space;\theta_2&space;\&space;\theta_3&space;\end{bmatrix}&space;\begin{bmatrix}&space;x_1\\&space;x_2\\&space;1&space;\end{bmatrix}&space;=&space;\theta^TX" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;h_\theta&space;(x)&space;=&space;\theta_1x_1&space;&plus;&space;\theta_2x_2&space;&plus;&space;\theta_3&space;=&space;\begin{bmatrix}\theta_1&space;\&space;\theta_2&space;\&space;\theta_3&space;\end{bmatrix}&space;\begin{bmatrix}&space;x_1\\&space;x_2\\&space;1&space;\end{bmatrix}&space;=&space;\theta^TX" title="h_\theta (x) = \theta_1x_1 + \theta_2x_2 + \theta_3 = \begin{bmatrix}\theta_1 \ \theta_2 \ \theta_3 \end{bmatrix} \begin{bmatrix} x_1\\ x_2\\ 1 \end{bmatrix} = \theta^TX" /></a>
@@ -287,9 +285,6 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
             
            <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;h_\theta(x)&space;=&space;\sum\limits_{i=0}^n&space;\theta_ix_i&space;=&space;\theta^Tx" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;h_\theta(x)&space;=&space;\sum\limits_{i=0}^n&space;\theta_ix_i&space;=&space;\theta^Tx" title="h_\theta(x) = \sum\limits_{i=0}^n \theta_ix_i = \theta^Tx" /></a>
         
-        - Mô phỏng thực tế
-        
-            ![](https://lh6.googleusercontent.com/xQMPlPjv845-gDphAAcyNLJufG_774prU974Zn00WP8Hsfandysppi3OiizibH_fdiYhODkhrmTKOc_HtoC74HHb6s6L0Bj4n1jv_P-xJWJTcSDgsO5ncISfO_SKLGq-8W3o2lVgf30 )
         
    - **b. Hàm mất mát (Loss Function)**
    
