@@ -307,7 +307,46 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
    - **c. Thuật toán tối ưu Loss Function (Optimization Algorithms)**
    
         - Normal Equation
-            - Công thức toán học
+        
+        Một liên tưởng đơn giản, như chúng ta học từ cấp 3, cách đơn giản nhất để tìm giá trị nhỏ nhất của một hàm số (cực tiểu), ta sẽ cho đạo hàm bằng 0 và tìm **<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\theta" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\theta" title="\large \theta" /></a>**. 
+        
+        
+        - Công thức toán học
+        
+            Tìm đạo hàm của <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;J(\theta)" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;J(\theta)" title="\large J(\theta)" /></a>    
+            
+            Một chút biến đổi:
+            
+            <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;J(\theta)=\frac{1}{2m}\left&space;\|&space;X\theta-y&space;\right&space;\|^2=\frac{1}{2m}(X\theta-y)^T(X\theta-y)" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;J(\theta)=\frac{1}{2m}\left&space;\|&space;X\theta-y&space;\right&space;\|^2=\frac{1}{2m}(X\theta-y)^T(X\theta-y)" title="\large J(\theta)=\frac{1}{2m}\left \| X\theta-y \right \|^2=\frac{1}{2m}(X\theta-y)^T(X\theta-y)" /></a>
+            
+            Chúng ta đơn giản hàm bằng cách bỏ đi <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\frac{1}{2m}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\frac{1}{2m}" title="\large \frac{1}{2m}" /></a> vì cuối cùng chúng ta cũng cho đạo hàm bằng 0.
+            
+            <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;J(\theta)=((X\theta)^T-y^T)(X\theta-y)" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;J(\theta)=((X\theta)^T-y^T)(X\theta-y)" title="\large J(\theta)=((X\theta)^T-y^T)(X\theta-y)" /></a>
+            
+            <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;J(\theta)=(X\theta)^TX\theta-(X\theta)^Ty-y^T(X\theta)&plus;y^Ty" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;J(\theta)=(X\theta)^TX\theta-(X\theta)^Ty-y^T(X\theta)&plus;y^Ty" title="\large J(\theta)=(X\theta)^TX\theta-(X\theta)^Ty-y^T(X\theta)+y^Ty" /></a>
+            
+            Chú ý vì <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;X\theta" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;X\theta" title="\large X\theta" /></a> và <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;y" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;y" title="\large y" /></a> đều là vector nên khi chúng ta nhân chúng lại với nhau, vị trí của chúng trong tích không quan trọng nữa. Cho nên:
+            
+            <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;(X\theta)^Ty&space;=&space;y^T(X\theta)" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;(X\theta)^Ty&space;=&space;y^T(X\theta)" title="(X\theta)^Ty = y^T(X\theta)" /></a>
+            
+            Cho nên:
+            
+            <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;J(\theta)=\theta^TX^TX\theta-2(X\theta)^Ty&plus;y^Ty" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;J(\theta)=\theta^TX^TX\theta-2(X\theta)^Ty&plus;y^Ty" title="\large J(\theta)=\theta^TX^TX\theta-2(X\theta)^Ty+y^Ty" /></a>
+            
+            Tiến hành đạo hàm:
+            
+            <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\frac{\partial&space;J}{\partial&space;\theta}=2X^TX\theta-2X^{T}y=0" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\frac{\partial&space;J}{\partial&space;\theta}=2X^TX\theta-2X^{T}y=0" title="\large \frac{\partial J}{\partial \theta}=2X^TX\theta-2X^{T}y=0" /></a>
+            
+            Tương đương:
+            
+            <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;X^TX\theta=X^{T}y" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;X^TX\theta=X^{T}y" title="\large X^TX\theta=X^{T}y" /></a>
+            
+            Giả sử <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;X^TX" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;X^TX" title="\large X^TX" /></a> có thể nghịch đảo, chuyển vế ta có:
+            
+            <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\theta=(X^TX)^{-1}X^Ty" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\theta=(X^TX)^{-1}X^Ty" title="\large \theta=(X^TX)^{-1}X^Ty" /></a>
+            
+            
+            
             - Điểm mạnh
             - Điểm yếu
         - Gradient Descent
