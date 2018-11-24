@@ -347,8 +347,8 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
             
             
             
-            - Điểm mạnh
-            - Điểm yếu
+            - Điểm mạnh: Công thức đơn giản và chỉ cần đổ data vào tính toán
+            - Điểm yếu: Tài nguyên để tính toán ma trận nghịch đảo với lượng data lớn là rất tốn kém nên trong thực tế các bài toán hồi quy tuyến tính rất ít khi sử dụng phương pháp này
         - Gradient Descent
             - Công thức toán học
             - Điểm mạnh
