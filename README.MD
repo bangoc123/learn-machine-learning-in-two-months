@@ -6,7 +6,7 @@ Lộ trình sẽ giúp bạn nắm chắc công nghệ này từ cơ bản đế
 
 **P/S:** Hãy để lại **1 star** để team có động lực xuất bản các phần tiếp theo và cũng đừng quên chia sẻ tới bạn bè của bạn.
 
-Mình sẽ là một trong các teacher của lớp VietAI offline tại Hanoi diễn ra giữa tháng 11. Nếu bạn quan tâm có thể đăng ký [qua đây](https://docs.google.com/forms/d/e/1FAIpQLSf6QOy6FhxGmot4mkgt7A0Qk_II7V9Y1Z0zxS8SMmtwYR1sgQ/viewform). 
+Mình sẽ là một trong các lecturer của lớp VietAI offline tại Hanoi diễn ra giữa tháng 11. Nếu bạn quan tâm có thể đăng ký [qua đây](https://docs.google.com/forms/d/e/1FAIpQLSf6QOy6FhxGmot4mkgt7A0Qk_II7V9Y1Z0zxS8SMmtwYR1sgQ/viewform). 
 
 
 ### 0. Mục lục
@@ -350,7 +350,15 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
             - Điểm mạnh: Công thức đơn giản và chỉ cần đổ data vào tính toán
             - Điểm yếu: Tài nguyên để tính toán ma trận nghịch đảo với lượng data lớn là rất tốn kém nên trong thực tế các bài toán hồi quy tuyến tính rất ít khi sử dụng phương pháp này
         - Gradient Descent
+        
+            <img src="https://lh3.googleusercontent.com/kSRGUYFjiH6o14T8Vh0OjWtlMhpuvjcEHmaJUZ3XZKRIaZWVfjJDkFxHaJYPFkc1ih1ti7mX7V5EU70w46qzQzxTz6P15bCotjVCn2RfHFPFtyTyFbZwRGFeLvhiGR41AIrpZSG-ZjEdxSn1jDQ8xa7vkKJXzOgdrQVVNT5x8kUM8fWh9X0aFpNHeHJJbIFbf3sBLDZKejzqI8s0fTR3CLZCcJCayzGu81IXS59BhzPD6lFl0hXjo6yItd3Ff8zMgipm3_J7pn06J5xxkb_MEzwm3lsynzQwv1sbHx-aRZK2THa7n53vi1btjfr7PuTbt4qiviqaOFvE3p1takek_xaq_FHQzwtTwHJnvsyUuc-fPP3sNxf5cKSydapub-DFWmuAvqaSVq8MmDiqMzznlkynODcYK2fQWgBuYREl4BKoe-vUU7E-4_Plet0lA8ji1lohWMQX9EtYn0qYJlJXXtkT6hoL27eCbq7BfzFKJrPn3ROufbjbq3koCjT_BXLmSfQga6Gue4h8CbSCUk7Pq1WleAF1T9J25hUDT-0ToDMvcKjyY3bwOh4h8RcL_hgGRLmZ1ydFJUsVXM4GM0hI7gWmGEfBN2QWtXdSX7I8s8Y_RLDBsjOOPwGrWKX4MtoPwSlE_Ea_bMJCQEgvIhtV8HEt7mtErdnVBy8yLF1w4huwdZkd6RhiGpI8Z0Y2q6J3UCFegyqVYJHHSEquCpg=w729-h284-no" >
+        
             - Công thức toán học
+            
+                <img src="https://lh3.googleusercontent.com/H4UFrVphfGVuRyV-BwNoFsAHjS7UHH5s-66WzwmPWrRpRExAj0mNx9B7lFhd6RcXgxYi2X3p6Z8ZyskYXg6ZY2LEJuW9yJQsWlgv8wwYv5hiYdWWqM4PnyLEkuGrCIq7QpTCQ-AirMoytzeRr7iNAfq5dJNRxW_ngm42oBUx6q0aoJZ9SLTluqhUmjy1pBlgJ25plkzv-l4a_zK1NKpXGaiEx14edK5Mvw9k3XP1eLaUqvrlyQ3Vm97bSOQCyHa6quoxbIdKJRfWvKC0oX9ywiWLCqq1OZIsNZaYrzk3CLKIeoEz_gSqUbghiVLWYOGcB6iG89RB6UYHyzePE3Y0uD1FzqiBGjEjHhgXhVHcmP9KqfcwBiGc96tMmGLBlKV0I8YrBdpLE3X8eVH3zMGEg6tTN1K74NYNznricKUJiCziszUQh98s5ypGBOqt2d0HVqmvV_8rp1y8hb562XnuV42UNF1cBkt2CjbUFnM010XYdirHbqQz__gYlPpwrEFITAEorNk8UiwWAOITiYVC5lCgs9gCDWrUkEIwbRi2jhaEmxn7r7a58At_UaaG6ZonN5iIkiLe1g6y0SUXORUmQmUfi4DPse0dn4fWZ3n1GgcRfjgxfa2Pi-AVzBjVxrrOqJrsgfHLkaQqFuj9pc8xa9ECtUtVu-rNcrJe1xWG-kiAMg3WDnBKgsiQh7LOKbPw-6TtXTu6Uy4HpJG6jKw=w602-h326-no" >
+                
+                <img src="https://lh3.googleusercontent.com/7QSSTJjZQmKBF0JvW5uuRji4sFgnP3IsINkFFwIjVN5ed6WpkjrUjD9Y-r8neeM_7B5XpdyGx1-Z3gTwfocaSniYvaXZ2OJCfk3jckY4bEf1Bhr34SZw63dxhgp_29VWJLJiO12mx8m34Qz_05pAhkYXCcAJMnfo7p-2SIEtNXPoxlCF9xCY9IQ7yZZ8CSDOIKawxrgn6CkjeLAApbLzzGRIVuduvfUo2oa_guYn9gsB9rAtz2WkASHRrdYMa3DLlFU8womgizVku6YkNIT8sf_fTKGhti5bi_zfUVL0FfYkCE6obLKFeRkhZjE3yfRfp7ZcyjJlzDAGcEoLiMIieBtqGcsJ4lbT2s5hstfPVKkqpx9Zd0YdD1lrZw8_6vhvWvKJiXhhcr3XbYfvhR95o5_cCzKdTOVQllw-lqJjVWRJfThg7PUpy8VTQtrAICVwDjgPSsaTQvookIClY35LLhy2J2xdXKw6hwqMc3050jIwrvHZf6oBVVFiPT7isvaBR5yXr80wQ-8QiUzNHaqa5BGTdZ6h2zQi1yWqoFRHltpHvXs3tN0leVj6pXw7uQLgNoadzXdRqbYQZNzjX7NUIgl1YPrV7WRQezPZEZaklKY5nEwuKdsDH9xbMjrb-DLQ9iwkCsXP4ZTV2KL2Lg9QVE3KBGOLdV7B3VPqeBYkG0vFdmogVPHw1FL78QNekX0sKE1O79P77mfVyTpP-nI=s708-no" >
+                
             - Điểm mạnh
             - Điểm yếu
             
