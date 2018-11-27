@@ -352,15 +352,35 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
         - Gradient Descent
         
             <img src="https://lh3.googleusercontent.com/kSRGUYFjiH6o14T8Vh0OjWtlMhpuvjcEHmaJUZ3XZKRIaZWVfjJDkFxHaJYPFkc1ih1ti7mX7V5EU70w46qzQzxTz6P15bCotjVCn2RfHFPFtyTyFbZwRGFeLvhiGR41AIrpZSG-ZjEdxSn1jDQ8xa7vkKJXzOgdrQVVNT5x8kUM8fWh9X0aFpNHeHJJbIFbf3sBLDZKejzqI8s0fTR3CLZCcJCayzGu81IXS59BhzPD6lFl0hXjo6yItd3Ff8zMgipm3_J7pn06J5xxkb_MEzwm3lsynzQwv1sbHx-aRZK2THa7n53vi1btjfr7PuTbt4qiviqaOFvE3p1takek_xaq_FHQzwtTwHJnvsyUuc-fPP3sNxf5cKSydapub-DFWmuAvqaSVq8MmDiqMzznlkynODcYK2fQWgBuYREl4BKoe-vUU7E-4_Plet0lA8ji1lohWMQX9EtYn0qYJlJXXtkT6hoL27eCbq7BfzFKJrPn3ROufbjbq3koCjT_BXLmSfQga6Gue4h8CbSCUk7Pq1WleAF1T9J25hUDT-0ToDMvcKjyY3bwOh4h8RcL_hgGRLmZ1ydFJUsVXM4GM0hI7gWmGEfBN2QWtXdSX7I8s8Y_RLDBsjOOPwGrWKX4MtoPwSlE_Ea_bMJCQEgvIhtV8HEt7mtErdnVBy8yLF1w4huwdZkd6RhiGpI8Z0Y2q6J3UCFegyqVYJHHSEquCpg=w729-h284-no" >
-        
-            - Công thức toán học
             
-                <img src="https://lh3.googleusercontent.com/H4UFrVphfGVuRyV-BwNoFsAHjS7UHH5s-66WzwmPWrRpRExAj0mNx9B7lFhd6RcXgxYi2X3p6Z8ZyskYXg6ZY2LEJuW9yJQsWlgv8wwYv5hiYdWWqM4PnyLEkuGrCIq7QpTCQ-AirMoytzeRr7iNAfq5dJNRxW_ngm42oBUx6q0aoJZ9SLTluqhUmjy1pBlgJ25plkzv-l4a_zK1NKpXGaiEx14edK5Mvw9k3XP1eLaUqvrlyQ3Vm97bSOQCyHa6quoxbIdKJRfWvKC0oX9ywiWLCqq1OZIsNZaYrzk3CLKIeoEz_gSqUbghiVLWYOGcB6iG89RB6UYHyzePE3Y0uD1FzqiBGjEjHhgXhVHcmP9KqfcwBiGc96tMmGLBlKV0I8YrBdpLE3X8eVH3zMGEg6tTN1K74NYNznricKUJiCziszUQh98s5ypGBOqt2d0HVqmvV_8rp1y8hb562XnuV42UNF1cBkt2CjbUFnM010XYdirHbqQz__gYlPpwrEFITAEorNk8UiwWAOITiYVC5lCgs9gCDWrUkEIwbRi2jhaEmxn7r7a58At_UaaG6ZonN5iIkiLe1g6y0SUXORUmQmUfi4DPse0dn4fWZ3n1GgcRfjgxfa2Pi-AVzBjVxrrOqJrsgfHLkaQqFuj9pc8xa9ECtUtVu-rNcrJe1xWG-kiAMg3WDnBKgsiQh7LOKbPw-6TtXTu6Uy4HpJG6jKw=w602-h326-no" >
+             Thay vì sử dụng công thức ăn liền Normal Equation, thì trong thực tế chúng ta sẽ sử dụng thuật toán Gradient Descent. Giải thích một cách đơn giản, chúng ta sẽ cho <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\theta" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\theta" title="\large \theta" /></a> tăng và giảm một khoảng nhất định, sao cho giá trị của hàm Loss function <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;J(\theta)" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;J(\theta)" title="\large J(\theta)" /></a> giảm dần đến giá trị cực tiểu. 
+             
+             Như bạn có thể thấy trên hình: Lúc ban đầu hàm <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;J(\theta)" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;J(\theta)" title="\large J(\theta)" /></a> có giá trị lớn nên hàm ban đầu cần tìm dự đoán chưa chính xác các dữ liệu, nhưng khi hàm <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;J(\theta)" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;J(\theta)" title="\large J(\theta)" /></a> giảm dần, hàm ban đầu dự đoán chính xác hơn rất nhiều.
+             
+            - Công thức toán học
+               
                 
                 <img src="https://lh3.googleusercontent.com/7QSSTJjZQmKBF0JvW5uuRji4sFgnP3IsINkFFwIjVN5ed6WpkjrUjD9Y-r8neeM_7B5XpdyGx1-Z3gTwfocaSniYvaXZ2OJCfk3jckY4bEf1Bhr34SZw63dxhgp_29VWJLJiO12mx8m34Qz_05pAhkYXCcAJMnfo7p-2SIEtNXPoxlCF9xCY9IQ7yZZ8CSDOIKawxrgn6CkjeLAApbLzzGRIVuduvfUo2oa_guYn9gsB9rAtz2WkASHRrdYMa3DLlFU8womgizVku6YkNIT8sf_fTKGhti5bi_zfUVL0FfYkCE6obLKFeRkhZjE3yfRfp7ZcyjJlzDAGcEoLiMIieBtqGcsJ4lbT2s5hstfPVKkqpx9Zd0YdD1lrZw8_6vhvWvKJiXhhcr3XbYfvhR95o5_cCzKdTOVQllw-lqJjVWRJfThg7PUpy8VTQtrAICVwDjgPSsaTQvookIClY35LLhy2J2xdXKw6hwqMc3050jIwrvHZf6oBVVFiPT7isvaBR5yXr80wQ-8QiUzNHaqa5BGTdZ6h2zQi1yWqoFRHltpHvXs3tN0leVj6pXw7uQLgNoadzXdRqbYQZNzjX7NUIgl1YPrV7WRQezPZEZaklKY5nEwuKdsDH9xbMjrb-DLQ9iwkCsXP4ZTV2KL2Lg9QVE3KBGOLdV7B3VPqeBYkG0vFdmogVPHw1FL78QNekX0sKE1O79P77mfVyTpP-nI=s708-no" >
                 
+               - Chú ý: <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\alpha" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\alpha" title="\large \alpha" /></a> được gọi là một hyper hyper parameters. Nó sẽ được đặt bởi một giá trị cho trước. Ví dụ mình hay đặt sử dụng 0.01 hoặc 0.0001. Ý nghĩa của nó là một tham số quyết định tốc độ học nhanh hay chậm của mô hình.
+               
+               
+                    - Nếu <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\alpha" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\alpha" title="\large \alpha" /></a> quá lớn: Hàm không thể hội tụ và giá trị của nó sẽ nhảy đến vô cùng. Khi lập trình bạn có thể sẽ hay gặp (nan) trong Python.
+                    
+                    - Nếu <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\alpha" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\alpha" title="\large \alpha" /></a> quá nhỏ: Mô hình hội tụ quá lâu, tốn kém thời gian.
+               
+                    <img src="https://lh3.googleusercontent.com/5VKCn6gZi7lnlao9_2s8qLMckEs6_fffkqgKOPvT9fWolWyj9AD5CiMrp2H9Vs5UxAVB2QHM-Gr433jm1dQI97lNKmbq9a7_UlZsM0CoRTbwZDfWWjYYjN0nOZVz7UfF_Uuqnu6CMIJcBKIHKYSZiGFeSmDZdMXD30StDz6sLHNmJxdSFWanjXGlb4i8dCwYlxkjp547VPKOUPiEDjPbnltCAfeKu5KLJJWkjmE8RQ3BCg0q_Lr5Sqairdp7gCyfUNUx15UdTEAfqzY1BRdyYSmpDIm419KB5sZrAwUt4uOeSPZyy4I_R086nLFXkfNBMsBDI0rQQLRcJlaop7xuqzO3TMGCveWZVspNm3Cuy7QN_s60PqOCU_3T1Ao5O3RG4zmmqA7-WublIRsEE3dauRXlIxxq5WW2-Unpt1Z1JyihAd-XfHeU_plxaazMNC7NNqE2Cxe3An89gXqEYHxAcWDKhjuRHovL44QkXQCeS9gWZpTi51OGkgN1IKd1UguUohys4RpHy-QxtLiEL66sWBOq0mQqx6drNHIhiwENXsU_mRe8mL6gYmHb2FiTVXFRt4GTGLa2zKZM58dMgp59W_TfiXiSZvt_1nkGxQyDB1li8VoHyYNo1iKh6idoP5t_1SirOlkzsWdtND2KSUL5rweJ_JOP_DlTedVUR6iph-f0pJ3cPvQAcRS6KWCxsl-17dywHD4epVVf6Si2IEY=w950-h529-no" >
+               
+                
             - Điểm mạnh
+            
+                Tính toán nhẹ nhàng hơn rất nhiều so với phương pháp ban đầu. Về sau chúng ta sẽ tìm hiểu các phương thức khác kết hợp với Gradient Descent để giảm nhẹ khối lượng tính toán.
+            
             - Điểm yếu
+                
+                Kết quả thường không chính xác 100%, nhiều vấn đề liên quan xảy ra ví dụ như giá trị của hàm Loss không thể giảm thêm mà bị mắc kẹt tại một điểm local nào đó. (Như hình mình họa bên trên)
+                
+                Có rất nhiều phương pháp để giải quyết vấn đề này, tôi sẽ trình bày ở các bài tiếp theo.
             
    - **d. Bài toán thực tế**
    
