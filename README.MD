@@ -406,7 +406,50 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
                 Có rất nhiều phương pháp để giải quyết vấn đề này, tôi sẽ trình bày ở các bài tiếp theo.
             
    - **d. Bài toán thực tế**
-   
+        
+        - Bài Toán Grab
+        
+            - 1. Mô phỏng data
+            
+                | Số Km (Km) | Số tiền cần trả (1000 VND) |
+                | ------ | ------ |
+                |    2   |   13   |
+                |    7   |   35   |
+                |    9   |   41   |
+                |    3   |   19   |
+                |    10  |   45   |
+                |    6   |   28   |
+                |    1   |   10   |
+                |    8   |   55   |
+
+                Ta sẽ phải mô phỏng data này bằng code.
+
+                Gọi Số KM là <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;X" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;X" title="\large X" /></a> và số tiền cần phải trả là <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;Y" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;Y" title="\large Y" /></a>. Gọi <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\hat{Y}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\hat{Y}" title="\large \hat{Y}" /></a> là hàm chúng ta sẽ dự đoán. 
+                
+                <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\hat{Y}&space;=&space;X_0\theta_0&space;&plus;&space;\theta_1&space;=&space;\begin{bmatrix}&space;X_0\&space;1&space;\end{bmatrix}&space;\begin{bmatrix}&space;\theta_0&space;\\\theta_1&space;\end{bmatrix}&space;=&space;X\theta" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\hat{Y}&space;=&space;X_0\theta_0&space;&plus;&space;\theta_1&space;=&space;\begin{bmatrix}&space;X_0\&space;1&space;\end{bmatrix}&space;\begin{bmatrix}&space;\theta_0&space;\\\theta_1&space;\end{bmatrix}&space;=&space;X\theta" title="\large \hat{Y} = X_0\theta_0 + \theta_1 = \begin{bmatrix} X_0\ 1 \end{bmatrix} \begin{bmatrix} \theta_0 \\\theta_1 \end{bmatrix} = X\theta" /></a>
+                
+                Mô phỏng X: 
+                
+                ```
+                X0 = np.array([[2], [7], [9], [3], [10], [6], [1], [8]])
+                
+                ```
+                
+                Mô phỏng Y:
+                
+                ```
+                Y = np.array([[13], [35], [41], [19], [45], [28], [10], [55]])
+                
+                ```
+                
+                Sử dụng **matplotlib** mô phỏng các dữ liệu với hàm ``` plt.scatter(X_begin,Y); plt.show()```
+                
+                <img src="https://lh3.googleusercontent.com/tk2v2HtHUA6HSLMlMpBD7JR-558fqnn7y9RzMv3Da6xeVAnwNeQdRmMkvD2DZGsIVdef30yTU11Nh1solD4aWPH8e1O5L8BreENmjdiL9J_y5sGoPfHMZ_V_SfBwzcX-SxembeX2N50725zAo14ofy3wmKna8amM2d7q4RtHrnNUG9ra22DfqgXcFLWsajLrRFAKQ9iC9TNv4-U-BniiqXfyLCAj2qPhGOtvXPUDfGhuyr7DPxtSOUzhmziqSA3BF3r3DG6BcgXvFUN-NkZ_uzlK2khXKZERzprH1IA2E0T6HxptZBURkb1qrSaGVsUc72t_74FUNxHXlhJa342wVcyd-TrQEWyX83FQVY-9m4SAk3TcUmF53GZok-GemeWuOaJ26hoCfEvn3AOzY1mqieQeGUrZeItskLXpOkGAcDPjyaR7vGTAtDZZPNs9b4DFVcj1pjH3jwh9WIFLHThCtXXZtvt36bCwqmU1hm_Ot9GPzHiH0m6NYO2bWhyx7vifl7xtzVADpR5ijWq8yTEDmHhOwiLN9HI32DKnSX92uQEJGV_N8lnYHs-iy_4OFjZlf0kkrYq8FuOQpbQg9QFJ4vZOyAotn__f48iQO0mDk3Wk9QozG3dn5MQ1Z0net5mZxnww_VjpxwHI9Ntkz1RgxESrWTwXBYmopZjiXW04dSFzPBZaFEWIjx3nZ0MXrWXCBMb1uxgvP6Qvp4szpEc=w1218-h686-no">
+                
+                
+                
+                
+
         - Bài toán đo lường Hiệu quả sản xuất
             - Vấn đề
             - Giải quyết bằng mô hình Hồi quy tuyến tính
