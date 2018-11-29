@@ -362,6 +362,29 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
                 
                 <img src="https://lh3.googleusercontent.com/7QSSTJjZQmKBF0JvW5uuRji4sFgnP3IsINkFFwIjVN5ed6WpkjrUjD9Y-r8neeM_7B5XpdyGx1-Z3gTwfocaSniYvaXZ2OJCfk3jckY4bEf1Bhr34SZw63dxhgp_29VWJLJiO12mx8m34Qz_05pAhkYXCcAJMnfo7p-2SIEtNXPoxlCF9xCY9IQ7yZZ8CSDOIKawxrgn6CkjeLAApbLzzGRIVuduvfUo2oa_guYn9gsB9rAtz2WkASHRrdYMa3DLlFU8womgizVku6YkNIT8sf_fTKGhti5bi_zfUVL0FfYkCE6obLKFeRkhZjE3yfRfp7ZcyjJlzDAGcEoLiMIieBtqGcsJ4lbT2s5hstfPVKkqpx9Zd0YdD1lrZw8_6vhvWvKJiXhhcr3XbYfvhR95o5_cCzKdTOVQllw-lqJjVWRJfThg7PUpy8VTQtrAICVwDjgPSsaTQvookIClY35LLhy2J2xdXKw6hwqMc3050jIwrvHZf6oBVVFiPT7isvaBR5yXr80wQ-8QiUzNHaqa5BGTdZ6h2zQi1yWqoFRHltpHvXs3tN0leVj6pXw7uQLgNoadzXdRqbYQZNzjX7NUIgl1YPrV7WRQezPZEZaklKY5nEwuKdsDH9xbMjrb-DLQ9iwkCsXP4ZTV2KL2Lg9QVE3KBGOLdV7B3VPqeBYkG0vFdmogVPHw1FL78QNekX0sKE1O79P77mfVyTpP-nI=s708-no" >
                 
+               - Diễn giải công thức toán:
+               
+               <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\theta_{new}&space;:=&space;\theta_{old}&space;-&space;\alpha\triangledown&space;J(\theta)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\large&space;\theta_{new}&space;:=&space;\theta_{old}&space;-&space;\alpha\triangledown&space;J(\theta)" title="\large \theta_{new} := \theta_{old} - \alpha\triangledown J(\theta)" /></a>
+               
+               Tương đương với:
+               
+               <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\theta_{new}&space;:=&space;\theta_{old}&space;-&space;\alpha&space;\frac{1}{m}X^T(X\theta&space;-&space;y)" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\theta_{new}&space;:=&space;\theta_{old}&space;-&space;\alpha&space;\frac{1}{m}X^T(X\theta&space;-&space;y)" title="\large \theta_{new} := \theta_{old} - \alpha \frac{1}{m}X^T(X\theta - y)" /></a>
+               
+                Các bạn nên nhớ là <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\theta" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\theta" title="\large \theta" /></a> là một vector. Việc cập nhật <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\theta" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\theta" title="\large \theta" /></a> tương ứng với việc cập nhật từng phần tử của <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\theta" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\theta" title="\large \theta" /></a>. 
+                
+                <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\theta_0&space;:=&space;\theta_0&space;-&space;\alpha&space;\frac{1}{m}\sum\limits_{i=1}^m(h_\theta(x^{(i)})&space;-y^{(i)})x^{(i)}_0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\large&space;\theta_0&space;:=&space;\theta_0&space;-&space;\alpha&space;\frac{1}{m}\sum\limits_{i=1}^m(h_\theta(x^{(i)})&space;-y^{(i)})x^{(i)}_0" title="\large \theta_0 := \theta_0 - \alpha \frac{1}{m}\sum\limits_{i=1}^m(h_\theta(x^{(i)}) -y^{(i)})x^{(i)}_0" /></a>
+                
+                <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\theta_1&space;:=&space;\theta_1&space;-&space;\alpha&space;\frac{1}{m}\sum\limits_{i=1}^m(h_\theta(x^{(i)})&space;-y^{(i)})x^{(i)}_1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\large&space;\theta_1&space;:=&space;\theta_1&space;-&space;\alpha&space;\frac{1}{m}\sum\limits_{i=1}^m(h_\theta(x^{(i)})&space;-y^{(i)})x^{(i)}_1" title="\large \theta_1 := \theta_1 - \alpha \frac{1}{m}\sum\limits_{i=1}^m(h_\theta(x^{(i)}) -y^{(i)})x^{(i)}_1" /></a>
+                
+                <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;..." target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;..." title="..." /></a>
+                
+                <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\theta_j&space;:=&space;\theta_j&space;-&space;\alpha&space;\frac{1}{m}\sum\limits_{i=1}^m(h_\theta(x^{(i)})&space;-y^{(i)})x^{(i)}_j" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\large&space;\theta_j&space;:=&space;\theta_j&space;-&space;\alpha&space;\frac{1}{m}\sum\limits_{i=1}^m(h_\theta(x^{(i)})&space;-y^{(i)})x^{(i)}_j" title="\large \theta_j := \theta_j - \alpha \frac{1}{m}\sum\limits_{i=1}^m(h_\theta(x^{(i)}) -y^{(i)})x^{(i)}_j" /></a>
+                
+                
+                Nếu bạn đã từng lập trình thì có thể tinh tế nhận ra cách tính toán này. Chúng ta sẽ tạo ra một vòng lặp và qua mỗi vòng lặp đó ta sẽ gán giá trị mới cho <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\theta" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\theta" title="\large \theta" /></a>.
+                
+                
+               
                - Chú ý: <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\alpha" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\alpha" title="\large \alpha" /></a> được gọi là một hyper hyper parameters. Nó sẽ được đặt bởi một giá trị cho trước. Ví dụ mình hay đặt sử dụng 0.01 hoặc 0.0001. Ý nghĩa của nó là một tham số quyết định tốc độ học nhanh hay chậm của mô hình.
                
                
