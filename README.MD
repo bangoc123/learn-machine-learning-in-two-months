@@ -409,6 +409,8 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
         
         - Bài Toán Grab
         
+            Toàn bộ Solution nằm [tại đây](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/models/linear-regression/GrabProblem/Grab-Solution.ipynb)
+        
             - 1. Mô phỏng data
             
                 | Số Km (Km) | Số tiền cần trả (1000 VND) |
