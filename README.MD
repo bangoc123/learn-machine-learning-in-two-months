@@ -519,7 +519,8 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
                 ```
                 
                 <img src="https://lh3.googleusercontent.com/wuaN0MZAz7T_IRxO5EFl1C8LTfDAncNCCktbZZJHTzuc6rYNoZEQHFMOQZHVUES1XjDSHDrMDKxZut_qcCbBD9hQK42yfdBegZbOE0OwdYwUvAR_GAW_QeKljv84OBNRH3yj0A9GPww7kZ-n-50UacQA9Hx5ur_0M-5XEgScX8o7fDBi-jbkbk0BKAuOoM7r5oI-78g15b33Qer9eTAqXjcObqziwq_j_JhsLWOxgeMazTeCkMyTg3E_Zx09EYBT1XIs0cxgbmuTmmZ6gAc6YCWsfapWmcd-NBfdoz90JrvbgDQTaIJ5i2LIkgrMpT6kiuYt0g-RfcY9UDGnnwIXO9wy02sTFxg2dBjsuIc0KOVw1rKYIcBLwEh5ZbekdljAn4pMh6TWuFMXulvnenU9ng4vm3SALhr8FpZram65tjHLy1W4FuKS7rPGdCfGg1MwR9rEo3LvmkKKsdoUlSuZjyNpKRkixu-JTFHS1yc9oib4Iz7J5sLaT9hiaPB5u2xmguORP6YxRjc9wWh4yC5doEiiJSLrRg766f4QqgNEqxc2QXvyGBfpxt4gUwFN99fI1d2Ivg2YTBqp1ItYzA69Mr70f91RRA-janAxudZCrXmxrPHQOlIyMBQOAPk-e61dk4zXTgyXTbarg9fE7_kN75c-_i9h5jWfrsiLNS8JkTKNc3Aj-Kmip668OXqOSOuF-RZ1-KMY9WzjTN3Fklc=w884-h590-no" width=300>
-                Chúng ta có thể thấy hàm <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\hat{Y}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\hat{Y}" title="\large \hat{Y}" /></a> (đường màu vàng) đã xấp xỉ chính xác nhất data.
+                    
+                 Chúng ta có thể thấy hàm <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\hat{Y}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\hat{Y}" title="\large \hat{Y}" /></a> (đường màu vàng) đã xấp xỉ chính xác nhất data.
                 
             - 3. Sử dụng phương pháp Gradient Descent.
             
@@ -602,7 +603,15 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
                 [[4.40880503]
                 [5.39937107]]
                 ```
+                Vậy hàm <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\hat{Y}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\hat{Y}" title="\large \hat{Y}" /></a> của chúng ta có dạng:
                 
+                <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\hat{Y}&space;=&space;X\theta&space;=&space;\begin{bmatrix}&space;X_0\&space;1&space;\end{bmatrix}&space;\begin{bmatrix}&space;\4.40880503&space;\\\5.39937107&space;\end{bmatrix}&space;=&space;4.40880503X_0&space;&plus;&space;5.39937107" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\hat{Y}&space;=&space;X\theta&space;=&space;\begin{bmatrix}&space;X_0\&space;1&space;\end{bmatrix}&space;\begin{bmatrix}&space;\4.40880503&space;\\\5.39937107&space;\end{bmatrix}&space;=&space;4.40880503X_0&space;&plus;&space;5.39937107" title="\large \hat{Y} = X\theta = \begin{bmatrix} X_0\ 1 \end{bmatrix} \begin{bmatrix} \4.40880503 \\\5.39937107 \end{bmatrix} = 4.40880503X_0 + 5.39937107" /></a>
+                
+                Biểu diễn hàm:
+                
+                 <img src="https://lh3.googleusercontent.com/Wh4KdEOh264CwdYMxVCkwxvjxeaIklKJgSGrPjmZ6A500RTMD4WcPmPTucGBwjP5h68wgkpZ5iF-gKOa-Cqsvp-JZbUkq3lxVPCyQ48OqSgmtn_St1nRX18ynpkgFpJSlL9qUPFcaaqXE7AAvFgI-JBMT2leTTeZ9dkHfnVk3HepkTxT15KUV0tFWeM7o5fBoe_JNtRNy3TAMsD79W_iiXE29TuaoCYySBpEjbH8Ibm-WCyJwVjmwPUrCAPG6JFlVNiTYlNjT6sCF50P9rUAvZ3G4e0FWukxfPfhfnOH4ZlG56dsABRtc7aX5quGAzKkFnSUqXmPVEHSudZhr05cYo3w_Esc4LtrOQDAOGXbusYxtIOqbe2TGyuU1dxRY1DyfxFog4pQ0TUF6BrImuCsiMTihPv3DiMzK1gKUgt08w-AdkHS3uzyZtPvUEM5Epk9IMC6m0dNlZzEluLKO64UdrZTNeTum_2kzFMaH5Za7x2-SP931xK2Yf7PENImpmcsWHASEid25bmU69cOgmnSih2NAF7JtqBJHlILcxcPtGtfi9wLrD-Qy6I4xlyaJ_oxLlGHwUkzlj3D5EWDNLNBTZUFJsAxxK6V-7ztkyPjBWKe4BJtOO7oNb981yAACMbFcozM18EcZBSwvOpicv-H8qyqICRvpMQyAiXLRu_H0a0ga_YpdiGLyoi8-sRhJBP1at8YGx_SqRWrYCVYczA=w844-h556-no" width=300>
+                
+                Chúng ta có thể thấy trong bài toán này, hai kết quả ra tương đồng nhau.
                 
                 
         - Bài toán đo lường Hiệu quả sản xuất
