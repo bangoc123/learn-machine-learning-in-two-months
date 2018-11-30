@@ -497,6 +497,102 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
                 
                 ``` 
                 
+                Chúng ta sẽ tính ra được kết quả của <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\theta" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\theta" title="\large \theta" /></a>:
+                
+                ```
+                array([[4.40880503],
+                    [5.39937107]])
+                
+                ```
+                
+                Vậy <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\hat{Y}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\hat{Y}" title="\large \hat{Y}" /></a> có dạng:
+                
+                <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\hat{Y}&space;=&space;X\theta&space;=&space;\begin{bmatrix}&space;X_0\&space;1&space;\end{bmatrix}&space;\begin{bmatrix}&space;\4.40880503&space;\\\5.39937107&space;\end{bmatrix}&space;=&space;4.40880503X_0&space;&plus;&space;5.39937107" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\hat{Y}&space;=&space;X\theta&space;=&space;\begin{bmatrix}&space;X_0\&space;1&space;\end{bmatrix}&space;\begin{bmatrix}&space;\4.40880503&space;\\\5.39937107&space;\end{bmatrix}&space;=&space;4.40880503X_0&space;&plus;&space;5.39937107" title="\large \hat{Y} = X\theta = \begin{bmatrix} X_0\ 1 \end{bmatrix} \begin{bmatrix} \4.40880503 \\\5.39937107 \end{bmatrix} = 4.40880503X_0 + 5.39937107" /></a>
+                
+            - 3. Sử dụng phương pháp Gradient Descent.
+            
+                Khởi tạo <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\theta" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\theta" title="\large \theta" /></a> ngẫu như theo phân bố chuẩn.
+            
+                ```
+                theta_gd = np.random.normal(size=2).reshape([2,1])
+                
+                ```
+                
+                Giá trị của <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\theta" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\theta" title="\large \theta" /></a>:
+                
+                ```
+                array([[-1.31237748],
+                [ 0.22471167]])
+                ```
+                Đặt learning Rate <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\alpha" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\alpha" title="\large \alpha" /></a>:
+                
+                ```
+                learning_rate = 0.02
+                ```
+                
+                Tạo hàm tính gradient theo công thức <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\triangledown&space;J(\theta)&space;=&space;\frac{1}{m}X^T(X\theta&space;-&space;y)" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\triangledown&space;J(\theta)&space;=&space;\frac{1}{m}X^T(X\theta&space;-&space;y)" title="\large \triangledown J(\theta) = \frac{1}{m}X^T(X\theta - y)" /></a>:
+                
+                ```
+                def grad_cal(X, Y, theta_gd, m):
+                    """
+                    X: X's value
+                    Y: Y's value
+                    theta_gd: theta's value
+                    m: number of samples
+                    """    
+                    g = 1/m * X.T.dot(X.dot(theta_gd) - Y)
+                    return g.reshape(theta_gd.shape)
+                
+                ```
+                
+                Tạo hàm tính loss function theo công thức <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;J(\theta)&space;=&space;\frac{1}{2m}&space;\left&space;\|&space;X\theta&space;-&space;y&space;\right&space;\|^2&space;=&space;\frac{1}{2m}&space;\sum\limits_{i=1}^m(h_{\theta}(x^{(i)})&space;-&space;y^{(i)})^2&space;=&space;\frac{1}{2m}&space;\sum\limits_{i=1}^m(\theta^Tx^{(i)}&space;-&space;y^{(i)})^2" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;J(\theta)&space;=&space;\frac{1}{2m}&space;\left&space;\|&space;X\theta&space;-&space;y&space;\right&space;\|^2&space;=&space;\frac{1}{2m}&space;\sum\limits_{i=1}^m(h_{\theta}(x^{(i)})&space;-&space;y^{(i)})^2&space;=&space;\frac{1}{2m}&space;\sum\limits_{i=1}^m(\theta^Tx^{(i)}&space;-&space;y^{(i)})^2" title="J(\theta) = \frac{1}{2m} \left \| X\theta - y \right \|^2 = \frac{1}{2m} \sum\limits_{i=1}^m(h_{\theta}(x^{(i)}) - y^{(i)})^2 = \frac{1}{2m} \sum\limits_{i=1}^m(\theta^Tx^{(i)} - y^{(i)})^2" /></a>
+                
+                ```
+                def loss(X, Y, theta_gd, m):
+                    """
+                    X: X's value
+                    Y: Y's value
+                    theta_gd: theta's value
+                    m: number of samples
+                    """
+                    return 1/(2*m) * np.sum((X.dot(theta_gd) - Y)**2)
+                ```
+                
+                Tiến hành tạo vòng lặp, qua mỗi vòng lặp sẽ tính lại gradident đồng thời cập nhật lại <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\theta" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\theta" title="\large \theta" /></a>
+                
+                ```
+                for i in range(10000):
+                    grad_value = grad_cal(X, Y, theta_gd, m)
+                    theta_gd = theta_gd - learning_rate*grad_value
+                    print(loss(X, Y, theta_gd, m))
+                ```
+                
+                Giá trị của hàm Loss:
+                
+                ```
+                890.0619039221115
+                33.23288932117509
+                19.912233421433992
+                19.674950415271216
+                19.640872759091934
+                19.61022229452672
+                19.579897901246316
+                19.54984900715867
+                19.520072377582952
+                19.49056553425761
+                ```
+                
+                Chúng ta có thể thấy lúc đầu khi <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\theta" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\theta" title="\large \theta" /></a> có giá trị random, giá trị hàm Loss Function rất lớn. Sau đó khi <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\theta" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\theta" title="\large \theta" /></a> được cập nhật thì giá trị hàm Loss Function giảm dần và hội tụ đến điểm cực trị.
+                
+                Ở vòng lặp cuối cùng 10000 giá trị <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\theta" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\theta" title="\large \theta" /></a> thu được là: 
+                
+                ```
+                [[4.40880503]
+                [5.39937107]]
+                ```
+                
+                
+                
         - Bài toán đo lường Hiệu quả sản xuất
             - Vấn đề
             - Giải quyết bằng mô hình Hồi quy tuyến tính
