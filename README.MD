@@ -483,7 +483,7 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
                 
                 Sử dụng **matplotlib** mô phỏng các dữ liệu với hàm ``` plt.scatter(X_begin,Y); plt.show()```
                 
-                <img src="https://lh3.googleusercontent.com/tk2v2HtHUA6HSLMlMpBD7JR-558fqnn7y9RzMv3Da6xeVAnwNeQdRmMkvD2DZGsIVdef30yTU11Nh1solD4aWPH8e1O5L8BreENmjdiL9J_y5sGoPfHMZ_V_SfBwzcX-SxembeX2N50725zAo14ofy3wmKna8amM2d7q4RtHrnNUG9ra22DfqgXcFLWsajLrRFAKQ9iC9TNv4-U-BniiqXfyLCAj2qPhGOtvXPUDfGhuyr7DPxtSOUzhmziqSA3BF3r3DG6BcgXvFUN-NkZ_uzlK2khXKZERzprH1IA2E0T6HxptZBURkb1qrSaGVsUc72t_74FUNxHXlhJa342wVcyd-TrQEWyX83FQVY-9m4SAk3TcUmF53GZok-GemeWuOaJ26hoCfEvn3AOzY1mqieQeGUrZeItskLXpOkGAcDPjyaR7vGTAtDZZPNs9b4DFVcj1pjH3jwh9WIFLHThCtXXZtvt36bCwqmU1hm_Ot9GPzHiH0m6NYO2bWhyx7vifl7xtzVADpR5ijWq8yTEDmHhOwiLN9HI32DKnSX92uQEJGV_N8lnYHs-iy_4OFjZlf0kkrYq8FuOQpbQg9QFJ4vZOyAotn__f48iQO0mDk3Wk9QozG3dn5MQ1Z0net5mZxnww_VjpxwHI9Ntkz1RgxESrWTwXBYmopZjiXW04dSFzPBZaFEWIjx3nZ0MXrWXCBMb1uxgvP6Qvp4szpEc=w1218-h686-no">
+                <img src="https://lh3.googleusercontent.com/tk2v2HtHUA6HSLMlMpBD7JR-558fqnn7y9RzMv3Da6xeVAnwNeQdRmMkvD2DZGsIVdef30yTU11Nh1solD4aWPH8e1O5L8BreENmjdiL9J_y5sGoPfHMZ_V_SfBwzcX-SxembeX2N50725zAo14ofy3wmKna8amM2d7q4RtHrnNUG9ra22DfqgXcFLWsajLrRFAKQ9iC9TNv4-U-BniiqXfyLCAj2qPhGOtvXPUDfGhuyr7DPxtSOUzhmziqSA3BF3r3DG6BcgXvFUN-NkZ_uzlK2khXKZERzprH1IA2E0T6HxptZBURkb1qrSaGVsUc72t_74FUNxHXlhJa342wVcyd-TrQEWyX83FQVY-9m4SAk3TcUmF53GZok-GemeWuOaJ26hoCfEvn3AOzY1mqieQeGUrZeItskLXpOkGAcDPjyaR7vGTAtDZZPNs9b4DFVcj1pjH3jwh9WIFLHThCtXXZtvt36bCwqmU1hm_Ot9GPzHiH0m6NYO2bWhyx7vifl7xtzVADpR5ijWq8yTEDmHhOwiLN9HI32DKnSX92uQEJGV_N8lnYHs-iy_4OFjZlf0kkrYq8FuOQpbQg9QFJ4vZOyAotn__f48iQO0mDk3Wk9QozG3dn5MQ1Z0net5mZxnww_VjpxwHI9Ntkz1RgxESrWTwXBYmopZjiXW04dSFzPBZaFEWIjx3nZ0MXrWXCBMb1uxgvP6Qvp4szpEc=w1218-h686-no" width=300>
                 
             - 2. Sử dụng phương pháp Normal Equation.
                 
@@ -508,6 +508,18 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
                 Vậy <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\hat{Y}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\hat{Y}" title="\large \hat{Y}" /></a> có dạng:
                 
                 <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\hat{Y}&space;=&space;X\theta&space;=&space;\begin{bmatrix}&space;X_0\&space;1&space;\end{bmatrix}&space;\begin{bmatrix}&space;\4.40880503&space;\\\5.39937107&space;\end{bmatrix}&space;=&space;4.40880503X_0&space;&plus;&space;5.39937107" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\hat{Y}&space;=&space;X\theta&space;=&space;\begin{bmatrix}&space;X_0\&space;1&space;\end{bmatrix}&space;\begin{bmatrix}&space;\4.40880503&space;\\\5.39937107&space;\end{bmatrix}&space;=&space;4.40880503X_0&space;&plus;&space;5.39937107" title="\large \hat{Y} = X\theta = \begin{bmatrix} X_0\ 1 \end{bmatrix} \begin{bmatrix} \4.40880503 \\\5.39937107 \end{bmatrix} = 4.40880503X_0 + 5.39937107" /></a>
+                
+                Miêu tả dạng này:
+                
+                ```
+                # See how it fits:
+                plt.scatter(X_begin, Y)
+                plot_polynomial(0, 10, theta)
+                plt.show()
+                ```
+                
+                <img src="https://lh3.googleusercontent.com/wuaN0MZAz7T_IRxO5EFl1C8LTfDAncNCCktbZZJHTzuc6rYNoZEQHFMOQZHVUES1XjDSHDrMDKxZut_qcCbBD9hQK42yfdBegZbOE0OwdYwUvAR_GAW_QeKljv84OBNRH3yj0A9GPww7kZ-n-50UacQA9Hx5ur_0M-5XEgScX8o7fDBi-jbkbk0BKAuOoM7r5oI-78g15b33Qer9eTAqXjcObqziwq_j_JhsLWOxgeMazTeCkMyTg3E_Zx09EYBT1XIs0cxgbmuTmmZ6gAc6YCWsfapWmcd-NBfdoz90JrvbgDQTaIJ5i2LIkgrMpT6kiuYt0g-RfcY9UDGnnwIXO9wy02sTFxg2dBjsuIc0KOVw1rKYIcBLwEh5ZbekdljAn4pMh6TWuFMXulvnenU9ng4vm3SALhr8FpZram65tjHLy1W4FuKS7rPGdCfGg1MwR9rEo3LvmkKKsdoUlSuZjyNpKRkixu-JTFHS1yc9oib4Iz7J5sLaT9hiaPB5u2xmguORP6YxRjc9wWh4yC5doEiiJSLrRg766f4QqgNEqxc2QXvyGBfpxt4gUwFN99fI1d2Ivg2YTBqp1ItYzA69Mr70f91RRA-janAxudZCrXmxrPHQOlIyMBQOAPk-e61dk4zXTgyXTbarg9fE7_kN75c-_i9h5jWfrsiLNS8JkTKNc3Aj-Kmip668OXqOSOuF-RZ1-KMY9WzjTN3Fklc=w884-h590-no" width=300>
+                Chúng ta có thể thấy hàm <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\hat{Y}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\hat{Y}" title="\large \hat{Y}" /></a> (đường màu vàng) đã xấp xỉ chính xác nhất data.
                 
             - 3. Sử dụng phương pháp Gradient Descent.
             
