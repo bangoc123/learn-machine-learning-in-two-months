@@ -613,7 +613,43 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
                 
                 Chúng ta có thể thấy trong bài toán này, hai kết quả ra tương đồng nhau.
                 
+            - 4. Dự đoán
+            
+                Như 2 phương pháp trên chúng ta đã nắm được dạng hàm của <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\hat{Y}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\hat{Y}" title="\large \hat{Y}" /></a>. Để dự đoán vỡi những data mới. Chúng ta chỉ cần tạo hàm mô phỏng:
                 
+                ```
+                def predict(X):
+                    return X.dot(theta)
+                ```
+                
+                a. Tôi muốn dự đoán số tiền phải trả khi tôi đi mất 20km
+                
+                ```
+                # Chú ý: luôn phải nối 1 vào bên phải của vector đầu vào giống như ta đã training.
+                X_new_1 = np.array([[20, 1]])
+                predict(X_new_1)
+                ```
+                
+                Ta thu được kết quả:
+                
+                ```
+                [[93.5754717]]
+                -> Số tiền cần phải trả chính là 93.5754717 (đơn vị 1000 đồng)
+                ```
+                
+                b. Tôi muốn dự đoán số tiền phải trả khi tôi đi mất 40km
+                
+                ```
+                X_new_2 = np.array([[40, 1]])
+                predict(X_new_2)
+                ```
+                
+                ```
+                [[181.75157233]]
+                -> Số tiền cần phải trả chính là 93.5754717 (đơn vị 1000 đồng)
+                ```
+            
+            
         - Bài toán đo lường Hiệu quả sản xuất
             - Vấn đề
             - Giải quyết bằng mô hình Hồi quy tuyến tính
