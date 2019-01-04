@@ -58,39 +58,21 @@ Graph đại diện cho phép tính <a href="https://www.codecogs.com/eqnedit.ph
             ![](https://lh3.googleusercontent.com/2c4meujxbGKri8GvAdlCQAOpJwzQz4OY9yoI6kXsHk7g6yDWNYyIh-YzrMCmJ7RCvzNtMuhrF28w2gndh020D6m3KURuPkOAEbVtNTmqlgzJA_eYzMMzYu8AATZQkcN6mG_ioYwYISVtlSXCJUaXbO93cncQ1lv4168WjchUi47XEqbk2-8WfcDitU9ZRpzWJI4ofbFMlGzlB4d_VfJYZeWnQec6xPWPDRxtkG4D65YGY8kLSBb5dTjU6azwUyItFdp2rhNRyNi36w6y6h8E5_91KXKkQSaAjbhk_IfrhIEVstccyt3Mjj_YdVX5vfbmbiqpL8me-o5ynpYEceEcR0vHLQKccktp5dmVdvXePln0pSVjm3RLyWaKydE8aifUKJd9OFxQilqbwx_SxrF6XX2E7IvcWt5Qi9ZTKh6XP9b8BtVkFfKsU8VCHsR6OtIxf7J4P0bQZVzRdd_qsVZMo2JrpLHKirbKs9hLl7XqQUvrHo0lFgJOq004p3N33-fe3VMrDb9Lz7A6CMh_OU4k05VBow3By6Cp3XNFxIifD6kDXcEBZQgZpDlJrdV0YOef0hEBcvcvrgM1iflrGaPZibJVQM2iCkKvsrUgfMpGpW8zWzI9zXKZv6S6MjQPRFL8P30Z9CMy9yQy1URKJmc065Bt7XHi8qhItAvOfGafRc5fcxe4CuuXWCNg=w800-h400-no)
                 
 
-        - **[Quan trọng]** Tại sao cần phải sử dụng Computational Graph?
-        
-            Như đã đề cập ở bên trên, **Computational Graph** hay **Dataflow Graph** dùng để biểu diễn các phép tính toán. Bạn sẽ phải tạo Graph trước rồi sử dụng TensorFlow Session để chạy các phần của Graph này.
-         
-            ![](https://lh3.googleusercontent.com/NIS0mI7clNb6y7twlSgpak8d9CnVsz0SAMJaQX_xqXZNFnw3kFtXvstzEkWEtmSCj7W3I2APu4bXXyqzAFoGnvvP4dQfmiTWQbqOQIZKvLZtSJG0sRnT0Sb17G3_OD8McibcHRhtWKKCXFzXQGv08HLzQCf5f4S0mPyLjQFw8REHlI_YDGQUTz1VRqxCOpV7cVUKA45kSvSII6LCB0o5JmpuzxiIl7TiQewF4mUGODHeRLEtb2AESSwnc7KOZYjySZx0HeFRI4B3jc_VxzuARBN6Phc2TgIUbeoPpWN7VLX1FeBnGXPQimwaDyJ9Rbx8wOm3-USKtUzwUy1h7ZYuVCmd3zORQg7M3dJvEEbOd1CjyEqqkdzipwJ_Z2_d9wJmW29dAiWUf10dcjoG4mCJKPanNBH9nA4Dc4Kxd7JrksDpRR59S7DdB01IYjXjXiCt5Ol3KG_Fja_1EkvrTjBzlvkcU3djSAOPZCHaf4hfa52jXvcniB4HudneJjC_j6r_Q39iRghaiVt4Na1A-flelpjCtdIR71Jo_Qh7ZKn5gbe-V6x-l9Frot7nIIbBkacNWx1hB9ty1Dt8f-phxkui_aaOHwbp2SPVsrPFm0vgGrO4xxbXONfGfDhZ2Qy3gtiloyKiS-38TwAZf80iLZDeQNdk45y9qneexDAPkPEp498uW3FidOgXneWpPw=w252-h448-no)
-            
-            Dataflow là mô hình lập trình (programming model) chuyên dùng cho tính toán song song. Xem thêm tại [đây](https://en.wikipedia.org/wiki/Dataflow_programming). Ở trong Graph, các đỉnh (nodes) đại diện cho các phép tính, và các cạnh (edges) đại diện cho dữ liệu đầu vào và đầu ra của các phép tính trên.
-            
-            Một số ưu điểm của Dataflow mà TensorFlow (TF) có thể tận dụng được:
-            
-            - **Tính toán song song (Parallelism)**: Bằng việc chia tách các phép tính toán độc lập, TF có khả năng lựa chọn thực hiện song song các phép tính cụ thể.
-            
-            - **Thực thi phân tán (Distributed Execution)**: TF có khả năng chia nhỏ ứng dụng của bạn cho nhiều CPU, TPU, GPU khác nhau trên nhiều máy khác nhau.
-            
-            - **Biên dịch (Compliation)**: [XLA](https://www.tensorflow.org/performance/xla/) của TF có thể dùng graph để generate ra code chạy nhanh hơn thông thường.
-            
-            - **Tính di động (Portability)**: Graph là ngôn ngữ biểu diễn độc lập (language-independent representation) với model của bạn. Bạn có thể build một Graph bằng **Python**, save model, store lại bằng C++.[](https://lh3.googleusercontent.com/2c4meujxbGKri8GvAdlCQAOpJwzQz4OY9yoI6kXsHk7g6yDWNYyIh-YzrMCmJ7RCvzNtMuhrF28w2gndh020D6m3KURuPkOAEbVtNTmqlgzJA_eYzMMzYu8AATZQkcN6mG_ioYwYISVtlSXCJUaXbO93cncQ1lv4168WjchUi47XEqbk2-8WfcDitU9ZRpzWJI4ofbFMlGzlB4d_VfJYZeWnQec6xPWPDRxtkG4D65YGY8kLSBb5dTjU6azwUyItFdp2rhNRyNi36w6y6h8E5_91KXKkQSaAjbhk_IfrhIEVstccyt3Mjj_YdVX5vfbmbiqpL8me-o5ynpYEceEcR0vHLQKccktp5dmVdvXePln0pSVjm3RLyWaKydE8aifUKJd9OFxQilqbwx_SxrF6XX2E7IvcWt5Qi9ZTKh6XP9b8BtVkFfKsU8VCHsR6OtIxf7J4P0bQZVzRdd_qsVZMo2JrpLHKirbKs9hLl7XqQUvrHo0lFgJOq004p3N33-fe3VMrDb9Lz7A6CMh_OU4k05VBow3By6Cp3XNFxIifD6kDXcEBZQgZpDlJrdV0YOef0hEBcvcvrgM1iflrGaPZibJVQM2iCkKvsrUgfMpGpW8zWzI9zXKZv6S6MjQPRFL8P30Z9CMy9yQy1URKJmc065Bt7XHi8qhItAvOfGafRc5fcxe4CuuXWCNg=w800-h400-no)
-                
+  - **[Quan trọng]** Tại sao cần phải sử dụng Computational Graph?
 
-        - **[Quan trọng]** Tại sao cần phải sử dụng Computational Graph?
-        
-            Như đã đề cập ở bên trên, **Computational Graph** hay **Dataflow Graph** dùng để biểu diễn các phép tính toán. Bạn sẽ phải tạo Graph trước rồi sử dụng TensorFlow Session để chạy các phần của Graph này.
-         
-            ![](https://lh3.googleusercontent.com/NIS0mI7clNb6y7twlSgpak8d9CnVsz0SAMJaQX_xqXZNFnw3kFtXvstzEkWEtmSCj7W3I2APu4bXXyqzAFoGnvvP4dQfmiTWQbqOQIZKvLZtSJG0sRnT0Sb17G3_OD8McibcHRhtWKKCXFzXQGv08HLzQCf5f4S0mPyLjQFw8REHlI_YDGQUTz1VRqxCOpV7cVUKA45kSvSII6LCB0o5JmpuzxiIl7TiQewF4mUGODHeRLEtb2AESSwnc7KOZYjySZx0HeFRI4B3jc_VxzuARBN6Phc2TgIUbeoPpWN7VLX1FeBnGXPQimwaDyJ9Rbx8wOm3-USKtUzwUy1h7ZYuVCmd3zORQg7M3dJvEEbOd1CjyEqqkdzipwJ_Z2_d9wJmW29dAiWUf10dcjoG4mCJKPanNBH9nA4Dc4Kxd7JrksDpRR59S7DdB01IYjXjXiCt5Ol3KG_Fja_1EkvrTjBzlvkcU3djSAOPZCHaf4hfa52jXvcniB4HudneJjC_j6r_Q39iRghaiVt4Na1A-flelpjCtdIR71Jo_Qh7ZKn5gbe-V6x-l9Frot7nIIbBkacNWx1hB9ty1Dt8f-phxkui_aaOHwbp2SPVsrPFm0vgGrO4xxbXONfGfDhZ2Qy3gtiloyKiS-38TwAZf80iLZDeQNdk45y9qneexDAPkPEp498uW3FidOgXneWpPw=w252-h448-no)
-            
-            Dataflow là mô hình lập trình (programming model) chuyên dùng cho tính toán song song. Xem thêm tại [đây](https://en.wikipedia.org/wiki/Dataflow_programming). Ở trong Graph, các đỉnh (nodes) đại diện cho các phép tính, và các cạnh (edges) đại diện cho dữ liệu đầu vào và đầu ra của các phép tính trên.
-            
-            Một số ưu điểm của Dataflow mà TensorFlow (TF) có thể tận dụng được:
-            
-            - **Tính toán song song (Parallelism)**: Bằng việc chia tách các phép tính toán độc lập, TF có khả năng lựa chọn thực hiện song song các phép tính cụ thể.
-            
-            - **Thực thi phân tán (Distributed Execution)**: TF có khả năng chia nhỏ ứng dụng của bạn cho nhiều CPU, TPU, GPU khác nhau trên nhiều máy khác nhau.
-            
-            - **Biên dịch (Compliation)**: [XLA](https://www.tensorflow.org/performance/xla/) của TF có thể dùng graph để generate ra code chạy nhanh hơn thông thường.
-            
-            - **Tính di động (Portability)**: Graph là ngôn ngữ biểu diễn độc lập (language-independent representation) với model của bạn. Bạn có thể build một Graph bằng **Python**, save model, store lại bằng C++.
+      Như đã đề cập ở bên trên, **Computational Graph** hay **Dataflow Graph** dùng để biểu diễn các phép tính toán. Bạn sẽ phải tạo Graph trước rồi sử dụng TensorFlow Session để chạy các phần của Graph này.
+
+      ![](https://lh3.googleusercontent.com/NIS0mI7clNb6y7twlSgpak8d9CnVsz0SAMJaQX_xqXZNFnw3kFtXvstzEkWEtmSCj7W3I2APu4bXXyqzAFoGnvvP4dQfmiTWQbqOQIZKvLZtSJG0sRnT0Sb17G3_OD8McibcHRhtWKKCXFzXQGv08HLzQCf5f4S0mPyLjQFw8REHlI_YDGQUTz1VRqxCOpV7cVUKA45kSvSII6LCB0o5JmpuzxiIl7TiQewF4mUGODHeRLEtb2AESSwnc7KOZYjySZx0HeFRI4B3jc_VxzuARBN6Phc2TgIUbeoPpWN7VLX1FeBnGXPQimwaDyJ9Rbx8wOm3-USKtUzwUy1h7ZYuVCmd3zORQg7M3dJvEEbOd1CjyEqqkdzipwJ_Z2_d9wJmW29dAiWUf10dcjoG4mCJKPanNBH9nA4Dc4Kxd7JrksDpRR59S7DdB01IYjXjXiCt5Ol3KG_Fja_1EkvrTjBzlvkcU3djSAOPZCHaf4hfa52jXvcniB4HudneJjC_j6r_Q39iRghaiVt4Na1A-flelpjCtdIR71Jo_Qh7ZKn5gbe-V6x-l9Frot7nIIbBkacNWx1hB9ty1Dt8f-phxkui_aaOHwbp2SPVsrPFm0vgGrO4xxbXONfGfDhZ2Qy3gtiloyKiS-38TwAZf80iLZDeQNdk45y9qneexDAPkPEp498uW3FidOgXneWpPw=w252-h448-no)
+
+      Dataflow là mô hình lập trình (programming model) chuyên dùng cho tính toán song song. Xem thêm tại [đây](https://en.wikipedia.org/wiki/Dataflow_programming). Ở trong Graph, các đỉnh (nodes) đại diện cho các phép tính, và các cạnh (edges) đại diện cho dữ liệu đầu vào và đầu ra của các phép tính trên.
+
+      Một số ưu điểm của Dataflow mà TensorFlow (TF) có thể tận dụng được:
+
+      - **Tính toán song song (Parallelism)**: Bằng việc chia tách các phép tính toán độc lập, TF có khả năng lựa chọn thực hiện song song các phép tính cụ thể.
+
+      - **Thực thi phân tán (Distributed Execution)**: TF có khả năng chia nhỏ ứng dụng của bạn cho nhiều CPU, TPU, GPU khác nhau trên nhiều máy khác nhau.
+
+      - **Biên dịch (Compliation)**: [XLA](https://www.tensorflow.org/performance/xla/) của TF có thể dùng graph để generate ra code chạy nhanh hơn thông thường.
+
+      - **Tính di động (Portability)**: Graph là ngôn ngữ biểu diễn độc lập (language-independent representation) với model của bạn. Bạn có thể build một Graph bằng **Python**, save model, store lại bằng C++.[](https://lh3.googleusercontent.com/2c4meujxbGKri8GvAdlCQAOpJwzQz4OY9yoI6kXsHk7g6yDWNYyIh-YzrMCmJ7RCvzNtMuhrF28w2gndh020D6m3KURuPkOAEbVtNTmqlgzJA_eYzMMzYu8AATZQkcN6mG_ioYwYISVtlSXCJUaXbO93cncQ1lv4168WjchUi47XEqbk2-8WfcDitU9ZRpzWJI4ofbFMlGzlB4d_VfJYZeWnQec6xPWPDRxtkG4D65YGY8kLSBb5dTjU6azwUyItFdp2rhNRyNi36w6y6h8E5_91KXKkQSaAjbhk_IfrhIEVstccyt3Mjj_YdVX5vfbmbiqpL8me-o5ynpYEceEcR0vHLQKccktp5dmVdvXePln0pSVjm3RLyWaKydE8aifUKJd9OFxQilqbwx_SxrF6XX2E7IvcWt5Qi9ZTKh6XP9b8BtVkFfKsU8VCHsR6OtIxf7J4P0bQZVzRdd_qsVZMo2JrpLHKirbKs9hLl7XqQUvrHo0lFgJOq004p3N33-fe3VMrDb9Lz7A6CMh_OU4k05VBow3By6Cp3XNFxIifD6kDXcEBZQgZpDlJrdV0YOef0hEBcvcvrgM1iflrGaPZibJVQM2iCkKvsrUgfMpGpW8zWzI9zXKZv6S6MjQPRFL8P30Z9CMy9yQy1URKJmc065Bt7XHi8qhItAvOfGafRc5fcxe4CuuXWCNg=w800-h400-no)
+                
