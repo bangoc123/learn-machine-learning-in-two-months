@@ -231,7 +231,8 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
               
 ### 4. Bài toán hồi quy (Regression)
 ----
-    Toàn bộ mô hình này nằm [ở đây](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/models/linear-regression/README.MD)
+  
+  Toàn bộ mô hình này nằm [ở đây](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/models/linear-regression/README.MD)
             
 ### 5. Bài toán phân loại (Classification)
 ----
