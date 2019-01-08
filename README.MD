@@ -12,7 +12,7 @@ Mình sẽ là một trong các lecturer của lớp VietAI offline tại Hanoi 
 ### 0. Mục lục
 ----
 - <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/tree/master/math">1. Kiến thức toán học cần thiết</a> (Hoàn tất)
-- <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/#2-kỹ-năng-lập-trình-python">2. Kỹ năng lập trình Python</a> (Hoàn tất)
+- <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/tree/master/python-tutorials">2. Kỹ năng lập trình Python</a> (Hoàn tất)
 - <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/#3-thư-viện-numpy-và-tensorflow">3. Thư viện Numpy và TensorFlow</a> (Hoàn tất)
 - <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/#4-bài-toán-hồi-quy-regression">4. Bài toán hồi quy (Regression)</a> (Hoàn tất)
 - <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/#5-bài-toán-phân-loại-classification">5. Bài toán phân loại (Classification)</a> (Chưa Hoàn tất)
