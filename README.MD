@@ -213,7 +213,7 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
         - Định nghĩa
         
 ### 7. Xây dựng mạng Neural Network
-   Tất cả nội dung về Neural Network [tại đây](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/nn/README.md).
+   Tất cả nội dung về Neural Network [tại đây](https://github.com/bangoc123/learn-machine-learning-in-two-months/tree/master/models/nn).
 
 ### 8. Xây dựng mạng Convolutional Neural Network (CNN)
    Toàn bộ kiến thức của CNN nằm [tại đây](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/computer-vision/CNN.MD) 
