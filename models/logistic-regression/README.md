@@ -1,3 +1,4 @@
+
 ### 5. Bài toán phân loại (Classification)
 ----
 
@@ -33,4 +34,22 @@
 
          Theo [Supervised Learning cheatsheet](https://stanford.edu/~shervine/teaching/cs-229/cheatsheet-supervised-learning#linear-models)
          
-         
+      - **Tiếp cận theo hướng Discriminative**
+		Nhắc lại chúng ta sẽ tìm một đường ngăn cách để có thể phân biệt 2 vùng data với trường hợp phân loại 2 lớp hoặc nhiều vùng data trong trường hợp phân loại nhiều lớp.
+
+		Trong trường hợp phân loại 2 lớp:
+		
+		<img src="https://lh3.googleusercontent.com/A67h2lsxXgkXLWeNDoC2b9IzL5iGFegRDtBPdulR8H1JVybn0dKXyJHW0DVvyw_AkuAjQ4gwhJibAcg4tKgoj2ABLB_bXl6WfDFWkP8-3UXTmAdUYvmc7ug6DwO37_VoeKhbgwHYxqh9NNuKQbsF0l_DSMC4HwmZ4bEJEjSkDqMhiDxkbB6a0AYr51UzB49UUYDgviIfptVu9tGJV8sKxF7RcP9ByO_C9N5fK6lBSWmgQz00w30IJVDFL_1Fow47JjSiV8midSh_ptpqB54lnF2tFSidOAwUkGsiFhQYeXZSWiHF1iFpw01O5jRbsnJNlpKlR6L8EG3gNHZITDSNkoZRph2iZj4fsP9uyEWpEvBSRD0GCckZZxFqMM7YkrVi6kZclJwK8YQI0pnMiAAQy2LtAVMKitw-qusHU9DCxyJgpuXU7asYd879LXb8vEWnBV2_ouvPibinkxSpJMAN3bHz-9lMcDysWdGovcOQuVP7iXeoHmcTC9F7BBxlL-s2zqNSKy7VdY8Vw-XBbkWYz70Nq3ZX7xrjmcaXPaMiNsJF4p0SFayzoGfI1zaoOhhEApqdc5zM6fkaTfuOmfAjUZQUN88aqQOEHLyC8CHyk-8odzOqbAfldUxTTap79XSJVzAFm-ghWJA7Hm_y_oO9uxUGy8dv9UMmqGCJ-EEF9-QkoKucNO9wvVSQJtsQmsUiGKW8B6ZdwwwYG2wWaw=s800-no" width=400>
+	
+		Phân bố xác suất:
+		
+		Xác suất 1 điểm là màu xanh:
+	
+		<img src="https://latex.codecogs.com/svg.latex?\inline&space;\dpi{120}&space;\LARGE&space;P(y=1|x)&space;=&space;h_\theta(x)&space;=&space;g(\theta^Tx)&space;=&space;\frac{1}{1&space;&plus;&space;e^{-\theta^{T}x}}&space;=&space;\frac{1}{1&space;&plus;&space;e^{-z}}" title="\LARGE P(y=1|x) = h_\theta(x) = g(\theta^Tx) = \frac{1}{1 + e^{-\theta^{T}x}} = \frac{1}{1 + e^{-z}}" />
+	
+		Trong đó: <img src="https://latex.codecogs.com/svg.latex?\inline&space;\LARGE&space;z&space;=&space;\theta^T{x}" title="\LARGE z = \theta^T{x}" />
+		
+		Xác suất 1 điểm là màu đỏ: 
+
+		<img src="https://latex.codecogs.com/svg.latex?\inline&space;\LARGE&space;P(y=0|x)&space;=&space;1&space;-&space;P(y=1|x)&space;=&space;1&space;-&space;\frac{1}{1&space;&plus;&space;e^{-z}}" title="\LARGE P(y=0|x) = 1 - P(y=1|x) = 1 - \frac{1}{1 + e^{-z}}" />
+
