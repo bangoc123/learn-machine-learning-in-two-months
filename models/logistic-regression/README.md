@@ -1,4 +1,5 @@
 
+
 ### 5. Bài toán phân loại (Classification)
 ----
 
@@ -53,3 +54,15 @@
 
 		<img src="https://latex.codecogs.com/svg.latex?\inline&space;\LARGE&space;P(y=0|x)&space;=&space;1&space;-&space;P(y=1|x)&space;=&space;1&space;-&space;\frac{1}{1&space;&plus;&space;e^{-z}}" title="\LARGE P(y=0|x) = 1 - P(y=1|x) = 1 - \frac{1}{1 + e^{-z}}" />
 
+		Bạn sẽ thắc mắc tại sao phải sử dụng hàm <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\LARGE&space;\frac{1}{1&plus;e^{-z}}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\LARGE&space;\frac{1}{1&plus;e^{-z}}" title="\LARGE \frac{1}{1+e^{-z}}" /></a>
+		
+		Hàm này có tên hàm Sigmoid.
+		
+		Vậy tại sao phải sử dụng hàm này: Bạn chú rằng đầu ra của bài toán này chỉ là 2 giá trị **0** và **1** mà không phải là vô số giá trị giống như [bài toán hồi quy tuyến tính]([https://github.com/bangoc123/learn-machine-learning-in-two-months/tree/master/models/linear-regression](https://github.com/bangoc123/learn-machine-learning-in-two-months/tree/master/models/linear-regression)).
+		
+		Hàm sigmoid sẽ giúp đầu ra của biểu thức giới hạn trong khoảng **[0,1]**:
+		
+		<img src="https://lh3.googleusercontent.com/wggFdojRXGH5q_ImaM4dKYnKIEyHwmN-go1jNk1SCqqlyg-SAxITfU3ODVyO_a3I7UXqxtyUqisGfppR71LVn2JduX3-yTnL67cLOliCEpXJ1tMXmqzx0urQfS5BbVEmVh1H_KB3Gc3IPZ0j3LMsnLIGEQcyKvcgbbI2nGxXzkgqtkL7j6qpvK_-fVnilgaZxZ5d2kKPGqcI1v04yxe7FYhY6HylJOwB0IsEEdppKVwcLmUAzWrHHXZ-xGUYqjjKgOEP8EyXgLTIEnyXd7Xw00lhNK4z2IZRZE8z9biL9yVCR7wh8I6a8ygENuzM7cIBbi1wWowu84Q3fjDIieElNn8wTawYTg-4UAbT89OQ567f71DM-Bt5AhEAKrCpt3rht5O69io0u4gvM4nrRejzyWOj3pycaUgVRayTucLePidpbfq0ZhLKrXdDwjGGIqs4oCWZqzvtyIt-dOBw3W9ponEgzuXmwSx5uATctBZQjD1kEmG6FiGEzhuMBMAd65nLQQfn--5czUNZtewptqXf1AeRaHGcnzzYzr2MZXZmjM7rDjoPoGPoMgObkhyqAfbATgVsWguiAt0LnIpf2Y3CTm7v1tXAX00IKYf9k64iFLyqeuJYL6b1vVvRWthXb7jGQLfWaa2OACAQ7vED4E21AFK0-rCaCq9sV_X9nNQCqT2uC1r_isqjH5w1_osuOlN5EN5yXWelmB9r75qqqvqACXAT=w320-h213-no" />
+	
+		Nhìn vào đồ thị chúng ta có thể thấy, dù  <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\LARGE&space;z" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\LARGE&space;z" title="\LARGE z" /></a> có lớn thế nào thì đầu ra của hàm tối đa là **1**, cũng như kết quả của z có nhỏ cỡ nào thì đầu ra của hàm tối đa là **0**.
+   
