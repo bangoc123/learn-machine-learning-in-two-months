@@ -1,4 +1,5 @@
 
+
 ### 5. Bài toán phân loại (Classification)
 ----
 
@@ -45,11 +46,48 @@
 		
 		Xác suất 1 điểm là màu xanh:
 	
-		<img src="https://latex.codecogs.com/svg.latex?\inline&space;\dpi{120}&space;\LARGE&space;P(y=1|x)&space;=&space;h_\theta(x)&space;=&space;g(\theta^Tx)&space;=&space;\frac{1}{1&space;&plus;&space;e^{-\theta^{T}x}}&space;=&space;\frac{1}{1&space;&plus;&space;e^{-z}}" title="\LARGE P(y=1|x) = h_\theta(x) = g(\theta^Tx) = \frac{1}{1 + e^{-\theta^{T}x}} = \frac{1}{1 + e^{-z}}" />
-	
-		Trong đó: <img src="https://latex.codecogs.com/svg.latex?\inline&space;\LARGE&space;z&space;=&space;\theta^T{x}" title="\LARGE z = \theta^T{x}" />
-		
+		<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;P(y_i=1|x_i;&space;\theta)&space;=&space;h_{\theta}(x_i)&space;=&space;g(\theta^Tx_i)&space;\&space;\&space;\&space;(1)" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;P(y_i=1|x_i;&space;\theta)&space;=&space;h_{\theta}(x_i)&space;=&space;g(\theta^Tx_i)&space;\&space;\&space;\&space;(1)" title="\large P(y_i=1|x_i; \theta) = h_{\theta}(x_i) = g(\theta^Tx_i) \ \ \ (1)" /></a>
+
 		Xác suất 1 điểm là màu đỏ: 
 
-		<img src="https://latex.codecogs.com/svg.latex?\inline&space;\LARGE&space;P(y=0|x)&space;=&space;1&space;-&space;P(y=1|x)&space;=&space;1&space;-&space;\frac{1}{1&space;&plus;&space;e^{-z}}" title="\LARGE P(y=0|x) = 1 - P(y=1|x) = 1 - \frac{1}{1 + e^{-z}}" />
+		<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;P(y_i=0|x_i;&space;\theta)&space;=&space;1&space;-&space;h_{\theta}(x_i)&space;=&space;1-&space;g(\theta^Tx_i)&space;\&space;\&space;\&space;(2)" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;P(y_i=0|x_i;&space;\theta)&space;=&space;1&space;-&space;h_{\theta}(x_i)&space;=&space;1-&space;g(\theta^Tx_i)&space;\&space;\&space;\&space;(2)" title="\large P(y_i=0|x_i; \theta) = 1 - h_{\theta}(x_i) = 1- g(\theta^Tx_i) \ \ \ (2)" /></a>
 
+        Viết gọn lại 2 công thức bên trên ta sẽ được:
+
+        <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;P(y_i|x_i;&space;\theta)&space;=&space;h_{\theta}(x_i)^{y_i}&space;(1-h_{\theta}(x_i))^{1-y_i}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;P(y_i|x_i;&space;\theta)&space;=&space;h_{\theta}(x_i)^{y_i}&space;(1-h_{\theta}(x_i))^{1-y_i}" title="\large P(y_i|x_i; \theta) = h_{\theta}(x_i)^{y_i} (1-h_{\theta}(x_i))^{1-y_i}" /></a>
+
+        - <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;y_i&space;=&space;1&space;\rightarrow&space;P(y_i=1|x_i;&space;\theta)&space;=&space;h_{\theta}(x_i)^{1}&space;(1-h_{\theta}(x_i))^{1-1}&space;=&space;h_{\theta}(x_i)" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;y_i&space;=&space;1&space;\rightarrow&space;P(y_i=1|x_i;&space;\theta)&space;=&space;h_{\theta}(x_i)^{1}&space;(1-h_{\theta}(x_i))^{1-1}&space;=&space;h_{\theta}(x_i)" title="\large y_i = 1 \rightarrow P(y_i=1|x_i; \theta) = h_{\theta}(x_i)^{1} (1-h_{\theta}(x_i))^{1-1} = h_{\theta}(x_i)" /></a>
+
+        - <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;y_i&space;=&space;0&space;\rightarrow&space;P(y_i=0|x_i;&space;\theta)&space;=&space;h_{\theta}(x_i)^{0}&space;(1-h_{\theta}(x_i))^{1-0}&space;=1-h_{\theta}(x_i)" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;y_i&space;=&space;0&space;\rightarrow&space;P(y_i=0|x_i;&space;\theta)&space;=&space;h_{\theta}(x_i)^{0}&space;(1-h_{\theta}(x_i))^{1-0}&space;=1-h_{\theta}(x_i)" title="\large y_i = 0 \rightarrow P(y_i=0|x_i; \theta) = h_{\theta}(x_i)^{0} (1-h_{\theta}(x_i))^{1-0} =1-h_{\theta}(x_i)" /></a>
+        
+        Chú ý rằng đây mới là xác suất của **một điểm** sẽ là xanh hay đỏ. Bài toán của chúng ta cần xét trên toàn bộ tập **data set**.
+
+        <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;X&space;=&space;[x_1,&space;x_2,&space;...,&space;x_m]" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;X&space;=&space;[x_1,&space;x_2,&space;...,&space;x_m]" title="\large X = [x_1, x_2, ..., x_m]" /></a> với <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;X&space;\in&space;\mathbb{R}^{d\times&space;m}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;X&space;\in&space;\mathbb{R}^{d\times&space;m}" title="\large X \in \mathbb{R}^{d\times m}" /></a> và <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;Y&space;=&space;\left&space;\{&space;0,&space;1&space;\right&space;\}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;Y&space;=&space;\left&space;\{&space;0,&space;1&space;\right&space;\}" title="\large Y = \left \{ 0, 1 \right \}" /></a>
+
+        Vì <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;x_1,&space;x_2,&space;...,&space;x_m" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;x_1,&space;x_2,&space;...,&space;x_m" title="\large x_1, x_2, ..., x_m" /></a> là các biến độc lập nhau cho nên:
+
+        <a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;P(Y|X;&space;\theta)&space;=&space;P(y_1|x_1;&space;\theta)&space;P(y_2|x_2;&space;\theta)&space;...&space;P(y_m|x_m;&space;\theta)&space;=&space;\prod_{i}^{m}&space;P(y_i|x_i;&space;\theta)&space;=&space;\prod_{i}^{m}&space;h_{\theta}(x_i)^{y_i}&space;(1-h_{\theta}(x_i))^{1-y_i}&space;\&space;\&space;\&space;(4)" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\large&space;P(Y|X;&space;\theta)&space;=&space;P(y_1|x_1;&space;\theta)&space;P(y_2|x_2;&space;\theta)&space;...&space;P(y_m|x_m;&space;\theta)&space;=&space;\prod_{i}^{m}&space;P(y_i|x_i;&space;\theta)&space;=&space;\prod_{i}^{m}&space;h_{\theta}(x_i)^{y_i}&space;(1-h_{\theta}(x_i))^{1-y_i}&space;\&space;\&space;\&space;(4)" title="\large P(Y|X; \theta) = P(y_1|x_1; \theta) P(y_2|x_2; \theta) ... P(y_m|x_m; \theta) = \prod_{i}^{m} P(y_i|x_i; \theta) = \prod_{i}^{m} h_{\theta}(x_i)^{y_i} (1-h_{\theta}(x_i))^{1-y_i} \ \ \ (4)" /></a>
+
+        Đọc thêm về [Biến cố độc lập](https://vi.wikipedia.org/wiki/%C4%90%E1%BB%99c_l%E1%BA%ADp_th%E1%BB%91ng_k%C3%AA) để hiểu tại sao lại sử dụng tích này.        
+
+        **Hàm sigmoid**
+
+        Ở đây ta sử dụng hàm sigmoid: 
+
+        <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;h_{\theta}(x)&space;=&space;\frac{1}{1&space;&plus;&space;e^{-z}}&space;=&space;\frac{1}{1&space;&plus;&space;e^{-{\theta}^Tx}}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;h_{\theta}(x)&space;=&space;\frac{1}{1&space;&plus;&space;e^{-z}}&space;=&space;\frac{1}{1&space;&plus;&space;e^{-{\theta}^Tx}}" title="\large h_{\theta}(x) = \frac{1}{1 + e^{-z}} = \frac{1}{1 + e^{-{\theta}^Tx}}" /></a>
+
+        Trong đó:
+
+        <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;z&space;=&space;\theta^Tx" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;z&space;=&space;\theta^Tx" title="\large z = \theta^Tx" /></a>
+
+        Kết hợp với hàm số (4) ta có:
+
+        <a href="https://www.codecogs.com/eqnedit.php?latex=P(Y|X;&space;\theta)&space;=&space;\prod_{i}^{m}&space;h_{\theta}(x_i)^{y_i}&space;(1-h_{\theta}(x_i))^{1-y_i}&space;\&space;\&space;\&space;=&space;\prod_{i}^{m}&space;(\frac{1}{1&space;&plus;&space;e^{-{\theta}^Tx_i}})^{y_i}&space;(1-\frac{1}{1&space;&plus;&space;e^{-{\theta}^Tx_i}})^{1-y_i}&space;\&space;\&space;\&space;(5)" target="_blank"><img src="https://latex.codecogs.com/svg.latex?P(Y|X;&space;\theta)&space;=&space;\prod_{i}^{m}&space;h_{\theta}(x_i)^{y_i}&space;(1-h_{\theta}(x_i))^{1-y_i}&space;\&space;\&space;\&space;=&space;\prod_{i}^{m}&space;(\frac{1}{1&space;&plus;&space;e^{-{\theta}^Tx_i}})^{y_i}&space;(1-\frac{1}{1&space;&plus;&space;e^{-{\theta}^Tx_i}})^{1-y_i}&space;\&space;\&space;\&space;(5)" title="P(Y|X; \theta) = \prod_{i}^{m} h_{\theta}(x_i)^{y_i} (1-h_{\theta}(x_i))^{1-y_i} \ \ \ = \prod_{i}^{m} (\frac{1}{1 + e^{-{\theta}^Tx_i}})^{y_i} (1-\frac{1}{1 + e^{-{\theta}^Tx_i}})^{1-y_i} \ \ \ (5)" /></a>
+		
+		Vậy tại sao phải sử dụng hàm này: Bạn chú rằng đầu ra của bài toán này chỉ là 2 giá trị **0** và **1** mà không phải là vô số giá trị giống như [bài toán hồi quy tuyến tính]([https://github.com/bangoc123/learn-machine-learning-in-two-months/tree/master/models/linear-regression](https://github.com/bangoc123/learn-machine-learning-in-two-months/tree/master/models/linear-regression)).
+		
+		Hàm sigmoid sẽ giúp đầu ra của biểu thức <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;h_{\theta}(x_i)" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;h_{\theta}(x_i)" title="\large h_{\theta}(x_i)" /></a> giới hạn trong khoảng **[0,1]**, Việc chuyển đổi này thoả mãn nhu cầu cần tìm ra xác suất của một điểm bất kỳ là xanh hay đỏ ở công thức (1) và (2) ( giá trị này nhỏ nhất bằng **0** và lớn nhất bằng **1**) :
+		
+		<img src="https://lh3.googleusercontent.com/wggFdojRXGH5q_ImaM4dKYnKIEyHwmN-go1jNk1SCqqlyg-SAxITfU3ODVyO_a3I7UXqxtyUqisGfppR71LVn2JduX3-yTnL67cLOliCEpXJ1tMXmqzx0urQfS5BbVEmVh1H_KB3Gc3IPZ0j3LMsnLIGEQcyKvcgbbI2nGxXzkgqtkL7j6qpvK_-fVnilgaZxZ5d2kKPGqcI1v04yxe7FYhY6HylJOwB0IsEEdppKVwcLmUAzWrHHXZ-xGUYqjjKgOEP8EyXgLTIEnyXd7Xw00lhNK4z2IZRZE8z9biL9yVCR7wh8I6a8ygENuzM7cIBbi1wWowu84Q3fjDIieElNn8wTawYTg-4UAbT89OQ567f71DM-Bt5AhEAKrCpt3rht5O69io0u4gvM4nrRejzyWOj3pycaUgVRayTucLePidpbfq0ZhLKrXdDwjGGIqs4oCWZqzvtyIt-dOBw3W9ponEgzuXmwSx5uATctBZQjD1kEmG6FiGEzhuMBMAd65nLQQfn--5czUNZtewptqXf1AeRaHGcnzzYzr2MZXZmjM7rDjoPoGPoMgObkhyqAfbATgVsWguiAt0LnIpf2Y3CTm7v1tXAX00IKYf9k64iFLyqeuJYL6b1vVvRWthXb7jGQLfWaa2OACAQ7vED4E21AFK0-rCaCq9sV_X9nNQCqT2uC1r_isqjH5w1_osuOlN5EN5yXWelmB9r75qqqvqACXAT=w320-h213-no" />
+	
+		Nhìn vào đồ thị chúng ta có thể thấy, dù  <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\LARGE&space;z" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\LARGE&space;z" title="\LARGE z" /></a> có lớn thế nào thì đầu ra của hàm tối đa là **1**, cũng như kết quả của <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\LARGE&space;z" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\LARGE&space;z" title="\LARGE z" /></a> có nhỏ cỡ nào thì đầu ra của hàm tối đa là **0**.
