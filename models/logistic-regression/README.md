@@ -59,6 +59,8 @@
         - <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;y_i&space;=&space;1&space;\rightarrow&space;P(y_i=1|x_i;&space;\theta)&space;=&space;h_{\theta}(x_i)^{1}&space;(1-h_{\theta}(x_i))^{1-1}&space;=&space;h_{\theta}(x_i)" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;y_i&space;=&space;1&space;\rightarrow&space;P(y_i=1|x_i;&space;\theta)&space;=&space;h_{\theta}(x_i)^{1}&space;(1-h_{\theta}(x_i))^{1-1}&space;=&space;h_{\theta}(x_i)" title="\large y_i = 1 \rightarrow P(y_i=1|x_i; \theta) = h_{\theta}(x_i)^{1} (1-h_{\theta}(x_i))^{1-1} = h_{\theta}(x_i)" /></a>
 
         - <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;y_i&space;=&space;0&space;\rightarrow&space;P(y_i=0|x_i;&space;\theta)&space;=&space;h_{\theta}(x_i)^{0}&space;(1-h_{\theta}(x_i))^{1-0}&space;=1-h_{\theta}(x_i)" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;y_i&space;=&space;0&space;\rightarrow&space;P(y_i=0|x_i;&space;\theta)&space;=&space;h_{\theta}(x_i)^{0}&space;(1-h_{\theta}(x_i))^{1-0}&space;=1-h_{\theta}(x_i)" title="\large y_i = 0 \rightarrow P(y_i=0|x_i; \theta) = h_{\theta}(x_i)^{0} (1-h_{\theta}(x_i))^{1-0} =1-h_{\theta}(x_i)" /></a>
+
+        Đoạn này bạn có thấy giống [Phân phối Bernoulli](https://vi.wikipedia.org/wiki/Ph%C3%A2n_ph%E1%BB%91i_Bernoulli) không?
         
         Chú ý rằng đây mới là xác suất của **một điểm** sẽ là xanh hay đỏ. Bài toán của chúng ta cần xét trên toàn bộ tập **data set**.
 
@@ -91,3 +93,7 @@
 		<img src="https://lh3.googleusercontent.com/wggFdojRXGH5q_ImaM4dKYnKIEyHwmN-go1jNk1SCqqlyg-SAxITfU3ODVyO_a3I7UXqxtyUqisGfppR71LVn2JduX3-yTnL67cLOliCEpXJ1tMXmqzx0urQfS5BbVEmVh1H_KB3Gc3IPZ0j3LMsnLIGEQcyKvcgbbI2nGxXzkgqtkL7j6qpvK_-fVnilgaZxZ5d2kKPGqcI1v04yxe7FYhY6HylJOwB0IsEEdppKVwcLmUAzWrHHXZ-xGUYqjjKgOEP8EyXgLTIEnyXd7Xw00lhNK4z2IZRZE8z9biL9yVCR7wh8I6a8ygENuzM7cIBbi1wWowu84Q3fjDIieElNn8wTawYTg-4UAbT89OQ567f71DM-Bt5AhEAKrCpt3rht5O69io0u4gvM4nrRejzyWOj3pycaUgVRayTucLePidpbfq0ZhLKrXdDwjGGIqs4oCWZqzvtyIt-dOBw3W9ponEgzuXmwSx5uATctBZQjD1kEmG6FiGEzhuMBMAd65nLQQfn--5czUNZtewptqXf1AeRaHGcnzzYzr2MZXZmjM7rDjoPoGPoMgObkhyqAfbATgVsWguiAt0LnIpf2Y3CTm7v1tXAX00IKYf9k64iFLyqeuJYL6b1vVvRWthXb7jGQLfWaa2OACAQ7vED4E21AFK0-rCaCq9sV_X9nNQCqT2uC1r_isqjH5w1_osuOlN5EN5yXWelmB9r75qqqvqACXAT=w320-h213-no" />
 	
 		Nhìn vào đồ thị chúng ta có thể thấy, dù  <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\LARGE&space;z" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\LARGE&space;z" title="\LARGE z" /></a> có lớn thế nào thì đầu ra của hàm tối đa là **1**, cũng như kết quả của <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\LARGE&space;z" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\LARGE&space;z" title="\LARGE z" /></a> có nhỏ cỡ nào thì đầu ra của hàm tối đa là **0**.
+
+        **Loss function**
+
+        Rõ ràng chúng ta thấy để model chính xác thì <a href="https://www.codecogs.com/eqnedit.php?latex=\small&space;P(Y|X;&space;\theta)" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\small&space;P(Y|X;&space;\theta)" title="\small P(Y|X; \theta)" /></a> 
