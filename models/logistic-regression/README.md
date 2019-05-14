@@ -94,6 +94,9 @@
 	
 		Nhìn vào đồ thị chúng ta có thể thấy, dù  <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\LARGE&space;z" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\LARGE&space;z" title="\LARGE z" /></a> có lớn thế nào thì đầu ra của hàm tối đa là **1**, cũng như kết quả của <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\LARGE&space;z" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\LARGE&space;z" title="\LARGE z" /></a> có nhỏ cỡ nào thì đầu ra của hàm tối đa là **0**.
 
+
+        <img src="../../images/Logistic .jpg">
+
         **Loss function**
 
         Rõ ràng chúng ta thấy để model chính xác thì chúng ta phải **cực đại hoá** hàm likelihood <a href="https://www.codecogs.com/eqnedit.php?latex=\small&space;P(Y|X;&space;\theta)" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\small&space;P(Y|X;&space;\theta)" title="\small P(Y|X; \theta)" /></a>. Hàm này thể hiện xác suất đồng thời xảy tất cả các điểm dữ liệu, càng nhiều điểm dữ liệu xuất hiện, mô hình càng chính xác.
