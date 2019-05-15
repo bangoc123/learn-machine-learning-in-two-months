@@ -94,6 +94,11 @@
 	
 		Nhìn vào đồ thị chúng ta có thể thấy, dù  <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\LARGE&space;z" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\LARGE&space;z" title="\LARGE z" /></a> có lớn thế nào thì đầu ra của hàm tối đa là **1**, cũng như kết quả của <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\LARGE&space;z" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\LARGE&space;z" title="\LARGE z" /></a> có nhỏ cỡ nào thì đầu ra của hàm tối đa là **0**.
 
+        **Toàn bộ quy trình học từ một cặp dữ liệu**. Quá trình này được biểu diễn dưới một mạng neuron đơn giản.
+
+        - Bước 1: Nhân vector. <img src="https://latex.codecogs.com/svg.latex?\dpi{300}&space;x^i" title="x^i" /> là một điểm dữ liệu có chiều (nx1). <img src="https://latex.codecogs.com/svg.latex?\dpi{300}&space;\theta" title="\theta" /> có chiều (nx1). Sau này đến bài mạng neuron bạn sẽ học kỹ hơn về chiều của tham số.
+        - Bước 2: Phép biến đổi phi tuyến, chuyển từ giá trị bất kỳ z về một giá trị nhỏ hơn 1 và lớn hơn 0 thông qua hàm **sigmoid**.
+        - Từ xác suất này kết luận là điểm dữ liệu này thuộc lớp 0 hay lớp 1. Giải thích ký hiệu: <img src="https://latex.codecogs.com/svg.latex?\dpi{300}&space;1\left&space;\{&space;True&space;\right&space;\}&space;=&space;1" title="1\left \{ True \right \} = 1" /> và <img src="https://latex.codecogs.com/svg.latex?\dpi{300}&space;1\left&space;\{&space;False&space;\right&space;\}&space;=&space;0" title="1\left \{ False \right \} = 0" />. Trong trường hợp này đầu ra của hàm sigmoid lớn hơn một threshold cho trước (ở đây ta đặt là 0.5) thì sẽ kết luận điểm đó **thuộc lớp 1** và ngược lại.
 
         <img src="../../images/Logistic .jpg">
 
@@ -105,7 +110,7 @@
 
         <a href="https://www.codecogs.com/eqnedit.php?latex=\small&space;max&space;\&space;P(Y|X;&space;\theta)&space;\Leftrightarrow&space;max&space;\&space;log&space;P(Y|X;&space;\theta)&space;\Leftrightarrow&space;max&space;\&space;log(\prod_{i}^{m}&space;h_{\theta}(x_i)^{y_i}&space;(1-h_{\theta}(x_i))^{1-y_i})&space;\Leftrightarrow&space;max&space;\&space;\sum_{i}^{m}&space;y_i&space;log(h_\theta(x_i))&space;&plus;&space;(1-y_i)log(1-h_\theta(x_i))&space;\Leftrightarrow&space;min&space;\&space;\frac{-1}{m}&space;\sum_{i}^{m}&space;y_i&space;log(h_\theta(x_i))&space;&plus;&space;(1-y_i)log(1-h_\theta(x_i))&space;\Leftrightarrow&space;min&space;\&space;J(\theta)" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\small&space;max&space;\&space;P(Y|X;&space;\theta)&space;\Leftrightarrow&space;max&space;\&space;log&space;P(Y|X;&space;\theta)&space;\Leftrightarrow&space;max&space;\&space;log(\prod_{i}^{m}&space;h_{\theta}(x_i)^{y_i}&space;(1-h_{\theta}(x_i))^{1-y_i})&space;\Leftrightarrow&space;max&space;\&space;\sum_{i}^{m}&space;y_i&space;log(h_\theta(x_i))&space;&plus;&space;(1-y_i)log(1-h_\theta(x_i))&space;\Leftrightarrow&space;min&space;\&space;\frac{-1}{m}&space;\sum_{i}^{m}&space;y_i&space;log(h_\theta(x_i))&space;&plus;&space;(1-y_i)log(1-h_\theta(x_i))&space;\Leftrightarrow&space;min&space;\&space;J(\theta)" title="\small max \ P(Y|X; \theta) \Leftrightarrow max \ log P(Y|X; \theta) \Leftrightarrow max \ log(\prod_{i}^{m} h_{\theta}(x_i)^{y_i} (1-h_{\theta}(x_i))^{1-y_i}) \Leftrightarrow max \ \sum_{i}^{m} y_i log(h_\theta(x_i)) + (1-y_i)log(1-h_\theta(x_i)) \Leftrightarrow min \ \frac{-1}{m} \sum_{i}^{m} y_i log(h_\theta(x_i)) + (1-y_i)log(1-h_\theta(x_i)) \Leftrightarrow min \ J(\theta)" /></a>
 
-        Chú ý ta cần lấy log để tránh trường hợp khi số lượng điểm dữ liệu quá lớn dẫn đến tích của nhiều số lớn hơn 0 sẽ tiệm cận về không. Vì thế thay vì sử dụng phép tích, chúng ta dùng hàm log để việc cực đại **tích này** thành cực đại **một tổng**.
+        Chú ý ta cần lấy log để tránh trường hợp khi số lượng điểm dữ liệu quá lớn dẫn đến tích của nhiều số nhỏ hơn 0 sẽ tiệm cận về không. Vì thế thay vì sử dụng phép tích, chúng ta dùng hàm log để việc cực đại **tích này** thành cực đại **một tổng**.
 
         Vì vậy:
 
