@@ -1,7 +1,5 @@
-### 10. Triển khai (Deploy) Machine Learning Model trên Production
+### 11. Triển khai (Deploy) Machine Learning Model trên Production
 ----
-
-
    **a. TensorFlow Serving**
    - [Giới thiệu TensorFlow Serving](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/deployment/distributed-tensorflow/TensorFlowServing.ipynb)
       - Sự khác nhau giữa Training và Inference
