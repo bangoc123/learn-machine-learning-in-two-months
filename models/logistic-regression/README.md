@@ -24,7 +24,7 @@
            
            Tương tự bài toán phân loại 2 lớp, là đầu ra chúng ta cần một điểm thuộc 1 lớp nhất định và điều khác biệt ở đây đó là số lượng lớp luôn lớn hơn 2. Ở trong ví dụ này là 3 lớp. Các model phân biệt ảnh lớn có thể có đến 1000 lớp như [ImageNet](http://www.image-net.org/).
 
-      - **Cách tiếp cận bài toán này**
+     - **Cách tiếp cận bài toán này**
       
          Tôi sẽ lấy bài phân loại 2 lớp để các bạn hình dung trước. Có 2 cách tiếp cận để giải bài toán này:
 
@@ -117,4 +117,57 @@
         Hàm Loss Function của chúng ta chính là:
 
         <a href="https://www.codecogs.com/eqnedit.php?latex=\small&space;J(\theta)&space;=&space;\&space;\frac{-1}{m}&space;\sum_{i}^{m}&space;y_i&space;log(h_\theta(x_i))&space;&plus;&space;(1-y_i)log(1-h_\theta(x_i))" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\small&space;J(\theta)&space;=&space;\&space;\frac{-1}{m}&space;\sum_{i}^{m}&space;y_i&space;log(h_\theta(x_i))&space;&plus;&space;(1-y_i)log(1-h_\theta(x_i))" title="\small J(\theta) = \ \frac{-1}{m} \sum_{i}^{m} y_i log(h_\theta(x_i)) + (1-y_i)log(1-h_\theta(x_i))" /></a>
+
+          
+
+          **Tối ưu Loss Function**
+
+          Tương tự bài toán Linear Regress, chúng ta sẽ sử dụng thuật toán **Gradient Descent**.
+
+          Cập nhật <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\theta" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\theta" title="\large \theta" /></a> sao cho hàm Loss nhỏ nhất có thể:
+
+          <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\theta_1&space;=&space;\theta_0&space;-&space;\alpha&space;\bigtriangledown&space;J(\theta_0)" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\theta_1&space;=&space;\theta_0&space;-&space;\alpha&space;\bigtriangledown&space;J(\theta_0)" title="\large \theta_1 = \theta_0 - \alpha \bigtriangledown J(\theta_0)" /></a>
+
+          Công thức tính đạo hàm riêng của các phần tử trong <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\theta" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\theta" title="\large \theta" /></a>:
+
+          <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{\partial&space;J(\theta)}{\partial&space;\theta_i}&space;=&space;\frac{1}{m}&space;\sum_{i=1}^{m}(h_\theta(x^i)&space;-&space;y^i)x_j^i" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\frac{\partial&space;J(\theta)}{\partial&space;\theta_i}&space;=&space;\frac{1}{m}&space;\sum_{i=1}^{m}(h_\theta(x^i)&space;-&space;y^i)x_j^i" title="\frac{\partial J(\theta)}{\partial \theta_i} = \frac{1}{m} \sum_{i=1}^{m}(h_\theta(x^i) - y^i)x_j^i" /></a>
+
+          Vậy câu hỏi đặt ra tiếp theo rằng nếu chỉ sử dụng hàm **sigmoid** có thể đúng xử lý bài toán phân loại nhiều lớp không?
+
+
+    - **b. Tiếp cận bài toán phân loại nhiều lớp**
+
+        Để trả lời câu hỏi bên trên ta có thể vẽ lại mô hình phân loại:
+
+        <img src="../../images/logmu.png">
+
+
+        Các bạn đừng sợ khi nhìn vào ảnh này. Đây chỉ là cách biểu thị các phép tính toán.
+
+        Ở bước 1, việc các mũi tên trỏ vào <a href="https://www.codecogs.com/eqnedit.php?latex=z_1" target="_blank"><img src="https://latex.codecogs.com/svg.latex?z_1" title="z_1" /></a> thể  hiện phép nhân <a href="https://www.codecogs.com/eqnedit.php?latex=z_1&space;=&space;\theta_1^Tx" target="_blank"><img src="https://latex.codecogs.com/svg.latex?z_1&space;=&space;\theta_1^Tx" title="z_1 = \theta_1^Tx" /></a>. 
+        
+        Bản chất mô hình này có thể coi là một Neural Network với 1 lớp ẩn. Vấn đề này sẽ được đề cập đến trong bài tiếp theo.
+
+        Có thể nhận ra rằng mục tiêu của chúng ta là phân phối được tạo ra khi đi qua hàm **signmoid** phải thoả mãn tổng bằng 1. Nhưng điều này không được đảm bảo.
+
+        Vì thế khả năng dự đoán của mô hình không còn chính xác. Cho nên, ta cần một thuật toán có tên **Softmax Regression**.
+
+        Công thức của hàm Softmax:
+
+        <a href="https://www.codecogs.com/eqnedit.php?latex=\sigma_j&space;=&space;\frac{e^{z_j}}{\sum_{j}^{K}e^z_j}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\sigma_j&space;=&space;\frac{e^{z_j}}{\sum_{j}^{K}e^z_j}" title="\sigma_j = \frac{e^{z_j}}{\sum_{j}^{K}e^z_j}" /></a>
+
+        Áp dụng vào trường hợp bên trên ta có:
+
+        <a href="https://www.codecogs.com/eqnedit.php?latex=\sigma_j&space;=&space;\frac{e^{z_j}}{\sum_{j}^{3}e^z_j}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\sigma_j&space;=&space;\frac{e^{z_j}}{\sum_{j}^{3}e^z_j}" title="\sigma_j = \frac{e^{z_j}}{\sum_{j}^{3}e^z_j}" /></a>
+
+        Ta có biểu đồ mới:
+
+        <img src="../../images/softmax.png">
+
+        Rõ ràng ta có thể thấy rằng hàm Softmax đã chuyển phân phối của <a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;z" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\large&space;z" title="\large z" /></a> về phân phối của <a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;\sigma" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\large&space;\sigma" title="\large \sigma" /></a> sao cho thoả mãn điều kiện là tổng các <a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;\sigma" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\large&space;\sigma" title="\large \sigma" /></a> bằng 1.
+
+        Và dĩ nhiên rằng giá trị <a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;\sigma" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\large&space;\sigma" title="\large \sigma" /></a> lớn nhất sẽ đại diện cho lớp mà ta dự đoán ra.
+
+
+
 
