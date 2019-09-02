@@ -156,6 +156,8 @@
 
         <a href="https://www.codecogs.com/eqnedit.php?latex=\sigma_j&space;=&space;\frac{e^{z_j}}{\sum_{j}^{K}e^z_j}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\sigma_j&space;=&space;\frac{e^{z_j}}{\sum_{j}^{K}e^z_j}" title="\sigma_j = \frac{e^{z_j}}{\sum_{j}^{K}e^z_j}" /></a>
 
+        Trong đó **K** là số lớp.
+
         Áp dụng vào trường hợp bên trên ta có:
 
         <a href="https://www.codecogs.com/eqnedit.php?latex=\sigma_j&space;=&space;\frac{e^{z_j}}{\sum_{j}^{3}e^z_j}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\sigma_j&space;=&space;\frac{e^{z_j}}{\sum_{j}^{3}e^z_j}" title="\sigma_j = \frac{e^{z_j}}{\sum_{j}^{3}e^z_j}" /></a>
@@ -167,6 +169,24 @@
         Rõ ràng ta có thể thấy rằng hàm Softmax đã chuyển phân phối của <a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;z" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\large&space;z" title="\large z" /></a> về phân phối của <a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;\sigma" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\large&space;\sigma" title="\large \sigma" /></a> sao cho thoả mãn điều kiện là tổng các <a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;\sigma" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\large&space;\sigma" title="\large \sigma" /></a> bằng 1.
 
         Và dĩ nhiên rằng giá trị <a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;\sigma" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\large&space;\sigma" title="\large \sigma" /></a> lớn nhất sẽ đại diện cho lớp mà ta dự đoán ra.
+
+        Lúc này hàm Loss Function sẽ có dạng:
+
+        <a href="https://www.codecogs.com/eqnedit.php?latex=J(\theta)&space;=&space;-\frac{1}{m}\sum_{i=1}^{m}\sum_{k=1}^{K}(1\left&space;\{&space;y^i&space;=&space;k&space;\right&space;\}log(\sigma_k))" target="_blank"><img src="https://latex.codecogs.com/svg.latex?J(\theta)&space;=&space;-\frac{1}{m}\sum_{i=1}^{m}\sum_{k=1}^{K}(1\left&space;\{&space;y^i&space;=&space;k&space;\right&space;\}log(\sigma_k))" title="J(\theta) = -\frac{1}{m}\sum_{i=1}^{m}\sum_{k=1}^{K}(1\left \{ y^i = k \right \}log(\sigma_k))" /></a>
+
+        Nếu bạn thay K bằng 2 vào công thức này sẽ được chính hàm mất mát của bài toán phân loại 2 lớp.
+- **c. Mô phỏng hoá quá trình Training**
+
+    <img src="../../images/logis.gif">
+
+    Quan sát ảnh động này ta sẽ thấy quá trình training sẽ diễn ra thế nào, lúc đầu khi khởi tạo <a href="https://www.codecogs.com/eqnedit.php?latex=\theta" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\theta" title="\theta" /></a> độ sai lệch sẽ rất lớn. Nhưng khi cập nhật <a href="https://www.codecogs.com/eqnedit.php?latex=\theta" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\theta" title="\theta" /></a> thì đường thẳng <a href="https://www.codecogs.com/eqnedit.php?latex=h_\theta(x)" target="_blank"><img src="https://latex.codecogs.com/svg.latex?h_\theta(x)" title="h_\theta(x)" /></a> đã có khả năng phân biệt giữa 2 lớp.
+
+
+    Thử nghiệm [tại đây](https://playground.tensorflow.org/#activation=tanh&regularization=L1&batchSize=19&dataset=gauss&regDataset=reg-plane&learningRate=0.01&regularizationRate=0&noise=30&networkShape=3&seed=0.49475&showTestData=false&discretize=false&percTrainData=70&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false)
+
+
+
+
 
 
 
