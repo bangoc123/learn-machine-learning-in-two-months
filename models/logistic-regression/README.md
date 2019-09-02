@@ -135,7 +135,7 @@
           Vậy câu hỏi đặt ra tiếp theo rằng nếu chỉ sử dụng hàm **sigmoid** có thể đúng xử lý bài toán phân loại nhiều lớp không?
 
 
-    - **b. Tiếp cận bài toán phân loại nhiều lớp**
+   - **b. Tiếp cận bài toán phân loại nhiều lớp**
 
         Để trả lời câu hỏi bên trên ta có thể vẽ lại mô hình phân loại:
 
