@@ -10,6 +10,10 @@ Tôi là một trong các lecturer của lớp VietAI Hanoi khoá 3 và khoá 4.
 
 <img src="https://lh3.googleusercontent.com/-3AYBa7iTNTalWmPksUZ0ch5lvHtzDuHMWB6AwlGgiapYpoaQMWZAmQ3UBlMLPMHqQ2gL2AkGjC9IdSApJ1ebLXn0f4OhNx-kiybcmzgHcaLWTZLRA5RXE3SrjRFMwkt1j4UQ4K10JTBgpRgXEUYD4KQ3ySm2EowwNpXL8AV-iHEBQV1thJxIAxTr3Ft4vNlEkgWX5BdJUcqhMkfXHGowTNiUTTrn20B7WhjU8c5SZUvSTSqmv5C2Zy0oRBLoGRqE0kU_zILZq2yXePBQkPL-pLq0tY7nu7gwazELifDDJ1ipOMGrvsxWEt5gFIGMOJG257vMo2fqGezmCIvS7flH4eCKGTmhfUodJ7tdqz5U8cUl2n_z4sX_xvPdd_xt_THvkSJkZ6qOZUxM2xmF8pesmgIaaAKLWUsntvMiQyT-MLMdhb7DvMCa0z6oLxfL37af5HtkZ9XfIObK8PmNBk7TXyEUsYJN1md7RdORAIPPUuA3vsq-rXx4ELormM7S_fTBhZBNs1WZ235GuxqeEPfWNsAMeLTA20KebkdYm-YEwN0SVpJ6W9OG9_8Fc_n5v-x7bxWahikXtJYcdTxcAWDACvGxzU-qVLkL3Qeu3gn7pA0nQpmKfHUGeoy_vCGNCo2ljYp9CRdykXodh95pOd11nqLHVbbarHb4TEWbZOS1bF4qYqjJeNYav2QVGnuxKYM933iGRIq44vzkYx7auTISD7GX81jR0xhwOTiuOZCVMEa0BtC=w1165-h881-no" width=500>
 
+Bài giảng tôi thích dạy nhất ở VietAI chính là mạng Neural Network.
+
+<img src="./images/class.jpg">
+
 Giới thiệu về thành tựu và mục tiêu của VietAI [tại đây](https://docs.google.com/presentation/d/1A_oDWZyC6NhYPeHNrWJbESxSPUT7f0Gg-PLfXDtVKus/edit?usp=sharing). 
 
 ### Mục lục
