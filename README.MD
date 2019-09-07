@@ -12,7 +12,7 @@ Tôi là một trong các lecturer của lớp VietAI Hanoi khoá 3 và khoá 4.
 
 Bài giảng tôi thích dạy nhất ở VietAI chính là mạng Neural Network.
 
-<img src="./images/class.jpg">
+<img src="./images/class.jpg" width=500>
 
 Giới thiệu về thành tựu và mục tiêu của VietAI [tại đây](https://docs.google.com/presentation/d/1A_oDWZyC6NhYPeHNrWJbESxSPUT7f0Gg-PLfXDtVKus/edit?usp=sharing). 
 
