@@ -22,7 +22,7 @@ Giới thiệu về thành tựu và mục tiêu của VietAI [tại đây](http
 - <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/tree/master/python-tutorials">2. Kỹ năng lập trình Python</a> (Hoàn tất)
 - <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/tree/master/numpy">3. Thư viện Numpy và TensorFlow</a> (Hoàn tất)
 - <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/models/linear-regression/">4. Bài toán hồi quy (Regression)</a> (Hoàn tất)
-- <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/models/logistic-regression">5. Bài toán phân loại (Classification)</a> (Đang tiến hành)
+- <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/models/logistic-regression">5. Bài toán phân loại (Classification)</a> (Hoàn tất)
 - <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/models/random-forests">6. Xây dựng mô hình Decision Trees và Random Forests </a> (Chưa Hoàn tất)
 - <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/tree/master/models/nn">7. Xây dựng mạng Neural Network</a> (Đang tiến hành)
 - <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/tree/master/models/cnn">8. Xây dựng mạng Convolutional Neural Network (CNN)</a> (Chưa Hoàn tất)
