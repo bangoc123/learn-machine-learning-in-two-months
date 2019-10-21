@@ -185,6 +185,16 @@
     Thử nghiệm [tại đây](https://playground.tensorflow.org/#activation=tanh&regularization=L1&batchSize=19&dataset=gauss&regDataset=reg-plane&learningRate=0.01&regularizationRate=0&noise=30&networkShape=3&seed=0.49475&showTestData=false&discretize=false&percTrainData=70&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false)
 
 
+    Thực hành training mô hình phân loại dữ liệu như hình sau:
+
+    <img src="https://miro.medium.com/max/1280/1*bcWJyX3iAIr0MGNIxUnQxg.png" width=400>
+
+    Tôi sẽ hướng dẫn các bạn code mô hình này từ đầu [ở đây](./logistic-regression.ipynb).
+
+    
+
+
+
 
 
 
