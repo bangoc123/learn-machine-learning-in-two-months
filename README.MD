@@ -27,6 +27,8 @@ Giới thiệu về thành tựu và mục tiêu của VietAI [tại đây](http
 - <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/tree/master/models/nn">7. Xây dựng mạng Neural Network</a> (Đang tiến hành)
 - <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/tree/master/models/cnn">8. Xây dựng mạng Convolutional Neural Network (CNN)</a> (Chưa Hoàn tất)
 - <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/tree/master/models/rnn">9. Xây dựng mạng Recurrent Neural Network (RNN)</a> (Chưa Hoàn tất)
-- <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/tree/master/gan">11. Mô hình sinh GAN và CycleGAN</a> (Đang tiến hành)
+- <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/tree/master/gan">10. Mô hình sinh GAN và CycleGAN</a> (Đang tiến hành)
 - <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/tree/master/deployment/distributed-tensorflow">11. Triển khai (Deploy) Machine Learning Model trên Production</a> (Đang tiến hành)
-- <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/tree/master/deployment/tensorflow-browser">11. Machine Learning trên trình duyệt và TensorFlowJS</a> (Chưa Hoàn tất)
+- <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/tree/master/deployment/tensorflow-browser">12. Machine Learning trên trình duyệt và TensorFlowJS</a> (Hoàn tất)
+- <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/tree/master/deployment/tensorflow-browser">13. Coding AI every day</a> (Đang tiến hành)
+    - TensorFlow 2.0 
