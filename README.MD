@@ -32,3 +32,4 @@ Giới thiệu về thành tựu và mục tiêu của VietAI [tại đây](http
 - <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/tree/master/deployment/tensorflow-browser">12. Machine Learning trên trình duyệt và TensorFlowJS</a> (Hoàn tất)
 - <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/tree/master/tf2.0">13. Cập nhật mới nhất</a> (Đang tiến hành)
     - [TensorFlow 2.0](https://github.com/bangoc123/learn-machine-learning-in-two-months/tree/master/tf2.0)
+    - [Trải nghiệm PaperSpace Gradient Community](https://github.com/bangoc123/learn-machine-learning-in-two-months/tree/master/articles/GradientPaperSpace.MD)
