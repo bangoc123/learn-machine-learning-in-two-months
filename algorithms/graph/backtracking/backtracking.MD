@@ -1,4 +1,4 @@
-### Thuật toán Backtracking với bài toán con mã đi hết bản đồ.
+### Thuật toán Quay lui (Backtracking) với bài toán con mã đi hết bản đồ.
 
 
 ![Knight](../../imgs/Knights-Tour-Animation.gif)
