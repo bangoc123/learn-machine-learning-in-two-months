@@ -33,3 +33,5 @@ Giới thiệu về thành tựu và mục tiêu của VietAI [tại đây](http
 - <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/tree/master/tf2.0">13. Cập nhật mới nhất</a> (Đang tiến hành)
     - [TensorFlow 2.0](https://github.com/bangoc123/learn-machine-learning-in-two-months/tree/master/tf2.0)
     - [Trải nghiệm PaperSpace Gradient Community](https://github.com/bangoc123/learn-machine-learning-in-two-months/tree/master/articles/GradientPaperSpace.MD)
+- <a href="https://github.com/bangoc123/learn-machine-learning-in-two-months/tree/master/algorithms">14. Ôn luyện thuật toán mỗi ngày</a> (Đang tiến hành)
+    - [Backtracking Algorithm](./algorithms/graph/backtracking/backtracking.MD)
