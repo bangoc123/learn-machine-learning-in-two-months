@@ -59,9 +59,9 @@ Nào chúng ta bắt đầu khai triển thuật toán:
 
     ```
 
-2. **Thiết kế đường đi cho con mã:**
+2. **Thiết kế đường đi cho con Mã:**
 
-    Nếu bạn biết chơi cờ vua thì hoàn toàn biết rằng con mã có thể đi chéo 2 nước. Vì thế trong hàm đường đi ta sẽ thiểt kế như sau:
+    Nếu bạn biết chơi cờ vua thì hoàn toàn biết rằng con Mã có thể đi chéo 2 nước. Vì thế trong hàm đường đi ta sẽ thiểt kế như sau:
 
     Giả sử x là vị trí theo cột của con Mã, y là vị trí theo dòng của con Mã. thì 1 trong 2 vị trí này sẽ thay phiên nhau thay đổi 1 và 2 (Bao gồm cả cộng và trừ).
 
@@ -79,7 +79,7 @@ Nào chúng ta bắt đầu khai triển thuật toán:
 
     ```
 
-    Ta lưu những vị trí x và y khả di tương ứng vào 2 mảng, Với 1 vị trí tương ứng trong 2 mảng thì đó chính là một khả năng thay đổi vị trí của con Mã.
+    Ta lưu những vị trí x và y khả dĩ tương ứng vào 2 mảng, Với 1 vị trí tương ứng trong 2 mảng thì đó chính là một khả năng thay đổi vị trí của con Mã.
 
     Nếu ta thực hiện vòng lặp đồng thời qua 2 mảng này thì con Mã sẽ đi được đến 8 điểm ta vừa nhắc tới.
 
