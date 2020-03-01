@@ -18,9 +18,11 @@ Ngày 10/12/2019, sau 2 vòng phỏng vấn, Google chính thức công nhận t
 
 Tìm tôi [ở đây](https://developers.google.com/community/experts/directory).
 
-Bài giảng tôi thích dạy nhất ở VietAI chính là mạng Neural Network.
+Video giới thiệu về Machine Learning:
 
-<img src="./images/class.jpg" width=500>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=https://youtu.be/j5HxIJoOJms
+" target="_blank"><img src="https://lh3.googleusercontent.com/mBdr6CaarjBnZopmRA2WTue3eEIZ5fe0ZWHkFRD0wS_IAsIWD0_2zeefBaXeemIMPle2nljerexiC74YDzJpCjM6HVz22EB7xo9oU6cQugsBa3GwoB2F8kD-veyytVjS9al6VpcINcm7gvLwf0a6hW-Y2QPBDIv4sl059zDYZhfvVuDE4KQSUgan0Yq42eRkMAq7Y0TdUWtjATcHsRgH-W1HbIK7QawFySkvXylds0xbUTOnzizyHHaa4cNyTbpbMNP9elJTAEeqN92sSHqgJo49DAvT9Yzf8RTMQVU0NcNYeNQ2kys3Hn3_CWHQCIyoiDMG0j7DOx9fKHaGbDbQbPdNlZd4XlEQ-iHPD4U_kvgmXTZwAEIN4I5-RnIhZXcsQ8fhKoI4YtvkqfNhQAhif_SGJ6cXGKpulj7dgdhQoVVbdwIXw--Cseob24LGDwCK0p1mRFmgvoVsXcnXuF6AV3DZBDK1kB2fCm_wj3dv_euR5qfJDl1jc2kac53p8VEJFIJqZX3p9PGiBFRLpjMGy1TnblAIVy9FIvx_kfU3JiPs0Oy2yVXkEeC7OmZz3bMCx0hoicYKsIOmdW3g7RnyXFeXe_uDBdF_uEbHKnK3aPpTdez-vYXZ5SCb4kRVPH6-OdF7kT-3NscUBoOMS0O_ERp6U3_jiqPIkCrbO2XEqsOHVYRyGFolYVQf2jJtbeBGbmMAA-Jq9VmvAPdKIgDo191VEgDQFcZZEIcbejmhGl0V_g=w1920-h1080-no" 
+alt="Machine Learning Introduction" width="480" height="270" border="10" /></a>
 
 Giới thiệu về thành tựu và mục tiêu của VietAI [tại đây](https://docs.google.com/presentation/d/1A_oDWZyC6NhYPeHNrWJbESxSPUT7f0Gg-PLfXDtVKus/edit?usp=sharing). 
 
