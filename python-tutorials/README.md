@@ -25,7 +25,7 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
         - Ngôn ngữ có tính linh hoạt cao nên thiếu tính chặt chẽ.
 - **c. Các hàm dựng sẵn và kiểu dữ liệu trên Python**
     - Các hàm dựng sẵn trong Python
-        - [Sort](./built-in-function.ipynb)
+        - [Sort](./sort.ipynb)
             - Buble Sort
             - Insertion Sort
             - Merge Sort
