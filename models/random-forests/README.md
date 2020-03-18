@@ -1,4 +1,4 @@
-### 6. Xây dựng mô hình Decision Trees và Random Forests
+### 7. Xây dựng mô hình Decision Trees và Random Forests
 ----
 
    - **a. Mô hình Cây quyết định (Decision Trees)**

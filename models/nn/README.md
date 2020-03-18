@@ -1,4 +1,4 @@
-### 7. Xây dựng mạng Neural Network
+### 8. Xây dựng mạng Neural Network
 ----
  - **a. Neural Network**
 

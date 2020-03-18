@@ -1,4 +1,4 @@
-### 9. Xây dựng mạng Recurrent Neural Network (RNN)
+### 10. Xây dựng mạng Recurrent Neural Network (RNN)
 ----
 
    **a. Language Models**

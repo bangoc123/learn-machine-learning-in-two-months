@@ -1,4 +1,4 @@
-### 4. Bài toán hồi quy (Regression)
+### 5. Bài toán hồi quy (Regression)
 ----
 
    - **a. Mô hình Hồi quy tuyến tính (Linear Regression Model)**

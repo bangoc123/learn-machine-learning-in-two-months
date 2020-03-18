@@ -1,6 +1,6 @@
 
 
-### 5. Bài toán phân loại (Classification)
+### 6. Bài toán phân loại (Classification)
 ----
 
    - **a. Mô hình Hồi quy Logistic (Logistic Regression Model)**
