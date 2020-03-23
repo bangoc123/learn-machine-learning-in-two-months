@@ -13,4 +13,4 @@
 
         [Nguồn ảnh](https://www.learndatasci.com/tutorials/python-pandas-tutorial-complete-introduction-for-beginners/)
        
-        - [Khởi tạo DataFrame và truy xuất dữ liệu](./DataFrameInitialization.ipynb)
+        - [Khởi tạo DataFrame và truy xuất dữ liệu](./dataFrameUD.ipynb)
