@@ -34,6 +34,7 @@ Giới thiệu về thành tựu và mục tiêu của VietAI [tại đây](http
 - <a href="./python-tutorials">2. Kỹ năng lập trình Python</a> (Hoàn tất)
 - <a href="./numpy">3. Thư viện Numpy và TensorFlow</a> (Hoàn tất)
 - <a href="./visualize">4. Hiển thị dữ liệu và các công cụ</a> (Đang tiến hành)
+    - [Dữ liệu bảng](./visualize/pandas)
 - <a href="./models/linear-regression/">5. Bài toán hồi quy (Regression)</a> (Hoàn tất)
 - <a href="./models/logistic-regression">6. Bài toán phân loại (Classification)</a> (Hoàn tất)
 - <a href="./deployment/distributed-tensorflow">7. Triển khai (Deploy) Machine Learning Model trên Production</a> (Hoàn tất)
