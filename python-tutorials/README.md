@@ -45,6 +45,9 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
         - [Set](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/python-tutorials/set.ipynb)
         - [Graph](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/python-tutorials/graph.ipynb)
         - [Binary Tree](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/python-tutorials/binaryTree.ipynb)
+
+    - Cấu trúc dữ liệu nâng cao
+        - [Heap (Đống)] (https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/python-tutorials/heap.ipynb)
 - **d. Vòng lặp**
     - [Hàm While và For In](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/python-tutorials/loop.ipynb)
 - **e. Hàm**
