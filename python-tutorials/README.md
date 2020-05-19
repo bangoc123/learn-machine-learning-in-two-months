@@ -54,3 +54,5 @@ Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning
     - [Hàm và các vấn đề liên quan](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/python-tutorials/function.ipynb)
 - **f. Thuật toán**
     - [Dijkstra](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/python-tutorials/dijkstra.ipynb): thuật toán tìm đường đi ngắn nhất từ một điểm bất kỳ đến các điểm còn lại
+    - [Linear + Binary Search](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/python-tutorials/BinarySearch.ipynb)
+    - [Backtracking](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/algorithms/graph/backtracking/backtracking.MD)
