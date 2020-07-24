@@ -104,7 +104,7 @@
             
             Tiến hành đạo hàm:
             
-            <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\frac{\partial&space;J}{\partial&space;\theta}=2X^TX\theta-2X^{T}y=0" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\frac{\partial&space;J}{\partial&space;\theta}=2X^TX\theta-2X^{T}y=0" title="\large \frac{\partial J}{\partial \theta}=2X^TX\theta-2X^{T}y=0" /></a>
+            <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\triangledown&space;J(\theta)=2X^TX\theta-2X^{T}y=0" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\triangledown&space;J(\theta)=2X^TX\theta-2X^{T}y=0" title="\large \triangledown J(\theta)=2X^TX\theta-2X^{T}y=0" /></a>
             
             Tương đương:
             
