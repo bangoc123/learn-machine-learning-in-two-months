@@ -7,10 +7,9 @@ Lộ trình sẽ giúp bạn nắm chắc công nghệ này từ cơ bản đế
 **P/S:** Hãy để lại **1 star** để team có động lực xuất bản các phần tiếp theo và cũng đừng quên chia sẻ tới bạn bè của bạn.
 
 
-Tôi là một trong các lecturer của lớp VietAI Hanoi khoá 3 và khoá 4. Hiện tại tôi đã vào Sài Gòn nên không tham gia tiếp để giảng dạy nhưng vẫn đóng vai trò Advisor cho lớp khoá 5.
+Tôi là Founder ProtonX và VietAI Hà Nội, tôi sản xuất nội dung giúp đỡ cộng đồng học AI. :D
 
-<img src="https://lh3.googleusercontent.com/-3AYBa7iTNTalWmPksUZ0ch5lvHtzDuHMWB6AwlGgiapYpoaQMWZAmQ3UBlMLPMHqQ2gL2AkGjC9IdSApJ1ebLXn0f4OhNx-kiybcmzgHcaLWTZLRA5RXE3SrjRFMwkt1j4UQ4K10JTBgpRgXEUYD4KQ3ySm2EowwNpXL8AV-iHEBQV1thJxIAxTr3Ft4vNlEkgWX5BdJUcqhMkfXHGowTNiUTTrn20B7WhjU8c5SZUvSTSqmv5C2Zy0oRBLoGRqE0kU_zILZq2yXePBQkPL-pLq0tY7nu7gwazELifDDJ1ipOMGrvsxWEt5gFIGMOJG257vMo2fqGezmCIvS7flH4eCKGTmhfUodJ7tdqz5U8cUl2n_z4sX_xvPdd_xt_THvkSJkZ6qOZUxM2xmF8pesmgIaaAKLWUsntvMiQyT-MLMdhb7DvMCa0z6oLxfL37af5HtkZ9XfIObK8PmNBk7TXyEUsYJN1md7RdORAIPPUuA3vsq-rXx4ELormM7S_fTBhZBNs1WZ235GuxqeEPfWNsAMeLTA20KebkdYm-YEwN0SVpJ6W9OG9_8Fc_n5v-x7bxWahikXtJYcdTxcAWDACvGxzU-qVLkL3Qeu3gn7pA0nQpmKfHUGeoy_vCGNCo2ljYp9CRdykXodh95pOd11nqLHVbbarHb4TEWbZOS1bF4qYqjJeNYav2QVGnuxKYM933iGRIq44vzkYx7auTISD7GX81jR0xhwOTiuOZCVMEa0BtC=w1165-h881-no" width=500>
-
+<img src="https://scontent.fhan5-2.fna.fbcdn.net/v/t1.0-9/s960x960/120901451_2734362039999505_7545430971864971207_o.jpg?_nc_cat=102&ccb=1-3&_nc_sid=340051&_nc_ohc=WbFR1IokLS4AX8-L2Xo&_nc_ht=scontent.fhan5-2.fna&tp=7&oh=fde8803d6fb69ae2e6aba9c5cd809448&oe=60708BA5" width=500>
 
 
 Ngày 10/12/2019, sau 2 vòng phỏng vấn, Google chính thức công nhận tôi là Google Developer Expert in Machine Learning đầu tiên tại Việt Nam.
@@ -53,3 +52,46 @@ Giới thiệu về thành tựu và mục tiêu của VietAI [tại đây](http
     - [Ứng dụng Transfer Learning](https://protonx.app/transfer-learning)
 
       <img src="./images/transfer.png" width="200" height="200">
+
+<a>  12. [Video] AI cơ bản + Luyện thi chứng chỉ Tensorflow </a>
+- 1. Giới thiệu Machine Learning/ Deep Learning
+    - [Video](https://youtu.be/j5HxIJoOJms)
+- 2. Xây dựng bài toán nhận diện giao thông (bao gồm tăng cường data)
+    - [Video:  Xử lý dữ liệu và xây dựng model ](https://www.youtube.com/watch?v=EGkRT-kg6zY)
+    - [Video: Huấn luyện và tiến hành dự đoán](https://youtu.be/98dZscH8b-0)
+    - [Notebook](https://colab.research.google.com/drive/1rYfyDAYP-jvkCLfMotmCQarQahLNJkTa)
+- 3. Xây dựng lớp tích chập / MaxPooling
+    - [Video](https://www.youtube.com/watch?v=UpABcXXImJ4)
+    - [Notebook](https://colab.research.google.com/drive/13FoUwnbXAc01LY35O7D88dpjib73D2R2?usp=sharing)
+- 4. Tự động đánh nhãn và xử lý ảnh nhiều chiều
+    - [Video](https://youtu.be/ee9tF9xEf04)
+    - [Notebook](https://colab.research.google.com/drive/1PCABQRqads5AcJJQcKb_FeVJhAZ61H5V?usp=sharing)
+- 5. Transfer Learning với InceptionNet
+    - [Video](https://youtu.be/Y-4KLFt_c6Y)
+    - [Notebook](https://colab.research.google.com/drive/1M1VlOh4wOQ6od5gvDfVeVQlAdjUgvOfU?usp=sharing)
+- 6. Tokenizations and Sequence
+    - [Video](https://youtu.be/FT1ZZdcur5A)
+    - [Notebook](https://colab.research.google.com/drive/1cVoH2W3TCoNshM-QI9Sbgyzlcpfqq4BR?usp=sharing)
+- 7. Word2Vec 
+    - [Video](https://youtu.be/akRbuXokLSo)
+- 8. Thực hành xây dựng Embeddings
+    - [Video](https://youtu.be/JIafLwlGzBA)
+    - [Notebook](https://colab.research.google.com/drive/1jhXYAkNjiFRmFc4_E-s8aAkXPNN-QaA2?usp=sharing)
+- 9. Mạng RNN 
+    - [Video](https://youtu.be/t0EoeTYU-fc)
+- 10. Thực hành xây dựng mạng RNN, LSTM, Bi-directional
+    - [Video](https://youtu.be/X6bYTZJkEDQ)
+    - [Notebook](https://colab.research.google.com/drive/1vBHZsuGlMPlF7VGqACcmFjVDHjSZl0Qj?usp=sharing)
+- 11. Tính toán số lượng tham số mạng RNN
+    - [Video](https://youtu.be/Ifnxru7brak)
+- 12. Bài toán sinh từ
+    - [Video](https://youtu.be/-gyb1dpeGCA)
+    - [Notebook](https://colab.research.google.com/drive/1uPcO54klRFNkk9o-3Ua6F8ZKQgpzCz1Y?usp=sharing)
+- 13. Giới thiệu dữ liệu Time series
+    - [Video](https://youtu.be/IbFqMxVuFLM)
+- 14. Xây dựng Time Series dataset bằng Tensorflow Dataset
+    - [Video](https://youtu.be/TwyNFGTUoY4)
+    - [Notebook](https://colab.research.google.com/drive/19b5dUBUrvKCWC1ckrHKB1uvEYpgU2DUB?usp=sharing)
+- 15. Sử dụng RNN để giải bài toán dữ liệu thời gian
+    - [Video](https://youtu.be/zCxMLNzPa1M)
+    - [Notebook](https://colab.research.google.com/drive/1B0fQJfqutwlbFElEGKtd7oH9QXL2X7ly?usp=sharing)
