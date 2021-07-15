@@ -9,7 +9,7 @@ Lộ trình sẽ giúp bạn nắm chắc công nghệ này từ cơ bản đế
 
 Tôi là Founder ProtonX và VietAI Hà Nội, tôi sản xuất nội dung giúp đỡ cộng đồng học AI. :D
 
-<img src="https://scontent.fhan5-2.fna.fbcdn.net/v/t1.0-9/s960x960/120901451_2734362039999505_7545430971864971207_o.jpg?_nc_cat=102&ccb=1-3&_nc_sid=340051&_nc_ohc=WbFR1IokLS4AX8-L2Xo&_nc_ht=scontent.fhan5-2.fna&tp=7&oh=fde8803d6fb69ae2e6aba9c5cd809448&oe=60708BA5" width=500>
+<img src="https://storage.googleapis.com/protonx-cloud-storage/images/event.jpg" width=500>
 
 
 Ngày 10/12/2019, sau 2 vòng phỏng vấn, Google chính thức công nhận tôi là Google Developer Expert in Machine Learning đầu tiên tại Việt Nam.

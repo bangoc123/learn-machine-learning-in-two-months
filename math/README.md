@@ -57,3 +57,10 @@
             - Xác suất độc lập: [Compound probability of independent events | Probability and Statistics | Khan Academy
 ](https://youtu.be/xSc4oLA9e8o)
         - Biến ngẫu nhiên và phân phối xác suất: [Biến ngẫu nhiên và phân phối xác suất](https://dominhhai.github.io/vi/2017/10/prob-rand-var/#2-1-h%C3%A0m-kh%E1%BB%91i-x%C3%A1c-su%E1%BA%A5t-c%E1%BB%A7a-bi%E1%BA%BFn-r%E1%BB%9Di-r%E1%BA%A1c)
+
+    - **Phân phối xác suất**
+        - Phân phối rời rạc 
+            - [Phân phối Bernoulli và nhị thức(Binomial) ](https://www.khanacademy.org/math/statistics-probability/random-variables-stats-library#binomial-mean-standard-dev-formulas)
+        - **Phân phối liên tục**
+            - [Phân phối chuẩn](https://www.khanacademy.org/math/statistics-probability/modeling-distributions-of-data/more-on-normal-distributions/v/introduction-to-the-normal-distribution)
+        
