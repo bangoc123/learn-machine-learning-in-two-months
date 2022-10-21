@@ -16,7 +16,7 @@ Ngày 10/12/2019, sau 2 vòng phỏng vấn, Google chính thức công nhận t
 
 <img src="./images/gde.png" width=500>
 
-Tìm tôi [ở đây](https://developers.google.com/community/experts/directory).
+Tìm tôi [ở đây](https://developers.google.com/community/experts/directory/profile/profile-ngoc-ba).
 
 Video giới thiệu về Machine Learning:
 

@@ -2,6 +2,8 @@
 ----
 Python là ngôn ngữ được dùng nhiều nhất để làm Machine Learning vì tính đơn giản gọn nhẹ của nó. Nhưng để đưa vào Production thì tôi nghĩ Javascript cũng là một lựa chọn không tồi. Tôi sẽ chia sẻ về Machine Learning với Javascript trong các phần tiếp theo. 
 
+Mình đã đóng gói các kiến thức Python vào [lớp học Python miễn phí tại đây](https://protonx.io/courses/61b7081639320455cc70848b)
+
 - **a. Cài đặt Python và các thư viện cần thiết**:   
     - [Windows](https://github.com/bangoc123/learn-machine-learning-in-two-months/blob/master/essential-installs/vn-windows-python-and-libraries-installations.MD)  
         - Python
